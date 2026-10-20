@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》</title><meta charset="utf-8"/><link rel="preload" href="../../index-bb6c1746.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="我的知识库"/><meta property="og:title" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》"/><meta name="twitter:description" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》 角色：新工具的初版。它把”漂移分几段、从哪一刻开始”从人工判断交给凸优化。 原文精读：../01_Xiong2019_L1范数正则化基线漂移识别/paper.md 配套实验：../experiments/l1_toy_demo.py（把本篇的核心式子跑一遍） 0."/><meta property="og:description" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》 角色：新工具的初版。它把”漂移分几段、从哪一刻开始”从人工判断交给凸优化。 原文精读：../01_Xiong2019_L1范数正则化基线漂移识别/paper.md 配套实验：../experiments/l1_toy_demo.py（把本篇的核心式子跑一遍） 0."/><meta property="og:image:alt" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》 角色：新工具的初版。它把”漂移分几段、从哪一刻开始”从人工判断交给凸优化。 原文精读：../01_Xiong2019_L1范数正则化基线漂移识别/paper.md 配套实验：../experiments/l1_toy_demo.py（把本篇的核心式子跑一遍） 0."/><meta property="twitter:domain" content="wly63227.github.io/obsidian-vault"/><meta property="og:url" content="https://wly63227.github.io/obsidian-vault/l1范数/讲义/04_精讲b_熊政辉2019"/><meta property="twitter:url" content="https://wly63227.github.io/obsidian-vault/l1范数/讲义/04_精讲b_熊政辉2019"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》 角色：新工具的初版。它把”漂移分几段、从哪一刻开始”从人工判断交给凸优化。 原文精读：../01_Xiong2019_L1范数正则化基线漂移识别/paper.md 配套实验：../experiments/l1_toy_demo.py（把本篇的核心式子跑一遍） 0."/><meta name="generator" content="Quartz"/><link href="../../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://wly63227.github.io/obsidian-vault/l1范数/讲义/04_精讲b_熊政辉2019-og-image.webp"/><meta property="og:image:url" content="https://wly63227.github.io/obsidian-vault/l1范数/讲义/04_精讲b_熊政辉2019-og-image.webp"/><meta name="twitter:image" content="https://wly63227.github.io/obsidian-vault/l1范数/讲义/04_精讲b_熊政辉2019-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="l1范数/讲义/04_精讲b_熊政辉2019" data-basepath="/obsidian-vault"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">我的知识库</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="搜索" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索内容..." placeholder="搜索内容..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="暗色模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="阅读模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-26" aria-label="探索"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-26" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../l1范数/">L1范数</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../l1范数/讲义/">讲义</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》</a></div></nav><h1 class="article-title">精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">1</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"><a href="../../tags/l1范数" class="internal internal-link tag-link">l1范数</a><span class="note-properties-separator">, </span><a href="../../tags/讲义" class="internal internal-link tag-link">讲义</a></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-10-11T16:00:00.000Z">2026年10月12日</time><span>22分钟阅读</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="精讲-b熊政辉等2019基于-l1-范数正则化的强震动加速度记录基线漂移识别方法">精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#精讲-b熊政辉等2019基于-l1-范数正则化的强震动加速度记录基线漂移识别方法" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>角色：<strong>新工具的初版</strong>。它把”漂移分几段、从哪一刻开始”从人工判断交给凸优化。
+原文精读：<a href="../.././01_xiong2019_l1范数正则化基线漂移识别/paper" class="internal internal-link" data-slug="01_xiong2019_l1范数正则化基线漂移识别/paper"><code>../01_Xiong2019_L1范数正则化基线漂移识别/paper.md</code></a>
+配套实验：<a href="../.././experiments/l1_toy_demo.py" class="internal internal-link" data-slug="experiments/l1_toy_demo.py"><code>../experiments/l1_toy_demo.py</code></a>（把本篇的核心式子跑一遍）</p>
+</blockquote>
+<hr/>
+<h2 id="0-一句话定位">0. 一句话定位<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#0-一句话定位" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>用 L1 稀疏优化替代人工分段</strong>：目标函数 = 速度拟合误差尽量小 + 基线漂移尽量”简洁”；结果是<strong>自动给出漂移的分段数、分段时刻与漂移量</strong>。</p>
+<p>三句话记住全文：</p>
+<ol>
+<li>痛点不是”漂移能不能识别”，而是<strong>分段参数靠人猜</strong>；</li>
+<li>方法上是一个凸优化问题（等价于 LASSO），可用 CVX 求解；</li>
+<li>结论上”<strong>速度恢复稳定、位移恢复依赖事前部分长度</strong>”。</li>
+</ol>
+<hr/>
+<h2 id="1-文献卡">1. 文献卡<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-文献卡" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td>标题</td><td>基于 L1 范数正则化的强震动加速度记录基线漂移识别方法</td></tr><tr><td>作者</td><td>熊政辉、李小军、戴志军、陈苏</td></tr><tr><td>期刊</td><td>地震学报，2019，41(1)：111–123</td></tr><tr><td>DOI</td><td>10.11939/jass.20180072</td></tr><tr><td>本地 PDF</td><td><a href="../.././../参考文献/基于l1范数正则化的强震动加速度记录基线漂移识别方法.pdf" class="internal internal-link" data-slug="参考文献/基于l1范数正则化的强震动加速度记录基线漂移识别方法.pdf"><code>../../参考文献/基于L1范数正则化的强震动加速度记录基线漂移识别方法.pdf</code></a></td></tr><tr><td>英文姊妹篇</td><td>Dai et al. (2020), SDEE 131: 106047（见精讲 C）</td></tr></tbody></table></div>
+<hr/>
+<h2 id="2-摘要两块s001s002">2. 摘要：两块（S001–S002）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-摘要两块s001s002" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="s001--方法的自述">S001 —— 方法的自述<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s001--方法的自述" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：提出基于 L1 范数正则化的基线校正新方法——<strong>以拟合速度时程误差最小为目标，以基线漂移本身尽可能小为约束</strong>，通过凸优化多次迭代自动求解漂移，<strong>避免人为选取分段次数与起止时刻</strong>；随后用多组加入已知噪声模型的记录做验证。</p>
+<p><strong>注意这句话里藏着一个关键歧义</strong>：“以基线漂移本身尽可能小为约束”——正则项到底作用在基线 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> 上，还是作用在基线的<strong>差分</strong> <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span></span></span></span> 上？本篇中文版写成 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal">x</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，英文版（2020）写成 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>。<strong>两者的解完全不同</strong>：</p>
+<ul>
+<li>惩罚 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal">x</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> → 倾向于把基线整体压小（结果可能是一条被压低的、幅度很小的基线）；</li>
+<li>惩罚 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> → 倾向于让基线<strong>少跳变</strong>（结果才是阶梯状）。</li>
+</ul>
+<p>复现时以英文版为准；这也是本篇最重要的”读法提醒”。</p>
+<h3 id="s002--三条结论预告">S002 —— 三条结论预告<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s002--三条结论预告" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>结论</th><th>原文意思（概括）</th></tr></thead><tbody><tr><td>适用性</td><td>对单段式、两段式、多段式漂移都适用，无需预设模型即可自动识别起止位置与漂移程度</td></tr><tr><td>依赖条件</td><td><strong>事前部分影响较大</strong>：事前部分足够长（如 20 s）时位移恢复好</td></tr><tr><td>反直觉的一条</td><td>对发生漂移的速度时程，方法<strong>不受事前部分长短干扰</strong>，甚至加速度明显丢头也能恢复峰值速度与整个速度时程</td></tr></tbody></table></div>
+<p><strong>这三条构成了阅读全文的检查表</strong>：读结果时逐条去找证据（见第 6 节）。</p>
+<hr/>
+<h2 id="3-引言痛点是怎么提出来的s003s006">3. 引言：痛点是怎么提出来的（S003–S006）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-引言痛点是怎么提出来的s003s006" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="s003--动机数字">S003 —— 动机数字<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s003--动机数字" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：强震记录常存在基线漂移；Chiu（1997）指出微小漂移会造成巨大数值误差——<strong>0.01 cm/s² 的漂移持续 60 s，速度误差 0.6 cm/s，最终位移误差可达 18 cm</strong>。</p>
+<p>这个数字请你亲手验证一次（解析式 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathnormal">b</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.1389em;">T</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>；实验见 <a href="../.././experiments/readme" class="internal internal-link" data-slug="experiments/readme"><code>../experiments/README.md</code></a> 的 A 组）。</p>
+<h3 id="s004--痛点">S004 —— 痛点<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s004--痛点" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：现有方法一般要假设”加速度在某时间段内漂移”并给定漂移次数，这些参数<strong>凭主观经验给定</strong>；确定分段次数与分段点位置”往往需要人为选择”。</p>
+<h3 id="s005--漂移成因的复杂性">S005 —— 漂移成因的复杂性<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s005--漂移成因的复杂性" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：漂移起始时刻的两种常用取法（加速度首次超过 50 cm/s²；P 波到达时刻）都只是经验；成因既包括低频误差（仪器噪声、背景噪声、初始值等），也包括地面扭转与倾斜导致的仪器倾斜，所以<strong>很难确定漂移究竟发生在哪一刻</strong>。</p>
+<p><strong>读懂这段就明白为什么单轴方法不能直接搬到三轴</strong>：水平分量的漂移里有很大一部分来自倾斜，而垂直分量几乎不含这部分。</p>
+<h3 id="s006--方法预告">S006 —— 方法预告<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s006--方法预告" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：用凸优化中的 L1 范数正则化求最优基线漂移，“以分段线性拟合速度时程的方差与所求基线漂移的绝对值之和最小为目标”，不再人为选取起止时刻。</p>
+<hr/>
+<h2 id="4-第-1-节l1-范数正则化s007s011e001">4. 第 1 节：L1 范数正则化（S007–S011，E001）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-第-1-节l1-范数正则化s007s011e001" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="41-四个符号先认清">4.1 四个符号先认清<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#41-四个符号先认清" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>目标函数（E001，式 (1)，p.4）：</p>
+<p><a id="E001"></a></p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mop">min</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.1076em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">b</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">λ</span><span class="mord">∥</span><span class="mord mathnormal">x</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>符号</th><th>含义</th><th>论文的说明</th><th>你需要注意的</th></tr></thead><tbody><tr><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span></td><td>字典矩阵（<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em;"></span><span class="mord"><span class="mord mathbb">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mbin mtight">×</span><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span></span>）</td><td>只说”字典矩阵”</td><td><strong>论文没有给出元素级构造</strong>，需结合 2020 篇补全</td></tr><tr><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span></td><td>拟合的目标</td><td>本文取”待拟合的速度”</td><td>即观测速度（含漂移）</td></tr><tr><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span></td><td>待求的稀疏解</td><td>即要求的基线漂移</td><td>2020 篇把惩罚改到 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span> 上</td></tr><tr><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span></td><td>正则化参数（>0）</td><td>文中取 1</td><td>平衡拟合误差与稀疏约束；无敏感性分析</td></tr></tbody></table></div>
+<h3 id="42-l1-为什么能自动选段s007s010">4.2 L1 为什么能”自动选段”（S007–S010）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#42-l1-为什么能自动选段s007s010" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>块</th><th>原文要点（概括）</th><th>深入理解</th></tr></thead><tbody><tr><td>S007</td><td>L1 范数是元素绝对值之和，可实现<strong>稀疏表示</strong>、防止过拟合、利于特征选择，通过迭代把无效特征的权重置零，模型更<strong>可解释</strong></td><td>”稀疏”= 大多数分量为零</td></tr><tr><td>S008</td><td>这是”双准则”：既保证残差 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∥</span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">b</span><span class="mord"><span class="mord">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 小，又让解”小”</td><td>一对张力；<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> 就是调节旋钮</td></tr><tr><td>S009</td><td>给出 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">b</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">λ</span></span></span></span> 的维数与角色</td><td>见上表</td></tr><tr><td>S010</td><td>该式是 <strong>LASSO</strong> 的等价形式，也是加约束的最小二乘；属于典型凸优化，<strong>有且只有一个全局最优解</strong></td><td>唯一性需要附加条件（见 <a href="../../l1范数/讲义/01_地基一_数学与信号" class="internal internal-link" data-slug="l1范数/讲义/01_地基一_数学与信号"><code>01_地基一_数学与信号.md</code></a> 第 7 节）</td></tr></tbody></table></div>
+<p><strong>“稀疏 = 自动选段”的逻辑链</strong>：</p>
+<p>稀疏 → 大多数时刻的基线<strong>跳变量为零</strong> → 基线只在少数时刻变化 → 这些时刻就是分段点 → <strong>分段数等于非零跳变的个数</strong> → 不用人设定。</p>
+<h3 id="43-三条物理假设s011">4.3 三条物理假设（S011）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#43-三条物理假设s011" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>漂移是<strong>随机的</strong>，事先无法确定次数；</li>
+<li>某一时刻漂移后保持不变，另一时刻突变后继续保持不变——即漂移是<strong>时间的分段线性函数（阶梯函数）</strong>；</li>
+<li>地震动结束后<strong>速度尽量为零</strong>。</li>
+</ol>
+<p>这三条与 2022 综述的两条判据完全对得上：第 3 条就是判据 (1)，位移末尾的平行性隐含在阶梯模型中。</p>
+<p>作者还交代了实现方式：<strong>用 MATLAB 的 CVX 凸优化工具包求解 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span></strong>，并把 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> 设为 1。</p>
+<h3 id="44-用本项目实验把这套公式跑一遍">4.4 用本项目实验把这套公式”跑一遍”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#44-用本项目实验把这套公式跑一遍" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="../.././experiments/l1_toy_demo.py" class="internal internal-link" data-slug="experiments/l1_toy_demo.py"><code>../experiments/l1_toy_demo.py</code></a> 在一个有标准答案的合成数据上求解了同一个问题（12 s、50 Hz；真实基线 0 → +2 gal（t≥4 s）→ −0.5 gal（t≥8 s））：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>λ</th><th>跳变次数</th><th>基线 RMSE / gal</th><th>位移末值误差 / cm</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>2</strong>（t=5.3 s、9.0 s）</td><td>0.611</td><td><strong>−0.14</strong></td></tr><tr><td>10</td><td>3（多一个假跳变）</td><td>0.557</td><td>−0.20</td></tr><tr><td>100</td><td>3</td><td>0.433</td><td>−0.08</td></tr><tr><td>1000</td><td><strong>0</strong>（压平）</td><td>1.081</td><td>−4.12</td></tr><tr><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span>–<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></td><td>0</td><td>1.090</td><td>−4.53</td></tr></tbody></table></div>
+<p>未校正时位移末值误差 <strong>+41.89 cm</strong>；校正后尾部速度 −0.004 cm/s（满足”震后速度趋零”）。</p>
+<p><img src="../.././experiments/l1_toy_demo.png" alt="L1 玩具实验的四联图"/></p>
+<p>（图：① 加速度域看不出漂移；② 速度域出现斜率，L1 校正后回到真值附近；③ 基线解是阶梯，λ 控制台阶数量；④ 位移从未校正的走飞回到真值附近。）</p>
+<p><strong>这份实验给你三个可以直接引用的认识</strong>：</p>
+<ol>
+<li>L1 的解确实是”阶梯”，但数值上<strong>台阶边缘会被摊成几十分之一秒的斜坡</strong>（这也是为什么”跳变时刻”的识别会晚于真值：实验里真值 4 s、识别 5.3 s）；</li>
+<li>台阶的<strong>幅度与电平</strong>能恢复得很好（t=6 s：真值 +2.00 gal、识别 +2.13 gal；t=10 s：真值 −0.50、识别 −0.57）；</li>
+<li><strong>λ 的合适值依赖单位</strong>：把加速度换成 m/s²（数值缩小 100 倍）后，能识别出 2 次跳变的 λ 从 1 变成 0.01——<strong>平移 100 倍</strong>。论文取 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> 只是它自己数据尺度下的约定。</li>
+</ol>
+<hr/>
+<h2 id="5-第-2-节数据与噪声模型s012s013表-1图-1">5. 第 2 节：数据与噪声模型（S012–S013，表 1，图 1）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-第-2-节数据与噪声模型s012s013表-1图-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="51-实验设计一场有标准答案的开卷考试">5.1 实验设计：一场有标准答案的”开卷考试”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#51-实验设计一场有标准答案的开卷考试" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括（S012）：选用 Akkar 和 Boore（2009）用过的记录，加上工程上最常用的 El Centro 波，作为测试的”原始记录”。</p>
+<p><strong>为什么必须人工加噪声？</strong> 真实记录的”真漂移”是未知的，无法判断方法对错。加了<strong>已知</strong>漂移后，才能把”识别结果”与”标准答案”直接比对，并进一步检验速度和位移的恢复效果。这是本篇方法学上最扎实的一步。</p>
+<h3 id="52-三条记录表-1p5">5.2 三条记录（表 1，p.5）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#52-三条记录表-1p5" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>记录</th><th>地震</th><th>规模</th><th>P 波到时（=事前部分）</th><th>持时</th><th>震中距</th></tr></thead><tbody><tr><td>El Centro Array #9（NS）</td><td>1940 帝王谷</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.109em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.109em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">W</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 6.95</td><td><strong>0.04 s</strong></td><td>40 s</td><td>12.99 km</td></tr><tr><td>Bolu（EW）</td><td>1999 迪兹杰</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.109em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.109em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">W</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 7.14</td><td><strong>5.39 s</strong></td><td>56 s</td><td>41.27 km</td></tr><tr><td>TCU129（NS）</td><td>1999 集集</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.109em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.109em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">W</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 7.62</td><td><strong>20.65 s</strong></td><td>90 s</td><td>14.16 km</td></tr></tbody></table></div>
+<p><strong>这张表是全文的对照设计</strong>：三条记录把”事前部分”从”几乎为零”到”很充足”拉开三个档位，其他条件尽量保持一致。<strong>结论若有差异，就可以归因到事前部分。</strong></p>
+<h3 id="53-三类噪声模型s013图-1">5.3 三类噪声模型（S013，图 1）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#53-三类噪声模型s013图-1" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>模型</th><th>结构</th><th>参数</th></tr></thead><tbody><tr><td>单段式</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span> 内保持一个漂移量</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1076em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5</span></span></span></span></td></tr><tr><td>两段式</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span> 为 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span> 为 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1076em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span></td><td>5 与 −2</td></tr><tr><td>多段（三段）式</td><td><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span>、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span>、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span> 三段</td><td>2、−2、5</td></tr></tbody></table></div>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/figures/fig01_p05.png" alt="图 1 典型加速度基线漂移噪声模型"/></p>
+<p>（图 1，p.5：<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 首次超过阈值的时刻、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 末次超过阈值的时刻、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 为中点、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 记录结束。三个子图分别是单段、两段、三段。）</p>
+<blockquote>
+<p><strong>单位坑</strong>：正文把漂移量写成 m/s²（5 m/s²、−2 m/s²），但按图轴量级与 2020 英文版的写法（5 gal、−2 gal），应为 gal。差 100 倍，复现前必须确认。</p>
+</blockquote>
+<hr/>
+<h2 id="6-第-3-节结果与分析s014s020图-2图-7">6. 第 3 节：结果与分析（S014–S020，图 2–图 7）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-第-3-节结果与分析s014s020图-2图-7" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="61-先讲为什么要在速度域看s014">6.1 先讲”为什么要在速度域看”（S014）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#61-先讲为什么要在速度域看s014" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：加入两段式噪声后，<strong>加速度时程的变化并不明显</strong>，但积分得到的速度时程出现明显漂移，位移漂移更大。</p>
+<p>这就是第 0 节讲的三域放大：<strong>漂移在加速度域是隐形的，必须到速度域才”看得见”。</strong> 这也解释了整篇方法为什么坚持”在速度域做分段线性拟合”。</p>
+<h3 id="62-三条记录的识别结果s015s018">6.2 三条记录的识别结果（S015、S018）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#62-三条记录的识别结果s015s018" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>记录</th><th>识别结果（概括）</th></tr></thead><tbody><tr><td>TCU129</td><td>识别的基线几乎与已知噪声<strong>完全吻合</strong></td></tr><tr><td>Bolu</td><td>两次漂移时刻都吻合得很好，短时段内有 −1.1 m/s² 的偏差</td></tr><tr><td>El Centro</td><td>有偏差：<strong>第一次漂移的起始位置滞后约 0.5 s</strong>，漂移程度最大偏差 +1.3 m/s²；第二次漂移位置与幅度均吻合</td></tr></tbody></table></div>
+<p><strong>误差排序与事前部分长度排序一致</strong>：20.65 s（几乎完美）> 5.39 s（轻微偏差）> 0.04 s（明显偏差）。这是全文最直接的因果叙事。</p>
+<h3 id="63-拉向零线机制s016图-3">6.3 “拉向零线”机制（S016、图 3）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#63-拉向零线机制s016图-3" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：El Centro 记录明显缺少事前部分，且初始记录部分不为零（前 0.8 s 均值 5.8、前 2 s 均值 8.3，按正文写法）。本方法求出的初始段基线为 2.4，即方法会<strong>把非零的事前部分尽量拉近零线</strong>。</p>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/figures/fig03_p08.png" alt="图 3 El Centro 台初始部分处理结果"/></p>
+<p>（图 3，p.8：黑线为原始加速度，红线为方法识别的基线，可见初始段被”拉拢”到零线附近。）</p>
+<p><strong>后果</strong>：恢复后的位移会<strong>略微偏小</strong>（结论 S022 明说了这一点）。</p>
+<p><strong>为什么这很重要</strong>：它给方法划定了使用条件，也提示三轴扩展时垂直分量不能照搬（真实沉降会被抹掉）。</p>
+<h3 id="64-误差如何被两次积分放大s017图-4">6.4 误差如何被两次积分放大（S017、图 4）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#64-误差如何被两次积分放大s017图-4" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：把识别的基线与已知噪声相减，得到差值；差值积分一次得速度差，再积分得位移差。由于加速度差值是不规则分段函数，两次积分后位移差与加速度差的正负关系不再直观，表现出**“滞后”**性。</p>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/figures/fig04_p08.png" alt="图 4 识别基线与加入噪声的差值"/></p>
+<p>（图 4，p.8：加速度差值很小，位移差值却可达数十（单位见原图轴）。<strong>“小误差 → 大位移偏差”的直接证据。</strong>）</p>
+<h3 id="65-单段式与多段式s018s019图-5图-6">6.5 单段式与多段式（S018–S019，图 5、图 6）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#65-单段式与多段式s018s019图-5图-6" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>情形</th><th>结果</th></tr></thead><tbody><tr><td>单段式（S018）</td><td>起始时刻滞后约 0.5 s、最大偏差 +1.4；与两段式误差量级一致 → 说明”事前部分缺失”是<strong>系统性</strong>误差源</td></tr><tr><td>多段式（S019）</td><td>能敏锐捕捉速度斜率的<strong>趋势变化</strong>，速度拟合分段数更多；因基线由拟合速度间接求得，基线的分段数也随之增加</td></tr></tbody></table></div>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/pages/p09.png" alt="图 5 单段式噪声模型的识别与处理结果"/></p>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/pages/p10.png" alt="图 6 多段式噪声模型的识别与处理结果"/></p>
+<p>（图 5、图 6 为整页渲染：横排整版图，图注竖排，自动紧裁不可靠。读图重点：<strong>灰色虚线之间就是一次分段拟合</strong>——图 6 的虚线明显多于图 5，这就是”自动增加段数”的直观展示。）</p>
+<h3 id="66-最硬的一条定量结果速度恢复s020图-7">6.6 最硬的一条定量结果：速度恢复（S020、图 7）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#66-最硬的一条定量结果速度恢复s020图-7" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>概括：El Centro 原始记录的 PGV 为 <strong>−29.66 cm/s</strong>；加入单段、两段、多段噪声后，本方法恢复的 PGV 分别为 <strong>−30.66、−30.66、−30.53 cm/s</strong>。</p>
+<p><strong>误差约 1 cm/s，约 3%——而且是三种噪声模型下都稳定。</strong></p>
+<p><img src="../.././01_xiong2019_l1范数正则化基线漂移识别/assets/figures/fig07_p11.png" alt="图 7 El Centro 台不同噪声模型下的速度恢复"/></p>
+<p>（图 7，p.11：三条曲线（原始速度、本文方法速度、校正后速度）应高度重合。）</p>
+<p><strong>对比记忆</strong>：同一条”几乎丢头”的记录，速度能恢复得很好，位移却会偏小——这就是”速度稳、位移敏感”的最好证据。</p>
+<hr/>
+<h2 id="7-第-4-节讨论与结论s021s024">7. 第 4 节：讨论与结论（S021–S024）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-第-4-节讨论与结论s021s024" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>块</th><th>内容（概括）</th><th>深读</th></tr></thead><tbody><tr><td>S021</td><td>与 Iwan 两段式、Boore <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 及其改进相比，本方法用 L1 正则化<strong>自动计算分段数量</strong>、漂移时刻与漂移程度，减少人为干预、拓展通用性</td><td>定位句：它是 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 路线的”自动化升级”</td></tr><tr><td>S022</td><td>结论 1：保留足够长的事前部分很重要，通常规范记录约 20 s；若事前部分过短且不为零，方法会把加速度”拉向零线”，使恢复位移<strong>略微偏小</strong></td><td>使用条件，不是缺陷</td></tr><tr><td>S023</td><td>结论 2：适用于单段/两段/多段，无需预设模型；对速度漂移趋势更敏锐；<strong>L1 的稀疏性可以控制漂移次数与幅度</strong>（不会无限分段）</td><td>“自动但不过度”</td></tr><tr><td>S024</td><td>结论 3：速度与位移都能恢复；无论事前部分是否足够，都能很好恢复<strong>峰值速度</strong>；最后指出 <strong><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> 是模型相关超参数，如何取值一直是难题</strong>，将作为后续工作</td><td>作者亲手留下的开放问题</td></tr></tbody></table></div>
+<hr/>
+<h2 id="8-四条阅读提示精读目录已整理这里再点一次">8. 四条”阅读提示”（精读目录已整理，这里再点一次）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-四条阅读提示精读目录已整理这里再点一次" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>正文<strong>没有给出字典矩阵 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> 的显式构造</strong>，也没有代码级细节 → 复现要结合 2020 篇的差分形式；</li>
+<li>样本量小（每种噪声模型仅 3 条记录） → “事前部分越长越好”方向正确，但属于<strong>定性</strong>结论；</li>
+<li>单位标注在正文与图之间不一致（m/s² vs gal）→ 复现前先定单位；</li>
+<li>三轴扩展的三个待验证问题：① 三分量是否共享漂移时刻；② 垂直分量不应被”拉回零”；③ 联合稀疏是否改善位移矢量方向。</li>
+</ol>
+<hr/>
+<h2 id="9-组会可能被问到的五个问题">9. 组会可能被问到的五个问题<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-组会可能被问到的五个问题" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>为什么用 L1 而不是 L2？→ L2 只会把所有分量按比例缩小，永远不产生”零跳变”，得不到分段结构；L1 才会给出稀疏解。</li>
+<li>正则项作用在 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> 还是 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span>？→ 中文版写 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>、英文版写 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">x</span></span></span></span>，后者才对应”阶梯基线”；这是复现时最容易翻车的地方。</li>
+<li>三条记录的结果差异是由什么造成的？→ 事前部分长度（0.04 / 5.39 / 20.65 s），其余条件近似相同。</li>
+<li>为什么速度恢复不受事前部分影响，位移却受影响？→ 速度由”斜率信息”决定，位移是速度的累积，误差会随时间累积放大。</li>
+<li>作者留下的开放问题是什么？→ <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> 的取值；本项目实验已经量化了它对单位与尺度的敏感性（100 倍平移）。</li>
+</ol>
+<hr/>
+<h2 id="10-自测题">10. 自测题<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-自测题" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>抄写式 (1)，并逐个说明 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span>、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>、<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> 的含义与维数。</li>
+<li>用”稀疏”解释为什么 L1 可以自动确定分段数量。</li>
+<li>三条物理假设分别是什么？分别对应 2022 综述的哪条判据？</li>
+<li>El Centro 记录为什么会被”拉向零线”？这会造成什么后果？</li>
+<li>PGV 恢复的三种噪声模型结果说明什么？与位移恢复结论如何形成对比？</li>
+<li>如果把你手上的数据单位从 gal 改成 m/s²，<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> 会发生什么变化？（提示：本讲义第 4.4 节的 100 倍实验）</li>
+</ol></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-26" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#精讲-b熊政辉等2019基于-l1-范数正则化的强震动加速度记录基线漂移识别方法" data-for="精讲-b熊政辉等2019基于-l1-范数正则化的强震动加速度记录基线漂移识别方法">精讲 B：熊政辉等（2019）《基于 L1 范数正则化的强震动加速度记录基线漂移识别方法》</a></li><li class="depth-1"><a href="#0-一句话定位" data-for="0-一句话定位">0. 一句话定位</a></li><li class="depth-1"><a href="#1-文献卡" data-for="1-文献卡">1. 文献卡</a></li><li class="depth-1"><a href="#2-摘要两块s001s002" data-for="2-摘要两块s001s002">2. 摘要：两块（S001–S002）</a></li><li class="depth-2"><a href="#s001--方法的自述" data-for="s001--方法的自述">S001 —— 方法的自述</a></li><li class="depth-2"><a href="#s002--三条结论预告" data-for="s002--三条结论预告">S002 —— 三条结论预告</a></li><li class="depth-1"><a href="#3-引言痛点是怎么提出来的s003s006" data-for="3-引言痛点是怎么提出来的s003s006">3. 引言：痛点是怎么提出来的（S003–S006）</a></li><li class="depth-2"><a href="#s003--动机数字" data-for="s003--动机数字">S003 —— 动机数字</a></li><li class="depth-2"><a href="#s004--痛点" data-for="s004--痛点">S004 —— 痛点</a></li><li class="depth-2"><a href="#s005--漂移成因的复杂性" data-for="s005--漂移成因的复杂性">S005 —— 漂移成因的复杂性</a></li><li class="depth-2"><a href="#s006--方法预告" data-for="s006--方法预告">S006 —— 方法预告</a></li><li class="depth-1"><a href="#4-第-1-节l1-范数正则化s007s011e001" data-for="4-第-1-节l1-范数正则化s007s011e001">4. 第 1 节：L1 范数正则化（S007–S011，E001）</a></li><li class="depth-2"><a href="#41-四个符号先认清" data-for="41-四个符号先认清">4.1 四个符号先认清</a></li><li class="depth-2"><a href="#42-l1-为什么能自动选段s007s010" data-for="42-l1-为什么能自动选段s007s010">4.2 L1 为什么能”自动选段”（S007–S010）</a></li><li class="depth-2"><a href="#43-三条物理假设s011" data-for="43-三条物理假设s011">4.3 三条物理假设（S011）</a></li><li class="depth-2"><a href="#44-用本项目实验把这套公式跑一遍" data-for="44-用本项目实验把这套公式跑一遍">4.4 用本项目实验把这套公式”跑一遍”</a></li><li class="depth-1"><a href="#5-第-2-节数据与噪声模型s012s013表-1图-1" data-for="5-第-2-节数据与噪声模型s012s013表-1图-1">5. 第 2 节：数据与噪声模型（S012–S013，表 1，图 1）</a></li><li class="depth-2"><a href="#51-实验设计一场有标准答案的开卷考试" data-for="51-实验设计一场有标准答案的开卷考试">5.1 实验设计：一场有标准答案的”开卷考试”</a></li><li class="depth-2"><a href="#52-三条记录表-1p5" data-for="52-三条记录表-1p5">5.2 三条记录（表 1，p.5）</a></li><li class="depth-2"><a href="#53-三类噪声模型s013图-1" data-for="53-三类噪声模型s013图-1">5.3 三类噪声模型（S013，图 1）</a></li><li class="depth-1"><a href="#6-第-3-节结果与分析s014s020图-2图-7" data-for="6-第-3-节结果与分析s014s020图-2图-7">6. 第 3 节：结果与分析（S014–S020，图 2–图 7）</a></li><li class="depth-2"><a href="#61-先讲为什么要在速度域看s014" data-for="61-先讲为什么要在速度域看s014">6.1 先讲”为什么要在速度域看”（S014）</a></li><li class="depth-2"><a href="#62-三条记录的识别结果s015s018" data-for="62-三条记录的识别结果s015s018">6.2 三条记录的识别结果（S015、S018）</a></li><li class="depth-2"><a href="#63-拉向零线机制s016图-3" data-for="63-拉向零线机制s016图-3">6.3 “拉向零线”机制（S016、图 3）</a></li><li class="depth-2"><a href="#64-误差如何被两次积分放大s017图-4" data-for="64-误差如何被两次积分放大s017图-4">6.4 误差如何被两次积分放大（S017、图 4）</a></li><li class="depth-2"><a href="#65-单段式与多段式s018s019图-5图-6" data-for="65-单段式与多段式s018s019图-5图-6">6.5 单段式与多段式（S018–S019，图 5、图 6）</a></li><li class="depth-2"><a href="#66-最硬的一条定量结果速度恢复s020图-7" data-for="66-最硬的一条定量结果速度恢复s020图-7">6.6 最硬的一条定量结果：速度恢复（S020、图 7）</a></li><li class="depth-1"><a href="#7-第-4-节讨论与结论s021s024" data-for="7-第-4-节讨论与结论s021s024">7. 第 4 节：讨论与结论（S021–S024）</a></li><li class="depth-1"><a href="#8-四条阅读提示精读目录已整理这里再点一次" data-for="8-四条阅读提示精读目录已整理这里再点一次">8. 四条”阅读提示”（精读目录已整理，这里再点一次）</a></li><li class="depth-1"><a href="#9-组会可能被问到的五个问题" data-for="9-组会可能被问到的五个问题">9. 组会可能被问到的五个问题</a></li><li class="depth-1"><a href="#10-自测题" data-for="10-自测题">10. 自测题</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-0" class="overflow"><li><a href="../../l1范数/00-l1范数索引" class="internal">L1范数 · 研究专题索引</a></li><li><a href="../../l1范数/讲义/00_使用说明与学习路线" class="internal">讲义总目录：怎样把四篇参考文献&quot;每一部分都吃透&quot;</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/wly63227/obsidian-vault">GitHub 仓库</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-551b937a.js" type="module" data-persist="true"></script></html>

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>L1 Norm Baseline Correction Report - Design Spec</title><meta charset="utf-8"/><link rel="preload" href="../../index-bb6c1746.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="我的知识库"/><meta property="og:title" content="L1 Norm Baseline Correction Report - Design Spec"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="L1 Norm Baseline Correction Report - Design Spec"/><meta name="twitter:description" content="L1 Norm Baseline Correction Report - Design Spec I."/><meta property="og:description" content="L1 Norm Baseline Correction Report - Design Spec I."/><meta property="og:image:alt" content="L1 Norm Baseline Correction Report - Design Spec I."/><meta property="twitter:domain" content="wly63227.github.io/obsidian-vault"/><meta property="og:url" content="https://wly63227.github.io/obsidian-vault/l1范数/汇报ppt_预览/design_spec"/><meta property="twitter:url" content="https://wly63227.github.io/obsidian-vault/l1范数/汇报ppt_预览/design_spec"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="L1 Norm Baseline Correction Report - Design Spec I."/><meta name="generator" content="Quartz"/><link href="../../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://wly63227.github.io/obsidian-vault/l1范数/汇报ppt_预览/design_spec-og-image.webp"/><meta property="og:image:url" content="https://wly63227.github.io/obsidian-vault/l1范数/汇报ppt_预览/design_spec-og-image.webp"/><meta name="twitter:image" content="https://wly63227.github.io/obsidian-vault/l1范数/汇报ppt_预览/design_spec-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="l1范数/汇报ppt_预览/design_spec" data-basepath="/obsidian-vault"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">我的知识库</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="搜索" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索内容..." placeholder="搜索内容..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="暗色模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="阅读模式"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-3" aria-label="探索"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-3" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../l1范数/">L1范数</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../l1范数/汇报ppt_预览/">汇报PPT_预览</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>L1 Norm Baseline Correction Report - Design Spec</a></div></nav><h1 class="article-title">L1 Norm Baseline Correction Report - Design Spec</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">1</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"><a href="../../tags/l1范数" class="internal internal-link tag-link">l1范数</a><span class="note-properties-separator">, </span><a href="../../tags/组会汇报" class="internal internal-link tag-link">组会汇报</a></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-10-11T16:00:00.000Z">2026年10月12日</time><span>39分钟阅读</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered">
+<h1 id="l1-norm-baseline-correction-report---design-spec">L1 Norm Baseline Correction Report - Design Spec<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#l1-norm-baseline-correction-report---design-spec" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="i-project-information">I. Project Information<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#i-project-information" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody><tr><td>Project Name</td><td>L1 Norm Baseline Correction Report（L1 范数基线校正组会汇报）</td></tr><tr><td>Canvas Format</td><td>PPT 16:9 (1280×720)</td></tr><tr><td>Page Count</td><td>18</td></tr><tr><td>Primary Language</td><td>zh-CN</td></tr><tr><td>Target Audience</td><td>导师与课题组同门，方向为强震动观测与地震工程；了解加速度记录与 PGV/PGD 等基本概念，但不熟悉凸优化，汇报人本人正在学习凸函数与 L1 范数。</td></tr><tr><td>Communication Intent</td><td>按“研究内容 → 研究背景 → 方法 → 结论”四段汇报：先讲清研究问题与核心概念，再交代为什么要研究，然后讲透 L1 范数方法本身并顺带把凸函数与 L1 范数的相关概念讲明白，最后给出结论。</td></tr><tr><td>Desired Audience Outcome</td><td>听众能说清这项研究要解决什么问题、用什么方法解决，并理解三个关键判断：L1 惩罚为什么产生稀疏跳变、凸性为什么保证全局最优、位移恢复为什么依赖事前部分长度。</td></tr><tr><td>Core Message / Ask / Action</td><td>这项研究把“漂移分几段、从哪一刻开始”从人工判断变成由 L1 范数正则化的凸优化自动求解；它的数学基础是 L1 与 L2 惩罚形状的差别，它的物理边界是事前部分必须足够长。</td></tr><tr><td>Delivery Context</td><td>课题组组会汇报，约 15 分钟、16:9 投影，逐页讲述；次要为会后自阅。</td></tr><tr><td>Artifact Afterlife</td><td>作为组会汇报存档，并作为本人继续学习凸函数与 L1 范数、开展复现实验时的参考材料。</td></tr><tr><td>Reading Mode</td><td>balanced</td></tr><tr><td>Content Strategy</td><td>未指定，按默认：只使用中文文献（熊政辉等 2019、张斌与俞言祥 2022、谢俊举等 2013）与其中的数据、结论；不引用英文文献，不涉及计算机视觉验证。</td></tr><tr><td>Design Style</td><td>精确网格 — pyramid 结论先行的叙事骨架 + swiss-minimal 栅格化视觉，零装饰、零卡片、零阴影</td></tr><tr><td>AI Image Acquisition Path</td><td>not applicable</td></tr><tr><td>Generation Mode</td><td>continuous</td></tr><tr><td>Spec Refinement</td><td>disabled</td></tr><tr><td>Speaker Notes</td><td>enabled — final Stage-2 proactive policy（用户确认开启）</td></tr><tr><td>Custom Animations</td><td>disabled — final Stage-2 proactive policy</td></tr><tr><td>Narration Audio</td><td>disabled — final Stage-2 proactive policy</td></tr><tr><td>Created Date</td><td>2026-09-28</td></tr></tbody></table></div>
+<h2 id="ii-canvas-specification">II. Canvas Specification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ii-canvas-specification" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Format</td><td>PPT 16:9</td></tr><tr><td>Dimensions</td><td>1280 × 720</td></tr><tr><td>viewBox</td><td><code>0 0 1280 720</code></td></tr><tr><td>Margins</td><td>top 64 / right 72 / bottom 56 / left 72</td></tr><tr><td>Content Area</td><td>x 72–1208, y 64–664（标题带 y 64–140，正文带 y 156–628，页脚带 y 656–692）</td></tr></tbody></table></div>
+<h2 id="iii-visual-theme">III. Visual Theme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#iii-visual-theme" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="theme-style">Theme Style<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#theme-style" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Mode</strong>: custom</li>
+<li><strong>Mode References</strong>: pyramid</li>
+<li><strong>Mode Behavior</strong>: 以 pyramid 为基底：每页先用一句话给出可判断的结论，再用一条证据链（数据、插图、对比）支撑；章节页承担一次结论闸门，末章收束到方法边界与可继续做的方向。</li>
+<li><strong>Visual style</strong>: custom</li>
+<li><strong>Visual Style References</strong>: swiss-minimal</li>
+<li><strong>Visual Style Behavior</strong>: 锁定统一左边线与 12 栏栅格；页标题用大字号无衬线加一条 2px 主色规则线锚定，正文左对齐、行距 1.5 倍；不使用卡片、圆角、色块背景与投影，层次只靠发丝线与留白建立；插图与图表以满栏宽度呈现，四周留 32px 呼吸区。</li>
+<li><strong>Theme</strong>: 工程报告的精确网格。跨页母题是一条从页标题延伸出的 2px 主色规则线，页脚只保留“章号 + 页码”一个最小标记；母题只承担位置连续性与阅读节奏，不做装饰。</li>
+<li><strong>Tone</strong>: 冷静、克制、可核对；像一份写给同行看的技术报告，兼顾“我正好在学凸函数与 L1 范数”的教学口吻。</li>
+</ul>
+<h3 id="color-scheme">Color Scheme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#color-scheme" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Role</th><th>HEX</th><th>Purpose</th></tr></thead><tbody><tr><td>Background</td><td><a href="../.././../tags/ffffff" class="tag-link internal internal-link alias" data-slug="tags/ffffff">ffffff</a></td><td>页面底色；中文期刊插图（白底曲线）直接落在上面</td></tr><tr><td>Secondary background</td><td><a href="../.././../tags/f3f5f8" class="tag-link internal internal-link alias" data-slug="tags/f3f5f8">f3f5f8</a></td><td>唯一允许的浅底区，用于结论句窄条与表格表头</td></tr><tr><td>Primary</td><td><a href="../.././../tags/123a5e" class="tag-link internal internal-link alias" data-slug="tags/123a5e">123a5e</a></td><td>标题、规则线、正文强调与图表主色</td></tr><tr><td>Accent</td><td><a href="../.././../tags/c64b32" class="tag-link internal internal-link alias" data-slug="tags/c64b32">c64b32</a></td><td>全篇唯一强调色：关键数字、警示性限定条件、L1 曲线</td></tr><tr><td>Secondary accent</td><td><a href="../.././../tags/4b7ea8" class="tag-link internal internal-link alias" data-slug="tags/4b7ea8">4b7ea8</a></td><td>次级信息：图注编号、对比项、L2 曲线与次级说明</td></tr><tr><td>Body text</td><td><a href="../.././../tags/1b2530" class="tag-link internal internal-link alias" data-slug="tags/1b2530">1b2530</a></td><td>正文与列表文字</td></tr><tr><td>Secondary text</td><td><a href="../.././../tags/5a6672" class="tag-link internal internal-link alias" data-slug="tags/5a6672">5a6672</a></td><td>图注、注脚、来源与页码</td></tr><tr><td>Divider</td><td><a href="../.././../tags/d8dee5" class="tag-link internal internal-link alias" data-slug="tags/d8dee5">d8dee5</a></td><td>发丝分隔线与表格边框</td></tr></tbody></table></div>
+<h2 id="iv-typography-system">IV. Typography System<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#iv-typography-system" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="font-plan">Font Plan<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#font-plan" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Role</th><th>Character (Reference)</th><th>Primary</th><th>English if non-English</th><th>Fallback tail</th></tr></thead><tbody><tr><td>Title</td><td>中性无衬线，字重加粗，靠字号与对齐建立层级</td><td>Microsoft YaHei</td><td>Arial</td><td>sans-serif</td></tr><tr><td>Body</td><td>与标题同族保持和谐，读长句不累</td><td>Microsoft YaHei</td><td>Arial</td><td>sans-serif</td></tr><tr><td>Display</td><td>与正文同族，仅靠字号与颜色承担量级冲击</td><td>Microsoft YaHei</td><td>Arial</td><td>sans-serif</td></tr><tr><td>Footnote</td><td>与正文同族，小字深灰</td><td>Microsoft YaHei</td><td>Arial</td><td>sans-serif</td></tr></tbody></table></div>
+<ul>
+<li><strong>Title stack</strong>: Microsoft YaHei, Arial, sans-serif</li>
+<li><strong>Body stack</strong>: Microsoft YaHei, Arial, sans-serif</li>
+<li><strong>Display stack</strong>: Microsoft YaHei, Arial, sans-serif</li>
+<li><strong>Footnote stack</strong>: Microsoft YaHei, Arial, sans-serif</li>
+</ul>
+<h3 id="font-size-hierarchy">Font Size Hierarchy<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#font-size-hierarchy" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Purpose</th><th style="text-align:right;">Anchor Size (px)</th></tr></thead><tbody><tr><td>Body</td><td style="text-align:right;">24</td></tr><tr><td>Title</td><td style="text-align:right;">42</td></tr><tr><td>Subtitle</td><td style="text-align:right;">32</td></tr><tr><td>Annotation</td><td style="text-align:right;">18</td></tr><tr><td>Display</td><td style="text-align:right;">96</td></tr><tr><td>Footnote</td><td style="text-align:right;">16</td></tr></tbody></table></div>
+<h2 id="v-layout-principles">V. Layout Principles<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#v-layout-principles" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="deck-wide-direction">Deck-wide Direction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#deck-wide-direction" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Hierarchy direction</strong>: 视线先落在页标题下的结论句（或封面/方法页的大数字与公式），再沿规则线向下进入一条证据链：左对齐短句 → 插图、图表或数字 → 图注与来源。</li>
+<li><strong>Composition tendency</strong>: 单栏主导、满栏宽插图与图表；需要并列时才分两栏，且两栏高度由内容决定而非拉平。</li>
+<li><strong>Cross-page continuity</strong>: 页标题位置、规则线起点、页脚“章号 + 页码”三者全篇不变；变化只出现在插图占位与图表区域。</li>
+<li><strong>Spacing posture</strong>: 偏开放；靠 32px 级块间距与留白分区，绝不靠容器分隔。</li>
+<li><strong>Spacing anchors</strong>: page margin 72px / block gap 32px / column gutter 40px / corner radius 0px / body leading 36px</li>
+</ul>
+<h2 id="vi-icon-usage-specification">VI. Icon Usage Specification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vi-icon-usage-specification" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Primary bundled library</strong>: tabler-outline</li>
+<li><strong>Stroke Width</strong>: 2</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Icon Path</th><th>Suitable Scenarios</th></tr></thead><tbody><tr><td>tabler-outline/file-text</td><td>研究内容与提纲类页面的最小标记</td></tr><tr><td>tabler-outline/trending-up</td><td>误差被积分放大的量级页</td></tr><tr><td>tabler-outline/wave-sine</td><td>信号、滤波与波形相关页面</td></tr><tr><td>tabler-outline/target</td><td>优化目标函数与凸优化页面</td></tr><tr><td>tabler-outline/route</td><td>方法流程与实验方案页面</td></tr><tr><td>tabler-outline/flag</td><td>结论与限定条件页面</td></tr></tbody></table></div>
+<h2 id="vii-visualization-reference-list">VII. Visualization Reference List<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vii-visualization-reference-list" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Page</th><th>Family</th><th>Template</th><th>Usage</th></tr></thead><tbody><tr><td>P10</td><td>chart</td><td>line_chart</td><td>在同一个自变量上对比 L1 与 L2 惩罚函数的形状，说明折点与稀疏解的关系</td></tr><tr><td>P15</td><td>table</td><td>metric_table</td><td>三条记录的事前部分长度与基线识别误差、峰值速度恢复结果对照</td></tr></tbody></table></div>
+<h2 id="viii-image-resource-list">VIII. Image Resource List<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#viii-image-resource-list" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Filename</th><th>Dimensions</th><th>Ratio</th><th>Purpose</th><th>Type</th><th>Image pattern</th><th>Crop Policy</th><th>Acquire Via</th><th>Status</th><th>Reference</th><th>text_policy</th><th>page_role</th></tr></thead><tbody><tr><td>zhang_fig01_record.png</td><td>1620×920</td><td>1.76</td><td>芦山地震 51YAM 台 NS 向原始加速度、速度、位移时程</td><td>Photo</td><td>右侧 3/5 栏宽，左侧放结论与量级说明</td><td>no-crop</td><td>user</td><td>Existing</td><td>张斌、俞言祥（2022）图 1</td><td></td><td></td></tr><tr><td>zhang_fig02_iwan.png</td><td>1016×1060</td><td>0.96</td><td>Iwan 两段式校正方法原理</td><td>Photo</td><td>左侧 2/5 栏宽，右侧放判据与困境说明</td><td>no-crop</td><td>user</td><td>Existing</td><td>张斌、俞言祥（2022）图 2</td><td></td><td></td></tr><tr><td>xiong_fig01_noise.png</td><td>1624×312</td><td>5.21</td><td>单段式、两段式、多段式三种加速度基线漂移噪声模型</td><td>Photo</td><td>满栏宽横向铺陈，紧接三条假设的文字</td><td>no-crop</td><td>user</td><td>Existing</td><td>熊政辉等（2019）图 1</td><td></td><td></td></tr><tr><td>xiong_fig07_velocity.png</td><td>1656×728</td><td>2.27</td><td>加入不同噪声模型后 El Centro 台 NS 向记录的速度恢复结果</td><td>Photo</td><td>满栏宽横向铺陈，下图注紧跟</td><td>no-crop</td><td>user</td><td>Existing</td><td>熊政辉等（2019）图 7</td><td></td><td></td></tr><tr><td>xie_fig07_disp_gps.png</td><td>1644×736</td><td>2.23</td><td>汶川近断层水平永久位移与 GPS 观测对比</td><td>Photo</td><td>满栏宽横向铺陈，作为方向应用前景的证据</td><td>no-crop</td><td>user</td><td>Existing</td><td>谢俊举等（2013）图 7</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="ix-content-outline">IX. Content Outline<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ix-content-outline" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="part-1-研究内容问题与核心概念">Part 1: 研究内容（问题与核心概念）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-1-研究内容问题与核心概念" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="slide-01---封面">Slide 01 - 封面<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-01---封面" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Cover impact</strong>: hook 绑定为量级冲击 “0.01 gal → 18 cm”；composition Reference：左对齐大字号结论句占据上半页，文献出处与汇报信息压在下方，一条 2px 主色规则线横贯页面下三分之一。</li>
+<li><strong>Audience move</strong>: 从“今天要听一篇 L1 范数的文献汇报” → “先被一个量级结论抓住，并知道讲的是哪一篇、讲哪四件事”。</li>
+<li><strong>Relationships</strong>: 结论句 → 支撑量级 → 文献出处（order）。</li>
+<li><strong>Composition</strong>: 左对齐大字结论占据上半页，文献信息压在规则线下方，页码位留空。</li>
+<li><strong>Title</strong>: L1 范数正则化用于强震动基线校正</li>
+<li><strong>Core message</strong>: 一次看不见的 0.01 gal 偏移，会在 60 s 里长成 18 cm 的位移误差；本文用 L1 范数正则化的凸优化自动确定基线漂移的分段与时刻。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>主标题：L1 范数正则化用于强震动基线校正</li>
+<li>副标题：研究内容 · 研究背景 · 方法（凸函数与 L1 范数）· 结论</li>
+<li>量级句：0.01 gal 偏移持续 60 s → 速度误差 0.6 cm/s → 位移误差 18 cm</li>
+<li>文献出处：熊政辉，李小军，戴志军，陈苏. 2019. 基于 L1 范数正则化的强震动加速度记录基线漂移识别方法. 地震学报，41(1)：111–123</li>
+<li>汇报信息：组会汇报 · 汇报人 / 日期</li>
+</ul>
+</li>
+</ul>
+<h4 id="slide-02---汇报提纲">Slide 02 - 汇报提纲<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-02---汇报提纲" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“不知道今天讲什么” → “知道四段结构，并明白重点在方法那一节，而且会把凸函数与 L1 范数讲清楚”。</li>
+<li><strong>Relationships</strong>: 四个部分按汇报顺序排列（order）。</li>
+<li><strong>Title</strong>: 汇报提纲</li>
+<li><strong>Core message</strong>: 汇报按“研究内容 → 研究背景 → 方法 → 结论”四段推进，方法一节会先把凸函数与 L1 范数的基础概念补齐。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>一 · 研究内容：要解决什么问题，涉及哪些核心概念</li>
+<li>二 · 研究背景：这个问题为什么至今没有标准答案</li>
+<li>三 · 方法：L1 范数正则化，以及凸函数、范数与稀疏性的基本概念</li>
+<li>四 · 结论：三条结论，以及它对我们后续工作的意义</li>
+<li>页脚注：文献来源 熊政辉等，2019，地震学报 41(1)：111–123</li>
+</ul>
+</li>
+</ul>
+<h4 id="slide-03---研究问题小漂移如何被两次积分放大">Slide 03 - 研究问题：小漂移如何被两次积分放大<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-03---研究问题小漂移如何被两次积分放大" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“漂移只是点小噪声” → “明白它是位移误差的主要来源，且误差按时间平方增长”。</li>
+<li><strong>Relationships</strong>: 同一偏移在加速度 / 速度 / 位移三域的形态变化（link）；常数偏移与真实地震信号叠加（overlap）。</li>
+<li><strong>Composition</strong>: 左侧三条域内形态逐行排列，右侧放真实记录的三域时程图作为证据。</li>
+<li><strong>Title</strong>: 研究问题：小漂移如何被两次积分放大</li>
+<li><strong>Core message</strong>: 取位移只能两次积分，常数偏移积分一次成斜线、再积分成抛物线，所以微小加速度误差在位移上按时间平方放大。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>加速度域：一个常数偏移叠加在真实信号上，肉眼几乎无感</li>
+<li>速度域：积分一次，偏移变成一条持续上爬的斜线</li>
+<li>位移域：再积分一次，变成越走越陡的抛物线</li>
+<li>量级：0.01 gal 持续 60 s = 速度误差 0.6 cm/s、位移误差 18 cm</li>
+<li>研究问题：怎样在不依赖人工判断的前提下，把这个漂移识别出来并扣除</li>
+</ul>
+</li>
+<li><strong>Images</strong>: zhang_fig01_record.png 为真实记录中“加速度几乎无感、位移已被漂移主导”的证据。</li>
+</ul>
+<h4 id="slide-04---核心概念从加速度到位移的四个词">Slide 04 - 核心概念：从加速度到位移的四个词<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-04---核心概念从加速度到位移的四个词" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“听过这些词” → “能用自己的话把加速度记录、两次积分、PGV/PGD、事前部分串起来”。</li>
+<li><strong>Relationships</strong>: 四个概念按数据流程串联（order）。</li>
+<li><strong>Composition</strong>: 四个概念等宽横排，各配一句定义与一句“为什么重要”。</li>
+<li><strong>Title</strong>: 核心概念：从加速度到位移的四个词</li>
+<li><strong>Core message</strong>: 强震仪记录的是加速度；两次积分才得到速度与位移；峰值速度与峰值位移是评价校正效果的两个指标；事前部分长度决定校正是否可信。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>加速度记录：强震仪输出的是地面运动的加速度，单位 gal，1 gal = 1 cm/s²</li>
+<li>两次积分：加速度 → 速度 → 位移；每一次积分都会把低频误差放大一次</li>
+<li>PGV 与 PGD：峰值速度与峰值位移，是判断校正后时程是否可用的两个指标</li>
+<li>事前部分：P 波到达之前那段本应是零线的记录，它越长，越容易判断基线在哪里</li>
+<li>一句话：位移的可靠性，取决于事前部分与校正方法的配合</li>
+</ul>
+</li>
+</ul>
+<h4 id="slide-05---核心概念漂移从哪来怎样算合格">Slide 05 - 核心概念：漂移从哪来，怎样算合格<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-05---核心概念漂移从哪来怎样算合格" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“漂移就是仪器噪声” → “能分清两类来源，并记住两条判据允许永久位移存在”。</li>
+<li><strong>Relationships</strong>: 两类来源并列对比（contrast）；两条判据并列（contrast）。</li>
+<li><strong>Composition</strong>: 上半页两类来源左右并列，下半页两条判据逐行排列。</li>
+<li><strong>Title</strong>: 核心概念：漂移从哪来，怎样算合格</li>
+<li><strong>Core message</strong>: 漂移来自低频误差与地面倾斜两类原因；校正合格的标准是速度终了归零、位移末段平行于时间轴，后者允许非零。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>来源一 · 低频误差：仪器噪声、恒定偏移、背景噪声、初始值和操作误差</li>
+<li>来源二 · 地面倾斜或旋转：仪器被歪，重力漏进水平分量，水平两轴同源</li>
+<li>判据一：地震动结束后速度应趋于零</li>
+<li>判据二：位移时程末段应平行于时间轴；平行不是归零，末端那个非零值就是永久位移</li>
+<li>提醒：垂直向的真实沉降是信号不是漂移，不能一并拉回零线</li>
+</ul>
+</li>
+</ul>
+<h3 id="part-2-研究背景">Part 2: 研究背景<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-2-研究背景" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="slide-06---研究背景为什么近场大震不能靠滤波">Slide 06 - 研究背景：为什么近场大震不能靠滤波<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-06---研究背景为什么近场大震不能靠滤波" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“校正就是高通滤波” → “理解滤波与永久位移处在同一频段，因此必须走分段校正路线”。</li>
+<li><strong>Relationships</strong>: 两条技术路线分叉并各自导向一个后果（link）。</li>
+<li><strong>Composition</strong>: 上下两段对照：上半讲滤波，下半讲分段校正，各配一条结论。</li>
+<li><strong>Title</strong>: 研究背景：为什么近场大震不能靠滤波</li>
+<li><strong>Core message</strong>: 高通滤波省事且客观，但漂移与永久位移同处低频段，会一起被滤掉；要保住永久位移，只能走分段校正。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>路线一 · 高通滤波：把低频成分滤掉，流程客观，PEER 数据库的标准处理就是它</li>
+<li>代价：漂移与永久位移处在同一个低频段，滤掉漂移的同时也把永久位移滤掉</li>
+<li>路线二 · 分段校正：在速度时程上分段拟合直线，用直线斜率反推加速度的漂移量</li>
+<li>代价：需要回答“分几段、从哪一刻开始漂”，而这两个参数目前靠人工判断</li>
+<li>结论：小震可以用滤波，近场大震必须用分段校正</li>
+</ul>
+</li>
+</ul>
+<h4 id="slide-07---研究背景分段校正的方法谱系与共同缺口">Slide 07 - 研究背景：分段校正的方法谱系与共同缺口<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-07---研究背景分段校正的方法谱系与共同缺口" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“只知道一两种方法” → “看清这条链的演化方向，并抓住所有方法的共同缺口”。</li>
+<li><strong>Relationships</strong>: 方法按年代顺序演化成一条链（order）；各方法的共同缺口（membership）。</li>
+<li><strong>Composition</strong>: 左侧放 Iwan 两段式原理图，右侧按年代列出三代方法并收束到缺口。</li>
+<li><strong>Title</strong>: 研究背景：分段校正的方法谱系与共同缺口</li>
+<li><strong>Core message</strong>: 从 Iwan 的固定两段式，到 Boore 用速度末尾拟合直线定时刻，再到能量比、位移平坦度等改进，所有方法都卡在同一处：分段数与分段位置需要人工判断。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>Iwan（1985）：以加速度首次与末次超过 50 gal 的两个时刻作为分段点，固定为两段式</li>
+<li>Boore 等：在速度时程末尾拟合直线，用直线与时间轴的交点确定漂移起始时刻</li>
+<li>改进方法：能量比、位移平坦度、时移斜率比等，用来更客观地定关键时刻</li>
+<li>共同缺口：分段数与分段位置仍依赖专家经验，处理同一条记录的不同人可能给出不同结果，流程难以自动化与标准化</li>
+<li>这正是本文要填补的空白</li>
+</ul>
+</li>
+<li><strong>Images</strong>: zhang_fig02_iwan.png 说明加速度域是阶梯、速度域是折线、位移域是抛物线。</li>
+</ul>
+<h3 id="part-3-方法l1-范数凸函数与稀疏性">Part 3: 方法（L1 范数、凸函数与稀疏性）<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-3-方法l1-范数凸函数与稀疏性" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="slide-08---方法准备一范数是什么">Slide 08 - 方法准备一：范数是什么<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-08---方法准备一范数是什么" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“听过 L1、L2 但说不清区别” → “能写出三种范数的定义，并知道它们惩罚的是什么”。</li>
+<li><strong>Relationships</strong>: 三种范数并列对比（contrast）。</li>
+<li><strong>Composition</strong>: 三个定义逐行排列，各行右侧给出该范数偏好什么样的解。</li>
+<li><strong>Title</strong>: 方法准备一：范数是什么</li>
+<li><strong>Core message</strong>: 范数是衡量向量“大小”的方式；选 L0 得到“数非零个数”，选 L1 得到“绝对值之和”，选 L2 得到“平方和开根号”，三者的解性格完全不同。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>记号：向量 x 的范数记作 ‖x‖，可以理解成这个向量的“长度”或“代价”</li>
+<li>L0 范数：非零元素的个数，最符合“稀疏”的本意，但求解是 NP 难问题</li>
+<li>L1 范数：各元素绝对值之和，是 L0 的凸替代，因此可以高效求解</li>
+<li>L2 范数：各元素平方和开根号，就是通常的欧氏长度</li>
+<li>关键差别：L2 偏好每个元素都小一点、雨露均沾；L1 偏好绝大多数元素正好为零</li>
+</ul>
+</li>
+<li><strong>Mathematical content</strong>: |x|_1 = \sum_i |x_i|</li>
+</ul>
+<h4 id="slide-09---方法准备二凸函数与凸优化">Slide 09 - 方法准备二：凸函数与凸优化<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-09---方法准备二凸函数与凸优化" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“凸函数只是课本里的一个定义” → “明白凸性为什么能保证解是唯一的、可靠的”。</li>
+<li><strong>Relationships</strong>: 定义 → 性质 → 对本研究的意义，构成一条推导链（link）。</li>
+<li><strong>Composition</strong>: 上方一行定义与判别式，下方三行性质与意义。</li>
+<li><strong>Title</strong>: 方法准备二：凸函数与凸优化</li>
+<li><strong>Core message</strong>: 凸函数是指函数图像上任意两点连线都不低于图像本身；凸优化问题的局部最优就是全局最优，因此解唯一且可验证。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>定义：对任意两点与任意权重，都有 f(λx + (1−λ)y) ≤ λf(x) + (1−λ)f(y)，图像像一个碗</li>
+<li>判别：一元函数看二阶导数是否非负；多元函数看海森矩阵是否半正定</li>
+<li>性质一：局部最小值就是全局最小值，不会掉进“假的”低谷</li>
+<li>性质二：凸优化问题可以高效求解，主流工具箱都支持</li>
+<li>对本研究的意义：只要把目标函数写成凸形式，就不必再担心“解是不是唯一、是不是最好”</li>
+</ul>
+</li>
+<li><strong>Mathematical content</strong>: f(\lambda x + (1-\lambda) y) \le \lambda f(x) + (1-\lambda) f(y)</li>
+</ul>
+<h4 id="slide-10---方法准备三l1-为什么会产生稀疏解">Slide 10 - 方法准备三：L1 为什么会产生稀疏解<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-10---方法准备三l1-为什么会产生稀疏解" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“记住 L1 稀疏” → “能从惩罚函数的形状说出稀疏是怎么来的”。</li>
+<li><strong>Relationships</strong>: 两条曲线形状的对比（contrast）；折点与稀疏解之间的因果关系（link）。</li>
+<li><strong>Composition</strong>: 左侧放 L1 与 L2 惩罚函数的对比折线图，右侧放三点解释。</li>
+<li><strong>Title</strong>: 方法准备三：L1 为什么会产生稀疏解</li>
+<li><strong>Core message</strong>: |x| 在原点有一个尖折点，x² 在原点平缓；优化时最容易落在折点上，于是大量分量正好取零，这就是稀疏的来源。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>曲线形状：L2 的 x² 在原点光滑、越远涨得越快；L1 的 |x| 是一条折线，原点处出现折点</li>
+<li>折点效应：约束或正则项在原点有折点时，最优解往往正好落在折点上，对应分量取零</li>
+<li>几何直觉：L1 的等值线是菱形、L2 是圆；菱形有尖角，等高线通常先切到尖角而不是边</li>
+<li>结果：L1 让解变得稀疏，L2 只让解变小</li>
+<li>对应到本研究：稀疏的就是基线的差分，也就是“跳变”</li>
+</ul>
+</li>
+<li><strong>Visualization</strong>: penalty-shapes – 同一自变量下 L1 与 L2 惩罚函数的形状对比。</li>
+<li><strong>Native-ready</strong>: penalty-shapes=yes</li>
+</ul>
+<h4 id="slide-11---本文方法目标函数与它的物理含义">Slide 11 - 本文方法：目标函数与它的物理含义<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-11---本文方法目标函数与它的物理含义" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“看到一条公式” → “能逐项说出它管什么，并知道为什么解是阶梯状基线”。</li>
+<li><strong>Relationships</strong>: 拟合残差项与稀疏正则项之间的权衡（contrast）。</li>
+<li><strong>Composition</strong>: 中部一条目标函数公式，上方一行说明两个目标，下方两行说明参数与解的形状。</li>
+<li><strong>Title</strong>: 本文方法：目标函数与它的物理含义</li>
+<li><strong>Core message</strong>: 目标函数由“速度拟合残差”和“基线跳变的稀疏度”两项构成，正则项作用在基线的差分量上，所以解天然是阶梯状的分段恒定基线。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>第一项：用最小二乘拟合速度时程，让校正后的速度尽量平；b 是待拟合的速度，A 把基线映射到速度</li>
+<li>第二项：对基线的跳变取 L1 范数，让跳变尽可能少</li>
+<li>物理含义：解出来的基线是阶梯状的分段线性函数，分几段、在哪跳、跳多少，全部由优化自动决定</li>
+<li>正则化参数 λ：平衡两项的权重，本文取 1；作者在结论中也指出如何取合适的 λ 仍是一个难题</li>
+<li>与既有方法的联系：它相当于把 Boore 方法里“人工定分段”的那一步换成优化求解</li>
+</ul>
+</li>
+<li><strong>Mathematical content</strong>: \min_x f(x) = |Ax-b|_2 + \lambda |x|_1</li>
+</ul>
+<h4 id="slide-12---本文方法三条假设与对应的噪声模型">Slide 12 - 本文方法：三条假设与对应的噪声模型<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-12---本文方法三条假设与对应的噪声模型" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“只知道有公式” → “知道公式背后的三条假设，并能对应到具体的漂移形态”。</li>
+<li><strong>Relationships</strong>: 三条假设与图中三种噪声模型一一对应（membership）。</li>
+<li><strong>Composition</strong>: 上方三条假设横排，下方满栏宽放三种噪声模型示意图。</li>
+<li><strong>Title</strong>: 本文方法：三条假设与对应的噪声模型</li>
+<li><strong>Core message</strong>: 三条假设是漂移次数未知、漂移分段恒定、震后速度归零；图中单段式、两段式、多段式就是它们的典型形态。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>假设一：加速度基线的漂移是随机的，漂移次数无法事先确定</li>
+<li>假设二：某一时刻漂移发生突变，随后一段时间保持不变，即分段恒定的阶梯函数</li>
+<li>假设三：地震动结束后，速度应趋于零</li>
+<li>图注要点：单段式在强震动时段保持一个常量漂移，两段式在一次跳变后改变幅值，多段式出现多次跳变</li>
+<li>单位提示：文中把漂移幅值写作 m/s² 量级，按该领域惯例应为 gal（1 gal = 1 cm/s²）</li>
+</ul>
+</li>
+<li><strong>Images</strong>: xiong_fig01_noise.png 为论文给出的三种基线漂移噪声模型。</li>
+</ul>
+<h3 id="part-4-结论">Part 4: 结论<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-4-结论" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="slide-13---验证思路一份有标准答案的考卷">Slide 13 - 验证思路：一份有标准答案的考卷<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-13---验证思路一份有标准答案的考卷" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“不知道怎么判断方法准不准” → “看懂这套带标准答案的受控实验，以及三条记录为什么是关键对照”。</li>
+<li><strong>Relationships</strong>: 三条记录按事前部分长度构成单因素对照（contrast）。</li>
+<li><strong>Composition</strong>: 上部三条记录逐行排列，下部一行说明噪声与比对方式。</li>
+<li><strong>Title</strong>: 验证思路：一份有标准答案的考卷</li>
+<li><strong>Core message</strong>: 真实记录没有标准答案，所以作者在干净记录上人为加入已知漂移，再让算法把它找回来；三条记录的唯一变量是事前部分长度。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>数据：El Centro Array #9（1940 帝王谷，事前 0.04 s）、Bolu（1999 迪兹杰，事前 5.39 s）、TCU129（1999 集集，事前 20.65 s）</li>
+<li>噪声：分别加入单段式、两段式和多段式人工漂移，幅值已知</li>
+<li>比对：比较算法识别出的基线与已知噪声，再比较校正后的速度与位移</li>
+<li>设计意图：三条记录的事前部分被刻意拉开，用来单独考察“事前部分长度”这一个变量</li>
+</ul>
+</li>
+<li><strong>Mathematical content</strong>: \Delta g = g\theta</li>
+</ul>
+<h4 id="slide-14---结论一速度恢复稳健不受事前部分长度影响">Slide 14 - 结论一：速度恢复稳健，不受事前部分长度影响<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-14---结论一速度恢复稳健不受事前部分长度影响" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“以为漂移会同时毁掉速度和位移” → “记住速度稳、位移敏感这条分离结论”。</li>
+<li><strong>Relationships</strong>: 不同噪声模型下速度恢复结果的一致性（membership）；速度与位移对同一变量的不同敏感性（contrast）。</li>
+<li><strong>Composition</strong>: 上方满栏宽速度恢复图，下方三行结论与数字。</li>
+<li><strong>Title</strong>: 结论一：速度恢复稳健，不受事前部分长度影响</li>
+<li><strong>Core message</strong>: 即使在事前部分只有 0.04 s 的 El Centro 记录上，加入三类噪声后峰值速度都能恢复到约 3% 的误差以内。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>原始记录 PGV 为 −29.66 cm/s</li>
+<li>加入单段式、两段式、多段式噪声后，恢复值分别为 −30.66、−30.66、−30.53 cm/s</li>
+<li>误差约 1 cm/s，折算约 3%</li>
+<li>结论：无论事前部分是否充足，该方法都能很好地恢复峰值速度和整体速度时程</li>
+</ul>
+</li>
+<li><strong>Images</strong>: xiong_fig07_velocity.png 为 El Centro 台 NS 向记录在三种噪声模型下的速度恢复结果。</li>
+</ul>
+<h4 id="slide-15---结论二位移恢复取决于事前部分长度">Slide 15 - 结论二：位移恢复取决于事前部分长度<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-15---结论二位移恢复取决于事前部分长度" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“以为方法精度是个固定值” → “明白精度由事前部分长度决定，并记住三档误差”。</li>
+<li><strong>Relationships</strong>: 三条记录的识别误差按事前部分长度递增排列（order）；误差与事前部分长度呈反向对应（contrast）。</li>
+<li><strong>Composition</strong>: 上部一行结论句，下部三行数据表。</li>
+<li><strong>Title</strong>: 结论二：位移恢复取决于事前部分长度</li>
+<li><strong>Core message</strong>: 事前部分 20.65 s 时识别误差小于 0.1 gal，事前部分 0.04 s 时升到约 1.39 gal，并且会在初始段把记录拉向零线。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>TCU129（事前 20.65 s）：识别出的漂移与真值几乎完全重合，误差小于 0.1 gal</li>
+<li>Bolu（事前 5.39 s）：误差约 1.17 gal</li>
+<li>El Centro（事前 0.04 s）：误差约 1.39 gal，且算法会把初始段拉向零线，连带带走一部分真实信号</li>
+<li>机理：事前部分越短，前期累积的积分误差越容易混进拟合速度，把结果拉偏</li>
+<li>提醒：事前部分过短时，“拉向零线”是系统性的副作用，垂直分量尤其要小心</li>
+</ul>
+</li>
+<li><strong>Visualization</strong>: result-summary – 三条记录的事前部分长度与识别误差、峰值速度恢复结果对照表。</li>
+<li><strong>Native-ready</strong>: result-summary=yes</li>
+</ul>
+<h4 id="slide-16---结论三参数与代价">Slide 16 - 结论三：参数与代价<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-16---结论三参数与代价" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“记住了方法和数字” → “带走两条限定：λ 如何取值尚未解决，且任何校正都会压低位移幅值”。</li>
+<li><strong>Relationships</strong>: 一条开放问题与一条固有代价并列（membership）。</li>
+<li><strong>Composition</strong>: 上半页讲参数问题，下半页讲固有代价，中间用发丝线分隔。</li>
+<li><strong>Title</strong>: 结论三：参数与代价</li>
+<li><strong>Core message</strong>: 作者明确指出正则化参数 λ 的取值仍是一个难题；同时，基线校正本身会压制地震信号，使校正得到的位移幅值小于真值。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>开放问题：λ 是模型相关的超参数，不同取值会直接改变结果，如何获取合适的值一直是个难题</li>
+<li>复现提示：两项量纲并不统一，换数据或改采样间隔后等效的 λ 会漂移，需要做敏感性检查</li>
+<li>固有代价：任何基线校正方法都不可避免地会压制地震信号，使校正得到的位移幅值小于真值</li>
+<li>用法：把校正后的位移当作系统性偏小的下限，而不是绝对真值</li>
+<li>对三分量的提醒：垂直分量存在真实沉降，不能套用“把初始段拉回零线”的策略</li>
+</ul>
+</li>
+</ul>
+<h4 id="slide-17---我的理解与下一步">Slide 17 - 我的理解与下一步<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-17---我的理解与下一步" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Closing impact</strong>: 绑定结论“先把凸函数与 L1 范数学扎实，再动手复现，最后处理三分量”；composition Reference：左侧三步计划纵向排列，右下放工程应用前景图与讨论问题。</li>
+<li><strong>Audience move</strong>: 从“听完一项研究” → “看到一条可以动手的学习路径，并愿意就其中一步讨论”。</li>
+<li><strong>Relationships</strong>: 三步计划按时间先后排列（order）；与工程应用前景之间是目的关系（link）。</li>
+<li><strong>Composition</strong>: 左栏三步计划，右下放永久位移场应用图，底部一行讨论问题。</li>
+<li><strong>Title</strong>: 我的理解与下一步</li>
+<li><strong>Core message</strong>: 顺着这项研究往下走，最短的一条路是“先补凸函数与 L1 范数的数学，再复现单分量，最后处理三分量”。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>第一步 · 补数学：掌握凸集与凸函数、范数与稀疏性、LASSO 与凸优化求解器的基本用法</li>
+<li>第二步 · 复现：用 CVXPY 实现目标函数，在 TCU129 上复现“误差小于 0.1 gal”，并测试 λ 变化对结果的影响</li>
+<li>第三步 · 扩展：把 EW/NS/UD 三分量差分堆叠，用组稀疏让水平两轴的跳变时刻尽量共享，并设计公平的合成实验对比两种方案</li>
+<li>评价指标：同时报告 PGD 误差、永久位移误差与位移矢量末端的三维距离，不再只看相关系数</li>
+<li>讨论问题：水平两轴的跳变时刻应该共享还是各自独立？垂直分量是否必须区别对待？</li>
+</ul>
+</li>
+<li><strong>Images</strong>: xie_fig07_disp_gps.png 展示汶川近断层水平永久位移场与 GPS 对比，说明这类方法的用武之地。</li>
+</ul>
+<h4 id="slide-18---小结与讨论">Slide 18 - 小结与讨论<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#slide-18---小结与讨论" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li><strong>Audience move</strong>: 从“听完四个部分” → “能用一句话复述这项研究的内容、背景、方法与结论，并带着问题离场”。</li>
+<li><strong>Relationships</strong>: 四个部分回溯成一句话（order）。</li>
+<li><strong>Composition</strong>: 四行结构居中偏左，底部留讨论问题。</li>
+<li><strong>Title</strong>: 小结与讨论</li>
+<li><strong>Core message</strong>: 这项研究要解决的是“基线漂移无人为判断地自动识别”；它靠 L1 范数正则化把问题变成凸优化；代价是结果依赖事前部分长度，且位移幅值会被系统性压低。</li>
+<li><strong>Content</strong>:
+<ul>
+<li>研究内容：近断层强震记录的基线漂移识别，核心概念是两次积分、PGV/PGD 与事前部分</li>
+<li>研究背景：滤波保不住永久位移，分段校正又卡在人工定分段</li>
+<li>方法：以 L1 范数正则化构造凸优化目标函数，用 L1 的稀疏性自动定出漂移的分段与时刻</li>
+<li>结论：速度恢复稳健；位移恢复随事前部分长度改善；λ 的取值与幅值压制是两点限定</li>
+<li>讨论：三分量联合处理是否值得？垂直分量应如何处理？</li>
+</ul>
+</li>
+</ul>
+<h2 id="x-speaker-notes-requirements">X. Speaker Notes Requirements<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#x-speaker-notes-requirements" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Generation</strong>: enabled</li>
+<li><strong>Filename</strong>: match each SVG filename under <code>notes/</code></li>
+<li><strong>Content</strong>: 每页备注给出该页的口头讲解要点、被页面省略的推导与数值细节、以及向下一页的过渡句；只引用中文文献（熊政辉等 2019、张斌与俞言祥 2022、谢俊举等 2013）与其中的数据，不引入英文文献，不涉及计算机视觉验证。涉及凸函数与 L1 范数的页面按“我正好在学”的口吻做简要科普。</li>
+<li><strong>Total duration</strong>: 约 15 分钟，18 页平均每页 45–55 秒</li>
+<li><strong>Notes style</strong>: 正式但口语化，按页讲述，关键数字明确读出</li>
+<li><strong>Presentation purpose</strong>: 按“研究内容 → 研究背景 → 方法 → 结论”讲清这项研究，并把凸函数与 L1 范数的相关概念一并讲明白。</li>
+</ul></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>关系图谱</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-3" aria-expanded="true"><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#l1-norm-baseline-correction-report---design-spec" data-for="l1-norm-baseline-correction-report---design-spec">L1 Norm Baseline Correction Report - Design Spec</a></li><li class="depth-1"><a href="#i-project-information" data-for="i-project-information">I. Project Information</a></li><li class="depth-1"><a href="#ii-canvas-specification" data-for="ii-canvas-specification">II. Canvas Specification</a></li><li class="depth-1"><a href="#iii-visual-theme" data-for="iii-visual-theme">III. Visual Theme</a></li><li class="depth-2"><a href="#theme-style" data-for="theme-style">Theme Style</a></li><li class="depth-2"><a href="#color-scheme" data-for="color-scheme">Color Scheme</a></li><li class="depth-1"><a href="#iv-typography-system" data-for="iv-typography-system">IV. Typography System</a></li><li class="depth-2"><a href="#font-plan" data-for="font-plan">Font Plan</a></li><li class="depth-2"><a href="#font-size-hierarchy" data-for="font-size-hierarchy">Font Size Hierarchy</a></li><li class="depth-1"><a href="#v-layout-principles" data-for="v-layout-principles">V. Layout Principles</a></li><li class="depth-2"><a href="#deck-wide-direction" data-for="deck-wide-direction">Deck-wide Direction</a></li><li class="depth-1"><a href="#vi-icon-usage-specification" data-for="vi-icon-usage-specification">VI. Icon Usage Specification</a></li><li class="depth-1"><a href="#vii-visualization-reference-list" data-for="vii-visualization-reference-list">VII. Visualization Reference List</a></li><li class="depth-1"><a href="#viii-image-resource-list" data-for="viii-image-resource-list">VIII. Image Resource List</a></li><li class="depth-1"><a href="#ix-content-outline" data-for="ix-content-outline">IX. Content Outline</a></li><li class="depth-2"><a href="#part-1-研究内容问题与核心概念" data-for="part-1-研究内容问题与核心概念">Part 1: 研究内容（问题与核心概念）</a></li><li class="depth-2"><a href="#part-2-研究背景" data-for="part-2-研究背景">Part 2: 研究背景</a></li><li class="depth-2"><a href="#part-3-方法l1-范数凸函数与稀疏性" data-for="part-3-方法l1-范数凸函数与稀疏性">Part 3: 方法（L1 范数、凸函数与稀疏性）</a></li><li class="depth-2"><a href="#part-4-结论" data-for="part-4-结论">Part 4: 结论</a></li><li class="depth-1"><a href="#x-speaker-notes-requirements" data-for="x-speaker-notes-requirements">X. Speaker Notes Requirements</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-0" class="overflow"><li><a href="../../l1范数/00-l1范数索引" class="internal">L1范数 · 研究专题索引</a></li><li><a href="../../" class="internal">首页</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/wly63227/obsidian-vault">GitHub 仓库</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-551b937a.js" type="module" data-persist="true"></script></html>

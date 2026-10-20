@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Dong, Sheng
+AU  - Li, Zhengbo
+AU  - Hu, Feng
+AU  - Yu, Zhenjiang
+AU  - Chen, Xiaofei
+TI  - TraceNet: An Effective Deep-Learning-Based Method for Baseline Correction of Near-Field Acceleration Records
+JO  - Seismological Research Letters
+T2  - Seismological Research Letters
+PY  - 2023
+DO  - 10.1785/0220220272
+UR  - https://doi.org/10.1785/0220220272
+N2  - AbstractIn strong ground-motion observations, accelerograms are an important material in both seismic research and earthquake engineering. However, the ubiquitous baseline drift in near-field acceleration records has a large impact on the integrated velocity and double-integrated displacement with linear and parabolic drift, respectively. Conventionally, high-pass filtering and two-stage baseline fitting methods are commonly applied in baseline corrections to obtain reliable strong-motion record
+DB  - CrossRef
+ER  - 

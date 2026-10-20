@@ -1,0 +1,85 @@
+[
+  {
+    "figure": "fig01",
+    "page": 5,
+    "caption": "图1本文采用的典型加速度基线漂移噪声模型（修改自Akkar，Boore，2009）",
+    "bbox": [
+      30.0,
+      489.8,
+      236.6,
+      529.8
+    ],
+    "crop_path": "assets/figures/fig01_p05.png",
+    "page_render": "assets/pages/p05.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig02",
+    "page": 7,
+    "caption": null,
+    "bbox": null,
+    "crop_path": null,
+    "page_render": "assets/pages/p07.png",
+    "confidence": "missing"
+  },
+  {
+    "figure": "fig03",
+    "page": 8,
+    "caption": "图3ElCentro台南北向初始部分记录处理结果图4本文方法所识别的ElCentro台南北向记录与",
+    "bbox": [
+      30.0,
+      176.0,
+      236.6,
+      216.0
+    ],
+    "crop_path": "assets/figures/fig03_p08.png",
+    "page_render": "assets/pages/p08.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig04",
+    "page": 8,
+    "caption": "图3ElCentro台南北向初始部分记录处理结果图4本文方法所识别的ElCentro台南北向记录与",
+    "bbox": [
+      30.0,
+      176.0,
+      236.6,
+      216.0
+    ],
+    "crop_path": "assets/figures/fig04_p08.png",
+    "page_render": "assets/pages/p08.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig05",
+    "page": 9,
+    "caption": null,
+    "bbox": null,
+    "crop_path": null,
+    "page_render": "assets/pages/p09.png",
+    "confidence": "missing"
+  },
+  {
+    "figure": "fig06",
+    "page": 10,
+    "caption": null,
+    "bbox": null,
+    "crop_path": null,
+    "page_render": "assets/pages/p10.png",
+    "confidence": "missing"
+  },
+  {
+    "figure": "fig07",
+    "page": 11,
+    "caption": "图7利用本文方法对加入不同噪声模型后的ElCentro台NS向记录进行恢复的结果",
+    "bbox": [
+      30.0,
+      220.2,
+      236.6,
+      260.2
+    ],
+    "crop_path": "assets/figures/fig07_p11.png",
+    "page_render": "assets/pages/p11.png",
+    "confidence": "approximate"
+  }
+]

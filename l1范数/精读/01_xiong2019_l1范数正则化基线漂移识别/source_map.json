@@ -1,0 +1,432 @@
+{
+  "paper": {
+    "title": "基于 L1 范数正则化的强震动加速度记录基线漂移识别方法 — 逐节精读",
+    "venue": "",
+    "source_type": "pdf",
+    "language": "zh",
+    "source_path": "C:\\Users\\15512\\Desktop\\l1范数\\精读\\01_Xiong2019_L1范数正则化基线漂移识别\\paper.md"
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 1,
+      "type": "paragraph",
+      "order": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "S002",
+      "page": 1,
+      "type": "paragraph",
+      "order": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "S003",
+      "page": 2,
+      "type": "paragraph",
+      "order": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "S004",
+      "page": 2,
+      "type": "paragraph",
+      "order": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "S005",
+      "page": 3,
+      "type": "paragraph",
+      "order": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "S006",
+      "page": 3,
+      "type": "paragraph",
+      "order": 6,
+      "confidence": "high"
+    },
+    {
+      "id": "S007",
+      "page": 3,
+      "type": "paragraph",
+      "order": 7,
+      "confidence": "high"
+    },
+    {
+      "id": "S008",
+      "page": 3,
+      "type": "paragraph",
+      "order": 8,
+      "confidence": "high"
+    },
+    {
+      "id": "S009",
+      "page": 3,
+      "type": "paragraph",
+      "order": 9,
+      "confidence": "high"
+    },
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 10,
+      "confidence": "high",
+      "latex": "\\min_x f(x) = \\|Ax-b\\|_2 + \\lambda\\|x\\|_1",
+      "image_path": null
+    },
+    {
+      "id": "S010",
+      "page": 4,
+      "type": "paragraph",
+      "order": 11,
+      "confidence": "high"
+    },
+    {
+      "id": "S011",
+      "page": 4,
+      "type": "paragraph",
+      "order": 12,
+      "confidence": "high"
+    },
+    {
+      "id": "S012",
+      "page": 4,
+      "type": "paragraph",
+      "order": 13,
+      "confidence": "high"
+    },
+    {
+      "id": "T001",
+      "page": 5,
+      "type": "table",
+      "order": 14,
+      "confidence": "high"
+    },
+    {
+      "id": "S013",
+      "page": 5,
+      "type": "paragraph",
+      "order": 15,
+      "confidence": "high"
+    },
+    {
+      "id": "F001",
+      "page": 5,
+      "type": "figure",
+      "order": 16,
+      "confidence": "high",
+      "image_path": "assets/figures/fig01_p05.png",
+      "caption_id": null
+    },
+    {
+      "id": "S014",
+      "page": 6,
+      "type": "paragraph",
+      "order": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "F002",
+      "page": 7,
+      "type": "figure",
+      "order": 18,
+      "confidence": "high",
+      "image_path": "assets/pages/p07.png",
+      "caption_id": null
+    },
+    {
+      "id": "S015",
+      "page": 6,
+      "type": "paragraph",
+      "order": 19,
+      "confidence": "high"
+    },
+    {
+      "id": "S016",
+      "page": 6,
+      "type": "paragraph",
+      "order": 20,
+      "confidence": "high"
+    },
+    {
+      "id": "S017",
+      "page": 6,
+      "type": "paragraph",
+      "order": 21,
+      "confidence": "high"
+    },
+    {
+      "id": "S018",
+      "page": 8,
+      "type": "paragraph",
+      "order": 22,
+      "confidence": "high"
+    },
+    {
+      "id": "S019",
+      "page": 8,
+      "type": "paragraph",
+      "order": 23,
+      "confidence": "high"
+    },
+    {
+      "id": "S020",
+      "page": 8,
+      "type": "paragraph",
+      "order": 24,
+      "confidence": "high"
+    },
+    {
+      "id": "F003",
+      "page": 8,
+      "type": "figure",
+      "order": 25,
+      "confidence": "high",
+      "image_path": "assets/figures/fig03_p08.png",
+      "caption_id": null
+    },
+    {
+      "id": "F004",
+      "page": 8,
+      "type": "figure",
+      "order": 26,
+      "confidence": "high",
+      "image_path": "assets/figures/fig04_p08.png",
+      "caption_id": null
+    },
+    {
+      "id": "F005",
+      "page": 9,
+      "type": "figure",
+      "order": 27,
+      "confidence": "high",
+      "image_path": "assets/pages/p09.png",
+      "caption_id": null
+    },
+    {
+      "id": "F006",
+      "page": 10,
+      "type": "figure",
+      "order": 28,
+      "confidence": "high",
+      "image_path": "assets/pages/p10.png",
+      "caption_id": null
+    },
+    {
+      "id": "F007",
+      "page": 11,
+      "type": "figure",
+      "order": 29,
+      "confidence": "high",
+      "image_path": "assets/figures/fig07_p11.png",
+      "caption_id": null
+    },
+    {
+      "id": "S021",
+      "page": 11,
+      "type": "paragraph",
+      "order": 30,
+      "confidence": "high"
+    },
+    {
+      "id": "S022",
+      "page": 11,
+      "type": "paragraph",
+      "order": 31,
+      "confidence": "high"
+    },
+    {
+      "id": "S023",
+      "page": 11,
+      "type": "paragraph",
+      "order": 32,
+      "confidence": "high"
+    },
+    {
+      "id": "S024",
+      "page": 11,
+      "type": "paragraph",
+      "order": 33,
+      "confidence": "high"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "block_ids": [
+        "S001",
+        "S002"
+      ]
+    },
+    {
+      "page": 2,
+      "block_ids": [
+        "S003",
+        "S004"
+      ]
+    },
+    {
+      "page": 3,
+      "block_ids": [
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009"
+      ]
+    },
+    {
+      "page": 4,
+      "block_ids": [
+        "E001",
+        "S010",
+        "S011",
+        "S012"
+      ]
+    },
+    {
+      "page": 5,
+      "block_ids": [
+        "T001",
+        "S013",
+        "F001"
+      ]
+    },
+    {
+      "page": 6,
+      "block_ids": [
+        "S014",
+        "S015",
+        "S016",
+        "S017"
+      ]
+    },
+    {
+      "page": 7,
+      "block_ids": [
+        "F002"
+      ]
+    },
+    {
+      "page": 8,
+      "block_ids": [
+        "S018",
+        "S019",
+        "S020",
+        "F003",
+        "F004"
+      ]
+    },
+    {
+      "page": 9,
+      "block_ids": [
+        "F005"
+      ]
+    },
+    {
+      "page": 10,
+      "block_ids": [
+        "F006"
+      ]
+    },
+    {
+      "page": 11,
+      "block_ids": [
+        "F007",
+        "S021",
+        "S022",
+        "S023",
+        "S024"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 5,
+      "caption_id": null,
+      "image_path": "assets/figures/fig01_p05.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F001"
+    },
+    {
+      "id": "F002",
+      "page": 7,
+      "caption_id": null,
+      "image_path": "assets/pages/p07.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F002"
+    },
+    {
+      "id": "F003",
+      "page": 8,
+      "caption_id": null,
+      "image_path": "assets/figures/fig03_p08.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F003"
+    },
+    {
+      "id": "F004",
+      "page": 8,
+      "caption_id": null,
+      "image_path": "assets/figures/fig04_p08.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F004"
+    },
+    {
+      "id": "F005",
+      "page": 9,
+      "caption_id": null,
+      "image_path": "assets/pages/p09.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F005"
+    },
+    {
+      "id": "F006",
+      "page": 10,
+      "caption_id": null,
+      "image_path": "assets/pages/p10.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F006"
+    },
+    {
+      "id": "F007",
+      "page": 11,
+      "caption_id": null,
+      "image_path": "assets/figures/fig07_p11.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F007"
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 10,
+      "confidence": "high",
+      "latex": "\\min_x f(x) = \\|Ax-b\\|_2 + \\lambda\\|x\\|_1",
+      "image_path": null
+    }
+  ],
+  "glossary": []
+}

@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Trifunac, Mihailo D.
+TI  - Zero baseline correction of strong-motion accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1971
+VL  - 61
+IS  - 5
+SP  - 1201
+EP  - 1211
+DO  - 10.1785/bssa0610051201
+UR  - https://doi.org/10.1785/bssa0610051201
+N2  - abstract A new method is proposed for standard baseline correction of strong-motion accelerograms. It is based on high-pass filtering of the uncorrected digitized accelerogram data. Unlike the parabolic baseline correction, the new method has well-defined frequency transfer function properties which are largely independent of the record length.
+DB  - CrossRef
+ER  - 

@@ -1,0 +1,705 @@
+{
+  "paper": {
+    "title": "Baseline correction based on L1-Norm optimization and its verification by a computer vision method — 中英对照精读",
+    "venue": "",
+    "source_type": "pdf",
+    "language": "zh-en",
+    "source_path": "C:\\Users\\15512\\Desktop\\l1范数\\精读\\03_Dai2020_SDEE_L1优化与视觉验证\\paper.md"
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 1,
+      "type": "paragraph",
+      "order": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "S002",
+      "page": 1,
+      "type": "paragraph",
+      "order": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "S003",
+      "page": 1,
+      "type": "paragraph",
+      "order": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "S004",
+      "page": 1,
+      "type": "paragraph",
+      "order": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "S005",
+      "page": 1,
+      "type": "paragraph",
+      "order": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "S006",
+      "page": 1,
+      "type": "paragraph",
+      "order": 6,
+      "confidence": "high"
+    },
+    {
+      "id": "S007",
+      "page": 2,
+      "type": "paragraph",
+      "order": 7,
+      "confidence": "high"
+    },
+    {
+      "id": "S008",
+      "page": 2,
+      "type": "paragraph",
+      "order": 8,
+      "confidence": "high"
+    },
+    {
+      "id": "S009",
+      "page": 2,
+      "type": "paragraph",
+      "order": 9,
+      "confidence": "high"
+    },
+    {
+      "id": "S010",
+      "page": 2,
+      "type": "paragraph",
+      "order": 10,
+      "confidence": "high"
+    },
+    {
+      "id": "S011",
+      "page": 2,
+      "type": "paragraph",
+      "order": 11,
+      "confidence": "high"
+    },
+    {
+      "id": "S012",
+      "page": 2,
+      "type": "paragraph",
+      "order": 12,
+      "confidence": "high"
+    },
+    {
+      "id": "S013",
+      "page": 2,
+      "type": "paragraph",
+      "order": 13,
+      "confidence": "high"
+    },
+    {
+      "id": "S014",
+      "page": 2,
+      "type": "paragraph",
+      "order": 14,
+      "confidence": "high"
+    },
+    {
+      "id": "S015",
+      "page": 2,
+      "type": "paragraph",
+      "order": 15,
+      "confidence": "high"
+    },
+    {
+      "id": "S016",
+      "page": 2,
+      "type": "paragraph",
+      "order": 16,
+      "confidence": "high"
+    },
+    {
+      "id": "S017",
+      "page": 2,
+      "type": "paragraph",
+      "order": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "S018",
+      "page": 2,
+      "type": "paragraph",
+      "order": 18,
+      "confidence": "high"
+    },
+    {
+      "id": "S019",
+      "page": 2,
+      "type": "paragraph",
+      "order": 19,
+      "confidence": "high"
+    },
+    {
+      "id": "E001",
+      "page": 2,
+      "type": "equation",
+      "order": 20,
+      "confidence": "high",
+      "latex": "y_i = x_{i+1} - x_i",
+      "image_path": null
+    },
+    {
+      "id": "S020",
+      "page": 2,
+      "type": "paragraph",
+      "order": 21,
+      "confidence": "high"
+    },
+    {
+      "id": "E002",
+      "page": 2,
+      "type": "equation",
+      "order": 22,
+      "confidence": "high",
+      "latex": "\\min_x f(x) = \\|Ax-b\\|_2 + \\lambda\\|y\\|_1",
+      "image_path": null
+    },
+    {
+      "id": "S021",
+      "page": 3,
+      "type": "paragraph",
+      "order": 23,
+      "confidence": "high"
+    },
+    {
+      "id": "S022",
+      "page": 3,
+      "type": "paragraph",
+      "order": 24,
+      "confidence": "high"
+    },
+    {
+      "id": "F001",
+      "page": 3,
+      "type": "figure",
+      "order": 25,
+      "confidence": "high",
+      "image_path": "assets/figures/fig01_p03.png",
+      "caption_id": null
+    },
+    {
+      "id": "S023",
+      "page": 3,
+      "type": "paragraph",
+      "order": 26,
+      "confidence": "high"
+    },
+    {
+      "id": "S024",
+      "page": 3,
+      "type": "paragraph",
+      "order": 27,
+      "confidence": "high"
+    },
+    {
+      "id": "S025",
+      "page": 3,
+      "type": "paragraph",
+      "order": 28,
+      "confidence": "high"
+    },
+    {
+      "id": "S026",
+      "page": 3,
+      "type": "paragraph",
+      "order": 29,
+      "confidence": "high"
+    },
+    {
+      "id": "F002",
+      "page": 4,
+      "type": "figure",
+      "order": 30,
+      "confidence": "high",
+      "image_path": "assets/figures/fig02_p04.png",
+      "caption_id": null
+    },
+    {
+      "id": "S027",
+      "page": 3,
+      "type": "paragraph",
+      "order": 31,
+      "confidence": "high"
+    },
+    {
+      "id": "S028",
+      "page": 3,
+      "type": "paragraph",
+      "order": 32,
+      "confidence": "high"
+    },
+    {
+      "id": "F003",
+      "page": 4,
+      "type": "figure",
+      "order": 33,
+      "confidence": "high",
+      "image_path": "assets/figures/fig03_p04.png",
+      "caption_id": null
+    },
+    {
+      "id": "S029",
+      "page": 3,
+      "type": "paragraph",
+      "order": 34,
+      "confidence": "high"
+    },
+    {
+      "id": "S030",
+      "page": 4,
+      "type": "paragraph",
+      "order": 35,
+      "confidence": "high"
+    },
+    {
+      "id": "S031",
+      "page": 4,
+      "type": "paragraph",
+      "order": 36,
+      "confidence": "high"
+    },
+    {
+      "id": "F004",
+      "page": 5,
+      "type": "figure",
+      "order": 37,
+      "confidence": "high",
+      "image_path": "assets/figures/fig04_p05.png",
+      "caption_id": null
+    },
+    {
+      "id": "S032",
+      "page": 4,
+      "type": "paragraph",
+      "order": 38,
+      "confidence": "high"
+    },
+    {
+      "id": "S033",
+      "page": 5,
+      "type": "paragraph",
+      "order": 39,
+      "confidence": "high"
+    },
+    {
+      "id": "F005",
+      "page": 5,
+      "type": "figure",
+      "order": 40,
+      "confidence": "high",
+      "image_path": "assets/figures/fig05_p05.png",
+      "caption_id": null
+    },
+    {
+      "id": "S034",
+      "page": 5,
+      "type": "paragraph",
+      "order": 41,
+      "confidence": "high"
+    },
+    {
+      "id": "S035",
+      "page": 6,
+      "type": "paragraph",
+      "order": 42,
+      "confidence": "high"
+    },
+    {
+      "id": "S036",
+      "page": 6,
+      "type": "paragraph",
+      "order": 43,
+      "confidence": "high"
+    },
+    {
+      "id": "S037",
+      "page": 6,
+      "type": "paragraph",
+      "order": 44,
+      "confidence": "high"
+    },
+    {
+      "id": "F006",
+      "page": 6,
+      "type": "figure",
+      "order": 45,
+      "confidence": "high",
+      "image_path": "assets/figures/fig06_p06.png",
+      "caption_id": null
+    },
+    {
+      "id": "S038",
+      "page": 6,
+      "type": "paragraph",
+      "order": 46,
+      "confidence": "high"
+    },
+    {
+      "id": "F007",
+      "page": 6,
+      "type": "figure",
+      "order": 47,
+      "confidence": "high",
+      "image_path": "assets/figures/fig07_p06.png",
+      "caption_id": null
+    },
+    {
+      "id": "S039",
+      "page": 6,
+      "type": "paragraph",
+      "order": 48,
+      "confidence": "high"
+    },
+    {
+      "id": "S040",
+      "page": 8,
+      "type": "paragraph",
+      "order": 49,
+      "confidence": "high"
+    },
+    {
+      "id": "F008",
+      "page": 7,
+      "type": "figure",
+      "order": 50,
+      "confidence": "high",
+      "image_path": "assets/figures/fig08_p07.png",
+      "caption_id": null
+    },
+    {
+      "id": "S041",
+      "page": 8,
+      "type": "paragraph",
+      "order": 51,
+      "confidence": "high"
+    },
+    {
+      "id": "F009",
+      "page": 7,
+      "type": "figure",
+      "order": 52,
+      "confidence": "high",
+      "image_path": "assets/figures/fig09_p07.png",
+      "caption_id": null
+    },
+    {
+      "id": "S042",
+      "page": 8,
+      "type": "paragraph",
+      "order": 53,
+      "confidence": "high"
+    },
+    {
+      "id": "F010",
+      "page": 7,
+      "type": "figure",
+      "order": 54,
+      "confidence": "high",
+      "image_path": "assets/figures/fig10_p07.png",
+      "caption_id": null
+    },
+    {
+      "id": "S043",
+      "page": 8,
+      "type": "paragraph",
+      "order": 55,
+      "confidence": "high"
+    },
+    {
+      "id": "F011",
+      "page": 8,
+      "type": "figure",
+      "order": 56,
+      "confidence": "high",
+      "image_path": "assets/figures/fig11_p08.png",
+      "caption_id": null
+    },
+    {
+      "id": "S044",
+      "page": 8,
+      "type": "paragraph",
+      "order": 57,
+      "confidence": "high"
+    },
+    {
+      "id": "S045",
+      "page": 8,
+      "type": "paragraph",
+      "order": 58,
+      "confidence": "high"
+    },
+    {
+      "id": "S046",
+      "page": 8,
+      "type": "paragraph",
+      "order": 59,
+      "confidence": "high"
+    },
+    {
+      "id": "S047",
+      "page": 9,
+      "type": "paragraph",
+      "order": 60,
+      "confidence": "high"
+    },
+    {
+      "id": "S048",
+      "page": 9,
+      "type": "paragraph",
+      "order": 61,
+      "confidence": "high"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "block_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006"
+      ]
+    },
+    {
+      "page": 2,
+      "block_ids": [
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "E001",
+        "S020",
+        "E002"
+      ]
+    },
+    {
+      "page": 3,
+      "block_ids": [
+        "S021",
+        "S022",
+        "F001",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029"
+      ]
+    },
+    {
+      "page": 4,
+      "block_ids": [
+        "F002",
+        "F003",
+        "S030",
+        "S031",
+        "S032"
+      ]
+    },
+    {
+      "page": 5,
+      "block_ids": [
+        "F004",
+        "S033",
+        "F005",
+        "S034"
+      ]
+    },
+    {
+      "page": 6,
+      "block_ids": [
+        "S035",
+        "S036",
+        "S037",
+        "F006",
+        "S038",
+        "F007",
+        "S039"
+      ]
+    },
+    {
+      "page": 7,
+      "block_ids": [
+        "F008",
+        "F009",
+        "F010"
+      ]
+    },
+    {
+      "page": 8,
+      "block_ids": [
+        "S040",
+        "S041",
+        "S042",
+        "S043",
+        "F011",
+        "S044",
+        "S045",
+        "S046"
+      ]
+    },
+    {
+      "page": 9,
+      "block_ids": [
+        "S047",
+        "S048"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 3,
+      "caption_id": null,
+      "image_path": "assets/figures/fig01_p03.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F001"
+    },
+    {
+      "id": "F002",
+      "page": 4,
+      "caption_id": null,
+      "image_path": "assets/figures/fig02_p04.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F002"
+    },
+    {
+      "id": "F003",
+      "page": 4,
+      "caption_id": null,
+      "image_path": "assets/figures/fig03_p04.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F003"
+    },
+    {
+      "id": "F004",
+      "page": 5,
+      "caption_id": null,
+      "image_path": "assets/figures/fig04_p05.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F004"
+    },
+    {
+      "id": "F005",
+      "page": 5,
+      "caption_id": null,
+      "image_path": "assets/figures/fig05_p05.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F005"
+    },
+    {
+      "id": "F006",
+      "page": 6,
+      "caption_id": null,
+      "image_path": "assets/figures/fig06_p06.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F006"
+    },
+    {
+      "id": "F007",
+      "page": 6,
+      "caption_id": null,
+      "image_path": "assets/figures/fig07_p06.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F007"
+    },
+    {
+      "id": "F008",
+      "page": 7,
+      "caption_id": null,
+      "image_path": "assets/figures/fig08_p07.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F008"
+    },
+    {
+      "id": "F009",
+      "page": 7,
+      "caption_id": null,
+      "image_path": "assets/figures/fig09_p07.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F009"
+    },
+    {
+      "id": "F010",
+      "page": 7,
+      "caption_id": null,
+      "image_path": "assets/figures/fig10_p07.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F010"
+    },
+    {
+      "id": "F011",
+      "page": 8,
+      "caption_id": null,
+      "image_path": "assets/figures/fig11_p08.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F011"
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 2,
+      "type": "equation",
+      "order": 20,
+      "confidence": "high",
+      "latex": "y_i = x_{i+1} - x_i",
+      "image_path": null
+    },
+    {
+      "id": "E002",
+      "page": 2,
+      "type": "equation",
+      "order": 22,
+      "confidence": "high",
+      "latex": "\\min_x f(x) = \\|Ax-b\\|_2 + \\lambda\\|y\\|_1",
+      "image_path": null
+    }
+  ],
+  "glossary": []
+}

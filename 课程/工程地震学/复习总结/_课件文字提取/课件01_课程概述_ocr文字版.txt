@@ -1,0 +1,1812 @@
+===== PAGE 1 =====
+工 程 地 震 学
+《 工 程 地 震 学 》
+Engineering Seism010gy
+2025 年 9 月 7 日
+中 国 科 学 院 大 学 ： 章 文 波
+email: wenbo@ucas.ac.cn
+课 程 简 介
+Engineering Seism010gy
+本 课 程 为 固 体 地 球 物 理 学 地 震 学 专 业 研 宄 生 的 专
+业 核 心 课 。 课 程 基 于 地 震 学 、 地 震 地 质 学 、 抗 震 工 程
+学 等 研 宄 领 域 里 的 理 论 与 方 法 ， 系 统 地 阐 述 工 程 地 震
+学 的 基 本 原 理 及 其 在 工 程 建 设 中 的 应 用 ， 主 要 以 减 轻
+地 震 灾 害 为 目 的 ， 《 授 地 震 对 工 程 抗 震 设 计 与 建 设 的
+影 响 。
+通 过 本 课 程 的 学 习 ， 使 学 生 掌 握 对 工 程 场 地 可 能
+遭 受 地 震 的 破 坏 作 用 做 出 科 学 定 量 预 测 的 理 论 ， 掌 握
+为 各 类 工 程 结 构 抗 震 设 计 提 供 合 理 的 她 靂 动 输 入
+的 分 析 与 计 算 方 法 ， 以 期 在 进 一 步 深 造 和 工 作 中 ， 为
+直 接 服 务 工 程 的 抗 震 设 计 与 建 设 打 下 坚 实 的 基 础 。
+===== PAGE 2 =====
+带 着 问 题 来 听 课
+今 天 ：
+为 什 么 选 修 《 工 程 地 震 学 》 ？
+THE TRANS-ALASKA 0 《 L PIPELINE SURVIVES THE QUAKE
+—A TRIUMPH OF SCIENCE AND ENGINEERING
+Érom. pubs.usgs.gov/fs/2003/fs014-03ipipeiine.htmI
+ruptu re
+Built-in
+bends
+L———-—Slider beam
+TefIon / 一
+===== PAGE 3 =====
+From: 舸 ： ／ 和 “ b g ， OP 丷 2 3 7 3 ／
+Rupture in South-CentraI AIaska—The Denali FauIt Earthquake of 2002
+M = 7 · 9 ， rupturing the Earth's surface for 209 miles （ 、 330 (m). lt caused
+thousands of landslides but little structural damage and no deaths. AIthough
+the Denali FauIt shifted about 14 feet （ 、 4 · 2 m) beneath the Trans-AIaska 0i1
+PipeIine, the pipeline did not break ， averting a maJ or economic and
+gel design
+envnronmental disaster. This was largely the result of
+ec c 觐 ， based on geologic “ “
+done by the U.S.
+GeoIogicaI Survey (USGS) and others 30 years earlier.
+This huge landslide 6 ℃ m an unnamed
+7 ， 000-foot-high peak in the AIaska
+Range ， less than 10 miles west of the
+Trans-AIaska 0i1 PipeIine, was
+triggered by the 2002 DenaIi FauIt
+earthquake. The fault rupture offset
+the ice ofthe mile-wide B lack Rapids
+GIacier ， in the foreground ， which the
+landslide subsequently covered ．
+Before the earthquake, the pipeline was situated where I am standing. Photo ： Walter Tape
+(http://MA."v• gps caltech edu/Ecarltape/personal/images/denali fault/denali_photos html)
+===== PAGE 4 =====
+参 考 教 材
+EARTH UAKEJ
+ENGINE NG
+H A N D B O O K
+EDITED B 、 '
+000
+Wai•Fah Chen
+Charles Scawthorn
+、 工 程 地 震 学
+哀 一 田 宕 文 编 著
+The GeO Of
+EarthquaI«es
+于
+SiOh
+R-
+参 考 教 材 所
+地 震 浅 说
+EARTHQUAKE
+& ENGINEERING
+SEISMOLOGY
+自 然 灾 害
+===== PAGE 5 =====
+MODERN
+GLOBAL
+Source Mechanisms
+of Earthquakes
+Theory and Practice
+Agustin 《 as
+u 《 Madariaga
+臼 Buforn
+Theoretical
+． 0 Global
+S eismology
+)ahlen
+RRY 2 ． W
+AN INTRODUCTION
+、 TO SEISM OLOGY
+EARTHQUAI<ES
+； - ， AND EART
+STRUCTUR
+QUANTITATIVE
+SEISMOLOGY
+5 三 C 0 、 O E D 》 T 》 0 N
+Keiiti 虍 K 《 / Paul RCHARDS
+and
+{ •en Tromp
+有 关 地 震 学 经 典 书 籍 的 推 荐
+《 震 学 教 程 》
+北 京 大 学 地 球 物 理 系
+傅 淑 芳 刘 宝 诚 李 文 艺 编
+等 地 震 学 教 程
+北 京 大 学 地 球 輛 理 糸
+傅 淑 芳 刘 宝 诚 李 文 艺
+础 知
+地 震 学 教 程
+北 京 大 学 比 球 理 系
+佴 淑 芳 蝈 宝 诚 李 文 艺
+===== PAGE 6 =====
+lntroduction tO Seismology
+by Shearer
+地 震 学 引 论
+（ 中 文 版 ） 陈 章 立 · 译 《
+地 震 学 引 论
+0 引 ON TO SEISMOLOGV
+丨 姜 | Peter M S h ea re r 薯
+陈 章 宣 译
+赵 翠 萍 .E 华 P 校
+础 知
+钯 从 訌
+| NT 閻 删 删
+S M0
+饶 M earer ～
+SEISM()I.()GIC,AL
+The
+期 刊 资 料
+8 訕 in of the
+BSSA
+Se1smological SOC1ety
+Of
+Geop 引 Letters
+1
+AGu=-
+JGR
+Solid Earth
+lnferred Center
+===== PAGE 7 =====
+natu
+TECTONOPHYSICS
+GEOPHYSICÅ
+期 刊 资 料
+EARTH
+& P 、 、 ETARY
+卜囗E 、 CE LEITER.S
+re and
+geophysics
+Geophys1cat
+Journal
+lnternational
+EARTHQUAKE
+期 刊 资 料
+Cnine ， e Bulletin
+筻 的 工 酲 与 工 酲
+Science
+地 球 科 学
+Earthquake
+Engineering
+and Engineering
+Vibration
+P II Y S ] C S
+O F T II E EARTII
+AND PLANETARY
+[ N T E R 区 ） R S
+Earthand PIII
+Planetary
+Physics
+===== PAGE 8 =====
+USGS
+UC 娼 口 卜
+https://www.usgs.gov/natural-hazards/earthquake-hazards
+Latest Earthquakes
+1 24 № “ 7 《 month
+0 0 C
+0
+网
+0
+Earthquake Hazards Progra
+髯 aSSeS
+pactS d hazams,
+conducts targetedresearch On the causes and effects ear-hquak2s. 认 undertake 山 e
+activities ZS part 山 《 larger National Earthquake
+rour-agency partnership esta lis by C ess.
+LateSt arthqua
+[ e 《 《@ukes 《 《 对
+rch a hqu
+nd 彗 料
+到 h 圳 OÉ:
+a 5 Heduc Progra ： EHRP) ，
+] t is wha y u're
+0 邓
+咿 a 雇 F
+卑屠收@N00
+TO $ -
+https ://www.usgs.gov/programs/earthquake-hazards/hazards
+t00 《 《
+Update Of the 50-State NSHM
+2023 National Seismic Hazard MOdel
+EARTW2UAXES
+H*ZAPDS
+Lcam Ear 《 0
+C 卜 《 Meps ， 》 d
+Site 0 3
+MONITORING
+EN ℃ 轟 们 引
+Maps ot earthqaake shaking hazards provlde information essential 0 creating and UPdating the
+seismic design provisions building codes and :nsurarce rates usgd in the United States.
+Periodic revisions ： these maps ]r℃04跹》ra@ the [ u 壮 5 ofnewre arch
+WorkshDPS are conducted periOdicallV for input -ntO the hazards p uct 鬍
+一 Earthquake scenarios
+Lea
+arthquake
+re 》 e UM_iS 《
+Whit dO k 》
+“ 翮 在 № 《 楠 Z 酽
+Sesmic Hazard Model,
+Maps ， and Site-Specifi=
+Data
+、 a 《 相 n Sei
+（ 、 & ] M 》 ， hazard 0 her
+xoducts.
+aults in the u.S.
+@：小能既 taulrmap 《 r 〕
+和 ¥
+劑 、 0 gmlimi fmlt datd
+===== PAGE 9 =====
+httns://www.usgs.gov/tool s/earthquake-scenarios
+Earthquake Scenarios
+September 27 2022
+planning and c001dinating “ [ ，
+ntilities ， 《 a 《 govemment, and otl [ D[ganiaations are
+best selved conducting tlaining 蹴 “ 0 s based on
+:ealistic earthquake situations—ones sinilar to those 山
+mostlikely c 巳 ShakeMap 0 earthquakes can
+蒯 亡 is 101e. 0 民 y 曰 n a 卜 0 used ： 0 exanun2 e 、 》 e Df
+$ tlu （ 山 lifelines, 山 〔 ies ， and t 建 誦 Otl couidors
+0 if 在 nti 引
+引 № p earthquake
+山 an ] 汩 ] magnitude and on ， and ， opticnally
+specified fault
+This 2m7 collection of neæly & ℃ ShakeMap ealthquake
+scenarios is the auth0Litat1ve US.GS. [ 0 ] 0 ion fOE the
+continental U.S. The “ 到 rio fau ruptures 訌 ede 小 1
+om the latest National S€isnic Hazard tl t.S.
+i n 201 ； 山 e ll tiO af is 0
+20 Building Council (BSSC) “ 咀
+； “ this BSSC ShakeMap 0 龙 1 ， 艹 leverage 应 匚 G 登 [ 娌 [
+and [ 巧 On1ine tO djsplay l•rations ， ruptu.res, and
+naximum shakng intensities. Each Sh 到 M 三 p 〔 an №
+t and any format Of each can № 过 dec.
+J.S. Map and List Of Scenarios for
+3uilding Seismic Safety Council 2014
+Event Set
+ShakeMap Scenario Documentation
+〔 0 ； to ShakeMap Mancal 5 “ 山 玉 33 ）
+· GeneratirgEarthquake 習 ri 两
+司 ar 引 Z 山 Earthquake S:emriOS
+AII Scenario Catalogs
+Related Scenarios and Exercises
+Related ， 就 n “ io e “ include pa 寸 ShakeOut “ “ ci ， “ 》 drills ， and 3-D simulations.
+“ 自 r 《 nt Sentry •SouthernCahtomia 到 k 〗 姒 M73 川 the SO 豇 0 S&II № ] d 在 王 u 《 《 00 以 update)
+· &•uthern CalifDmia ShakeOut _ 8 “ the Socthern SanAndreas 卜 襁 ] ] t （ 08 〕
+C:reat 0 》 ShékeOut 0m2 〕 。 ^ on the FaulI
+Comouter Sim11ation Magni:ude 7 r 山 1 謔 ein 山 eNe Matltid Seisntic
+US for 20u 訕 ior. 詛
+庶 " in• 訓 ] 引 grOund ntotilns r 汽 0 e 」 by 《 San lOSe Ses:11ic 0 M5.6 earthcpake s
+lunction, W
+· S2enarios
+． EayW1red 《 对 （ k ennil S 飞 n i
+Com〕旧“ Sim11at10n cf a Magni:Ude 心 5 Emhquake the a Fault
+smclatian lhe 20 口 M6 下 NisquaJly, n 望 硼 £ 《 h 咿 e
+SinwIation Seiswic Enerey Focussing in W 《 feattle
+。 ] 引 Gound MOt-ons PrDduceC 1h2 K ngdcme
+S 就 n 酊 0 tor Ca sin 《 r050
+See b 0 [ 黼 a 《 link below m 〕 tetailed infonnation about this scenario collectioll 吖 scenario ca 0
+Hayward Fault Scenarios
+ln 2008 the USGS led collaborative effOrt wit URS COrpOration ，
+冚 鳖 ， 引 记 the u 山 墅 过 y 一 皇 〔 过 lifQ 旧 tO create computer simulations Df large ， anticipated earthquakes
+on the HaywarC and Rodgers Creek u ． The most recent large earthquake on theH诅s•!遭迲@．0叟達 was in 1868 ， 140
+酊 S ago. Because the past five large earthqu$kes on the Hayward fault have been about 140 years apart ， the Hayward
+and ROdgers Creek faults are the most likely faülts tO produce 3 large earthquake in the Bay Area. These computer
+simulatiors 0f scenariO 《 or anticipated) earthq9akes provide detailed pictures ofwhat shaking we shculd ct in
+凸 earthquakes. These ccmputer models caöture the shakingat length scales larger than about 3 ft （ 10C m), 50
+they dO nct include the effects Of very thin, SO sediments ， such as Bay Mud around the perimeter Of San Francisco Bay.
+For a reas with these thin ， SO 代 sediments the s aking wOuld be stronger than what is shOwn in the movies.
+rhe computer simulations inclJde a tOtal Of S n earthquake scenarios: three magnitude 6 ． 8 scenerios with different
+starting locations (epicenters) ， three magnitud 7 scenarios with different starting locations ， and one magnitude 7.2
+scenario. The nextlarge earthquake on the Ha ard fault will likely fallinthe Of magnitude 6 ． 7 ． 0 ． The
+magnitude & 8 and magnitude 7 ℃ scenario ear!hquakes provide detailed examples Of the type Of shaking we shou 尾
+expect in such an event. Th2 magnitude 7 ． 2 scenario earthquake ， while possible, is 3 much 《 e 巧 likely event involving
+simultaneous rupture Of bO 山 the Hayward an Rodgers Creek faults.
+M6 ． 8 Earthquake Scenarios
+Hayward Fault
+M70 Earthquake Scenarios
+rdFault
+M72 Earthquake Scenarios
+Hayward and R0dgers Creek Faults
+===== PAGE 10 =====
+M6 ． 8 Earthquake Scenanos
+Hayward Fault
+M7 ． 0 Earthquake Scenarios
+Hayward Fault
+M7 ． 2 Earthquake Scenarios
+Hayward and Rodgers Creek
+Faults
+https ://earthquake 、 usgs 、 gov/education/shakingslmulations/hayward/
+77 Earthquake Simulation in the New Madrid SeIsmic Zone.
+Time sinee earthquake started t = 0 ． 40 seconds
+Computer Simulation
+of a M7 · 7 Earthquake
+in the New Madrid
+Seismic Zone
+ThiS animation shows the
+simulated ground motion Of the
+Earth ， S surface that could OCCur in
+the central IJ.S. region for a
+magnitude 7 ． 7 strike-slip
+earthquake on the southern
+sectlon Of the New Madrid seismic
+zone. simulation based a
+detailed geologic model Of the
+central U.S. and is intended to
+show the general character Of the
+long-period ground shaking
+expected for a large earthquake in
+the New Madr1d seismic zone. lt
+demonstrates the profound
+focusing effect the Reelfoot rift has
+on ground shakmg produced by
+earthquakes. Further, the
+relatively unconsolidated material
+in the MiSSiSSippi embayment
+amplifies the ground shaking and
+aISO traps seismic energy tO
+prolong the duration 0f ground
+shaking.
+0 屬 、 魚
+Little RO
+Hor 泛 on 囿 Velocity Magnitude
+Memphi
+===== PAGE 11 =====
+M 8 · 8 Kamch atka Peninsula Earthquake ShakeMovie
+Kamchatka Peninsula 一 M8 ． 8
+July 29 ， 2025
+： USGS
+ShakeMovie
+0 ． 00 sec
+Shaking
+https://www.usgs.gov/media/videos/m-88-kamchatka-peninsula-earthquake-shakemovie
+Scenario Catalogs
+This new 〔 17 区 0 ct 心 n 0 ， n rty 80 〕 ShakeMap ear:hquake scenarios the authoritativeU.S.C.S CO 《 《 tion forthe ntinental U.S. Th2 scenario fa u •uptures are d 卜 d om the
+latest National Seismic Hazard uodel forthe u.S. 'Petersen etal, 2014n the ccllection Of events is kn•)wn 的 the 2014 3u lding Seismic Safety 〔 ounci 《 旧 550 catalog. For thisaSS•:
+ShakeMap catalog, vv•e leverage GIS Server andArcGIS Onlne tO display 《 0 匚 a00n5 ， ruptures, and maximum shakng i tensities. Each ShakeMap can be se 《 e and anyformat Of
+each can do.vnk)aded.
+See b 口 0 ] 4 catalog link bel
+AII Scenario Catalogs
+。 20 ] 5 Montana S [ 005
+· ShakeNapSccnari:J C 引
+丙 nic № 巛 Y ． C 叫 n 瞓 201 生 en 巧
+for moredetailed informaticn atoutthis 5 n iO 四 ll tio Legacrscenario@t出0g5 re included for archival pu 甲 05e 、
+Of Mi 国 麾n@0凵5 Earthquake Scenarios
+for Select2d Historiczl New Enxland Eatthquakes
+． 20 ScpnuiO
+5 № 韭 2 即 《 № L 《 上 一 0 旦 《 豇 詿 豇 起 心 郭 № g 也 5
+。 3D 虍 刂 nd MOtionSimulations
+。 Legacy
+C 3 《
+「 ueg 旦 以 ！
+t rn alif rrji L
+匚 u00 g 豇 酬 pg
+y-Catalgg
+===== PAGE 12 =====
+USGS
+PARTHQUAKF 众 7 厶 ROS PROGRAM
+Science
+HOME
+EARTHQUAKES
+HAZARDS
+ÜENCE
+lnd 」 ced Earthquakes
+Earty Warmng
+FaL Earthquake Geology,
+Special Earthquake Studies
+Hazard and RiSk
+Earthquake Processes ld
+Effects
+Grante
+F 知 5
+MONITORING
+EDUCATION
+SCENCE
+•»INDUCP&ARTHQUÄKES
+0
+PROWC7S
+NEWS
+EAR
+COWIECT
+ARN
+ABOLJT
+！ NORTH A
+[ e Earttquakes 》 0
+FAULTS, EAkTFOÜAkE
+GEOLOGY, AND SPE€IAL
+EXTERNAL G
+C PLATE
+https ://www.usgs.gov/programs/earthquake-hazards/science
+Earthquake E arly 、 varning
+MARCH9 2022
+Earthquake Early Warn i ng - Overview
+USGS is actively pursuing research in earthquake early warning.
+By: Natural Hazards Mission Area ， Earthquake Hazards Program
+MARCH 2022
+Earthquake Early Warn i ng Around the World
+SCIENCE
+《 nduced Earthquakes
+Early Warning
+Faults, Earthquake Ge010gy, a nd
+Special Earthquake Studies
+Hazard and Risk
+Earthquake Processes and
+Effects
+Earthquake Early Warning systems are operational in several countries around the world, including
+MeXlCO ， Japan, Turkey ， Romania ， China ， ltaly, and Taiwan 、 All 酎 山 e 望 systems rapidly detect
+earthquakes and track their evolution № provide warnings pendine ground shaking. Systems can
+vary depending on the local faults and the specific ground motion data available.
+By: Natural Hazards Mission Area ， Earthquake Hazards Program
+MARCH 2022
+Current Status and Next Steps
+What's going on and what's coming up with ShakeAlert?
+By: Natural Hazards Mission Area, Earthquake Hazards ?rogram
+https://www usgs.gov/programs/earthquake-hazards/science/early-warning
+===== PAGE 13 =====
+Software
+HCME
+UAKES
+M （ 玳 仃 RING
+EtXJCA
+DATA
+MAPS
+MULTIM
+DIA
+PI_B 凵
+TIONS
+SOFTV•/ RE
+N EWS
+CCNN
+EARTHQUAK 三 HAZ*RDS
+Education
+Eerthquake Hazards
+HOME
+EARTHCUAKES
+HAZARDS
+SCIENCE
+M 4 《 R G
+EDLJCATION
+FACS by Category
+Earthquekes 10r Kids
+Everyone
+Earthqueke 10p 以
+Ttd?y in E 山 0u3k0 Histtry
+EarthquakE G [ 0 訕 y
+Prepare
+Goc.glR Earth?KN'L ri'es
+This is a subset Df our downloadable software f r earthquake res
+h. USGS uses GitHub for
+new 且 wa development 、 as well as open sou$cing older softwa$e as time allovw. For a
+liS¯in
+eehowour appli tions work, and tO
+collaborate withus leasego tO LJSGS GitHub.
+4 《 1 n 到 72
+[@二二二囗 @0二二二] [@过二0
+Search
+PDL Products for Operational Aftershock
+Technical documentdticn for the pr 伽 1 」 s thdtthe aperalionai af 〔 吖 sh f 唷 a $ 《 （ OA 臼 system transmits tO PDL.
+noat" produ:t contains the attershccktcrecast, and the neven -sequencen product c
+the earthquake seqcence
+definition.
+Earthquake 湘 Program. Earthquake Science Cent«
+ALGUST 4 20
+New Analyst GLJI FO 「 Operational Aftershoc Forecasting
+DesktopGUl software used ana 巧 、 fDr o•perational aftersh6ck forecasting （ 0 ） ． load data from Comcat and other
+SOI 《 rc ， fit aftershock 1 vardlneters ， tenerate dfiershOCkIorecdSts, dnd d 卜 pl plOts Of the results. An aadlyst 引
+adjust model parameters 5 t forecasnngoptions, sendco
+and send fcrecasts 门 D 匚
+By. Earthquake 卜 hzards Program, Earthquake Science
+」 232026
+FaultMod
+Fa11tMDd 这 finite-e12nwnt 血 冠 ho “ appllcanon 3D spontaneous
+c r-•pture earthquakes.
+designed № 0 fleX1ble. 、 《 od ' ls c 訕 1 indude a Vdriety faalt geometries (planar ul 《 。 curved fault, multiple fdul:s,
+branched faults,rcmgh 俗 ul ， 以 c ） ， a variety offricnon ] 以 “ （ -pweakening,time
+pressurization, 羥
+By: Earthquake 卜 Program. Eatthquake Science Cent«
+rate—and—*tate
+SWAVES
+Earthq•ake
+TO 下 酊 great resources tor learmng about the science
+The Science of
+Earthquakes
+What an earthquake? V/hat causes
+earthquakes and where do they
+happen? 认 為 y № they make the 2 禳 山
+shake? How are they reccrded? How
+dO scientists measure the size Of
+earthquakes? FOW can scientists tell
+where earthguake happened?
+And more...
+Leam Mtre
+outer CORE
+C00 [ Earthq uake
+P WAVES
+Earthwake
+HOW many eart 过 q 山 es 0 区
+year> V/hat is the largest ea
+山 the U.S asiech
+t 然 have the fewest earth
+Can humans hear earthqua
+the earliest “ 0 忆 丽 evid
+earthquake? Ånd more …
+V Facts
+Ou
+COR
+ources/Usage: Fublic Dcmain.
+-wave and S-wave paths through the
+arth. SCientiStS diScOvered that Earth'S outer
+0 忙 iS by observing seismic WaveS. p
+vaæs t 旧 “ 《 through solld and № u ， but S
+3 旧 S dO not travel through liquid. (Public
+https //m 、 usgs.gov/programs/eanhquake-hazards/education
+===== PAGE 14 =====
+E A R I HQUAKE HAZARDS PROGRAM
+Data
+HOME
+EARTHQUAKES
+HAZARDS
+SCIENCE
+MONITORING
+EDUCAT ℃ N
+DATA
+MLJLTIMEDIA
+PUBLICATIONS
+SOFTWARE
+NEWS
+CONNECt
+PARTNERS
+490
+Realtime monitoring ， station ， and other various seismic data available for
+download 、 Access to data products to view and download.
+| nformation on these Data
+Collections
+The data collections below are data r ea 5
+associated W1th research publications by USGS
+authors. The data listed on the webpage
+accessed by the button link on the right are not
+associated with dny specific publications. They
+are instead bodies 可 data a 00d d with various
+earthquake monitormg 早 、 № n 》 、 ．
+Earthquake and Monitoring
+Data
+Ongoing data collections and popular
+collections ， access tO datd Wi 山 online tO 司 &
+(Datasets associated with publications are listed
+below.)
+https://www.usgs.gov/programs/eafihquake-hazards/data
+Ea № k 凸
+Hæards
+Data
+Education
+Mcnitonng
+Research
+Search..
+Search
+Earthquake Glossary
+田 旦 00 旧 GI 出 ！ 上 凵 CI 田 u IYI IEIY 《 Z
+All TermS
+accelerogr_aph
+active fault
+旦 代 “ shoc §
+amplification
+asthenos 卩 §
+backarc
+bedrock
+B00i0 什 20n0
+blind thrust fault
+bOdy
+brittle-ductile boundary
+active fault
+A fault that islikely to have another sarthquake scmetime in the 山 " 已 faults arecommonly
+The Emersonfault, 0 of thatruptured in
+2 19g2 C 》 自 起 以 飞 “ (PVwtOby
+===== PAGE 15 =====
+Southern
+Statewide
+STATEWIDE CALIFORNIA EARTHQUAKE CENTER
+酉 恂 earthqÄe 、 m 10 0 矸 “ a
+SCEC is now Statewide
+The de Calif3rnia EarthquakC
+Center b 山 到 5 on SCECS 〔 y Of
+8m8 山 dg 已 3 0
+《 n 使 「 050 帥 n 引 y （ 0000rd № n and a
+5y5 m 0 酬 approach- 5 （ E 〔 no ' 、 focu
+San 5 师 《
+which 翮 OV 們 tO ：
+Address ey ien questions in a
+broader tectonic n ，
+Strengthen partnershipsacross
+discip 《 @ imprm•'e earthquakescie
+andhazarC analysis. and
+Engage a wider Of participants
+from academia anc 地
+80UT 5 （ E 《 《 NEW BRANDING
+7
+Our Natural Laboratory
+5 （ [ 05 study area noW 》 pan ， the entire
+American plate 匕 ound 工 from western Nevada ℃
+the 30 咤 e nd Off h 伊 已 and om 8 到 a Cali10rnia
+tO Cape Mendocino. The extensive regonal
+geo$•ysic 引 networks 苣 a:cess 10 maJor
+faults Of theSan Andreas Fault Sy:tem opens up new
+avenues.
+Quick 山 、
+以 的 5 Cp 已 t
+砌 b ' pm “ 《 0 ， &more
+〔 aM000
+霜 （ 加 d 以 e 枞 了 Or the soutnern- Center
+Statewide California Earthquake Center (SCEC)
+With funding 什 创 the N ion 引 Scien undaticn. u.S.GeOlogicalSurvey, and Other ur SCEC collaborates 戊 h academic.gcwernment. irdustry,and
+Other organizations tO ： 0 》 6ather and an 《 、 da om field 0忸eo.@00n5 and 000 的 experin•ents. { 2 } Develop 5 m ． ve 《 models and 引 r1u000n5
+eartiquake pro 5 5 to synthesiie 韫 " 0 ， 0d80 as a phy:ics-based understa•ding of seismic ha rd ． 《 匀 CCmmunÉate tha: understarding tO expand knowledge
+and reduce earthquake risk.
+https://www.scec.org/
+EARTHQUAKE SYSTEM SCIENCE
+understanding the d 》 訕 earthquakes and faulting. ard the
+associated geohazards. requiresa »stems-level approach.
+What ， DO
+The Stateaide 匚 a 丽 0n0 Earthquake Center 《 (C) 《 0 bor 引 es 如 上 ecademic government, 彳 冠 u 山 y. end Other organizations tO advance earthquake 虻 en 《 已
+communty 引 雇 n and education by: 湖 Gathering end anelyzing data 什 om 刨 d observations and laboretory experiments. 惚 》 D 过 v 刨 0 帥 ng system•level
+models and simulations Of earthquake processes tO syrthesize knowledge physcs-based understanding Of seismic hazard. （ 引 Communicating that
+understanding tO expand knowledge and reduce earthquake risk.
+Building Community Earth
+Models (CEM) for California
+5 （ E 〔 CEMs are collaborative
+platforms that provlde
+community-contributed data,
+models, and t00 的 tO study key
+geophysical features ofthe San
+Andreas Fault System.
+Developing Advanced MOdeling
+Frameworks
+5 〔 E 〔 develcps physics•based
+models and advanced modeling
+frameworks tO simulate
+earthquake processes and the
+evolution of ults and
+earthquakes more r “ list 引
+lncreasing California•s
+Resilience tO Earthqua
+SCEC provides the scien
+foundation fOr earthqua r 的 泰
+reduction by integrating
+observations 曲 《 n a sy'tem
+science moceling fram orkto
+quantify 505n1 ℃ hazard.
+usi Artificial lntelligence
+Earthquake ence
+3y applying AI methods 彐 “ 055
+earthquake science, SCEC
+explonng potential in 稔 凵 t
+mapping. ground motion
+simulations. earthquake
+forecasting. and more.
+===== PAGE 16 =====
+AGE N DA
+REGISTRATION
+的 August30-Septembå2
+9 llton Springs ， Cali ornz
+TRAVEL
+ABSTRACTS
+PARTICIPANTS
+FAQ
+2026 SCEC Annual Meeting
+Th Statewide Califomia EarthqLHke Center (SCEC) 巧 a u]llaboratve research and 巳 山 t ℃ r• hub that bmgs together experts 趔 s engneenng,
+and S00 引 50 田 苋 es tO advance 僕 跹 understandng earthquake processes and reduce m ℃ risk Th1S year, our commumtys e 的 are umted under our core
+therne- Advanclng Earthquake System Saence for a Res111ent cellforn•a. By dlverse disciplnes, we alm 10 translate fmdamental, statewlde system-
+level 50 ] 0 0 旧 〗 e know•ledge 山 酗 protects comm 」 nltles, 5 刨 《 旧 5 intrastructure and reducesearthquake nsk a 5 Ca11tornia and tepnd
+Each year, 廿 SCECAnnual Meeüng convenes a 邙 oba 《 community dedcated to earthquake-related research, educat10n and outreach Mark1ru SCEC'S 35u 》
+enniversary, 《 5 milestone meeting WIII celebrale 0 scientfic acccmpllshments end service contributions li setbng the fcr the Centers next phase
+Eaiy 《 r 9 s and students, 诜 hO C 创 丨 № n Ov 40 ％ Our attendees 到 have 山 9 000mt 」 n 押 10 learn 行 创 n and № lnspired byOur D 四 LJ' 刳 》
+Lecturer and teatured speakers, VIS ℃ r 旧 researchers wnose 、 vork challenges 1 「 ad 山 田 ] 引 boundaries and shapes the tuture of aarthquake 5 （ n e
+The SCEC Annual 《 《 held in Palm Spnngs from August 3010 September 2 ， 冫 0 ． T 》 旧 program features lnteracüve plenary
+一 ？ 026
+sessions, genels, and mod 团 discusslons 以 sed on the frontiers s 怡 te 、 枕 earthquake system science—from ploneering
+Ob ' va “ techruques 旧 geodesy anC advanæd phys•cs-based mult 卜 cycle ' 儆 加 ns and g 甩 」 丽 rnot'cn forecastlng
+C 汇 旧 《 、 酊 粼 为 e the g 可 》 between sc n and ection, № s ded ℃ ated sessons practlticners, utilities. and emergancy p 《 a 住 「 5
+tO dscuss stetewlde preparedness ： communlcetion The meetlng wll SO launch 12 new SCEC Tæhnical ActIvIty 00 刂 ps (TAGS),
+creabng 《 祀 “ 《 叩 •ortun 山 for the communlty to cdlabcrate on emerging rßearch pnonües № 兯 shape SCECs sclentlfc g a fo 「
+years ahead The comnu.nlty is warmly invlted 10 showcase 山 刨 r work tr•rough 凶 引 presentations as work together tO ldentify the
+scænüfic grand challenqes of the decade and 引 旧 Dur collectlve 伊 ℃ 啭 es
+ANNUAL MEETIN
+ANNUAL MEETING
+Proceedings 0fAnnuaI 丿 ee $
+ANNUAL MEETING
+№ ] L MEETING
+018
+一 ANNUAL MEETING
+PR 茈 能 《 SVOI · 輦
+sc/EC
+0
+P 卜 0 0 GS 0 廴 E 黑 駔
+===== PAGE 17 =====
+Annual SCEC Science Plan
+Each year. SCEC recruits research projects. workshops and t n 貊 from
+the broader 〔 ommu to contribute to the Centers programs.
+rhe Stetevvide 0@brnia Earthquake 〔 e 0 〔 (C) 地 committed tD 5 巧 ning a research ccllaboretion fo- 引 [ 引 -'d 3p0 地 0 earthquake 50 “ that agi
+open tO new investigators, and has the authority 忙 convene aglobal >latform for multidisciplinary researth, workforce develogment. and community
+engagement ross earthquake 跹 《 en 〔 已 These goals promote a professional cuture that velues equity. d谁@掣 ant inclusion, enabling the Center to maximize
+the ontri ltions of the generation of earthquake sclentists.
+Science Plan and Roadmap
+The current Science Plan emphasizes
+new opportunities enabled b/ a
+geographic SCOpe that no includes the
+n 酊 色 n 《 form pla 怔 bo 」 nd 訕 y 5 憷 m
+of California. 》 t 剖 SO provides a roadmap
+on how to distribu:e research efforts in
+southern. central, and northem
+California to achieve the Center's science
+goals. Eachyear. SCEC 50 雇 心 projects
+Research Highlights
+through a 〔 。 m 些 № pro tvpically
+Co-Director anC SSC Chair Greg Seroza (Sta 耐 ör 山 presents
+attracting hundreCs Of investigators tO
+research highlishts 行 创 the first ar Of the Statewide
+： 0 0 加 te to the Centers programsand
+Califorria Earthquake Center at the 2 SC Annual
+Annual Science Calendar
+We welccme pro 5 引 s that can
+contribute to SCECs science goals
+general, 引 0n8 with related
+community engagement and
+轟 orkfo 任 developmentactivities. rhe
+Science 剜 an 地 developed at the
+Septemb2r Annual Meeting and the
+Request for Proposals 地 releas2d
+each 0 （ tob ， 纛 建 h pro 5 引 5 due
+arourd Ncwember 1 5 ．
+〕 Ctivit
+EERI is a leader in earthquake
+investigations and
+dissemination Of earthquake
+LEARNING FROM EARTHQUAKES
+Help secu re the future Of Learning From
+Earthquakes with a donation tO the LFE
+Endowment!
+riSk reduction information.
+http://www.eeri.org/
+地 震 工 程 研 宄 会
+Latest News
+Chapter 0n5 起 pt. IO 山
+· EERIS tO
+RegiStration dead 山 0 对 end
+8th 卜 hara （ Ol 《 四 山 umSe
+。 We 性 0 0 《 iC Quake 0
+。 Ne （ （ 以 Ofthe 〔
+。 山 ou gthe LFE
+· EERl's ust
+by EERrs N ℃ 剖
+5 20 ； 6 M7
+Fridayfor the
+（ 01m 《
+P00 地 0 “ 《 对
+瓯 2 M74
+-earning from Earthquakes
+E n d OW m e nt Campaign Fu n d
+Pledge tO the Learning m Earthquakes
+Endowment Fund
+The Pulse of
+Earthquake Engineering
+0fF00 ， F № 、 h 000m0
+Learning from Earthquakes
+WO'IC Housirg Encyeopedia
+EARTIIQUAKE
+SPECTRA
+Member A 皂 tO Earthquake Spectra
+a 00 ． 耐 00 》 19 。
+===== PAGE 18 =====
+EERI Knowledge Center & Online Store
+《 到 唾 上 刻 醚 H04
+h ， 疒 地《”n科思酾*到@
+https://pubs.geoscienceworld.org/earthquake-spectra/
+Earthquake
+Sem & WorkShCP 、
+五 om Ear.hq 旧 、
+卸 圄 Rfpor1S
+M000 甲 ] ph ， & 0 卜 对 0 ] e 、
+W011d 》 处 刂 、 山 g CYCIOP
+ICC publütions
+VOLUMEW. 、 3
+24
+EARTHQUAKE
+SPECTRA
+1 ' 山 q 旧 e E ee 以 稻 Res•arch №
+0
+0
+' 'ESnet
+EE
+http ://peer.berkeley.edu/
+加 州 伯 克 利 分 校 ： 原 地 震 工 程 中 心 与 太 平 洋 地 震 工 程 研 宄 中 心 合 并
+UCBerkeley
+uCSD 《 1 0
+Pacific Earthquake Engineering Research Center
+0n0 Re 、 e 讹 0 、 》 、 丌 atori
+n e e r i n g R e 《 自 ' i 〔 e
+4
+Creating T00 fOr a Safer Tomorrow
+Pa 0 卜 Engin«ing 、 e 山 1 、 0 n 汽 s u № n
+0 ， PEER contrihu
+《 、 og 10r 牖 巧 ' 到 r 《 山 地 5 到 勹 《 № tO 阉 0 闼 oak 吓
+0 「 g 1 № £ 山 吓 k 思 «vn«ri•g 「 0 e ， 04 5 《 0 510r
+nsk 、 刎 甲 n vald•ting önd 5
+0 些 訕
+0 《 h 《 ' 刁 rd 《 h 《 № go 剖 Of ～
+ins 血 utm and i 《 、
+ural 彐 h
+还 miÜgatim h 匕 et* 《 引 PEER
+Opa 艹
+PLbli:ati
+0
+r hO
+===== PAGE 19 =====
+https ： //www.iris.edu/hq/
+0
+EarthScope
+〔 0ns00 《 um
+QAIA
+DATA AT NSF
+5 G 上
+observational Data
+S
+Derived Data
+Prcducts
+DATA
+'•INGESTION
+"Submitting Data to
+•NSF SAGE
+DATA
+ANALYTICS
+Qu Assu rance
+DATA
+EDUCATION ABOUT
+INSTRUMENTAT ℃ N
+EOUZAT 《 ON
+AdOt 仃
+INSTRUMENTATION
+0 层 T 众 ACC
+Data T00 《 Mat
+INSTRUMENTATION
+COMMUNITY
+ENGAGEMENT
+EDUCATION +BOLJT
+PERMANENT
+Requesting D•NETWORKS
+NSF SAGE
+Global Seismographic
+Data Request
+Network SBO
+駙 e S & Workshops
+Short Courses
+3est Practices
+、 Nd)AppliGINSTRUMENTATlON
+y Princip 5
+8 彐 t 山 ReqUPASSCAL lnstrurnent Center
+Realtime 》 sm 还
+Polar
+Requesting D'
+Data Product! 》 gn 卣 0 阉
+Seismic 50ur0 「 《
+USARRAY
+Alaska Transportable
+COLLABORATIONS
+GreenIand
+n 《 Asia andthe
+《 äu （ 彐 5 《 艿
+DATA INSTRUMENTATION
+R 《 00
+LEARNING & TEACHING
+Distr
+RESOURCES
+nt Earthquakes Teachable
+FOUMoments
+(SZ41
+Le550n5 / ） n 哎 儲 tions
+Educational SoftwareMebtools
+Rapidl
+G 色 〕 \ 记 e 《 声 们 ima № 丨 Animated
+G 《 以
+Posters 《 钧 0 Sheets
+Educat-onal Seismographs
+lnstrur
+EPUCATION ABOUT
+PUBLIC OUTREACH
+ublic Displays
+D 还 ti 《 吧 us 》 d Lectures
+DayinaLifeofa
+SeÉmolcgist
+ShakeA 0 System
+EXPLORE
+EARTHQUAKE DATA
+Recent Earthquakes
+(OBSPLEARNING OPPORTUNITIES Earthquake Browser
+EarthS•
+Student lnternships
+Teacher Pro 弱 iona 《 Devebpment
+Webnars
+ion Monitor
+Wéve ViqJalizations
+https://www.iris.edu/hq/inclass/poster/a century 0f earthquakes
+A CENTURY 《 0 F EARTHQUAKES: 1906 一 2006
+On ApriI 18, 四 06 a powerful earthquake
+shook San Francisco leading t0 fires that
+devastated the city That earthquake brought
+seismology intO the forefront as a science in
+the U.S. This poster outlines the lessons
+learned from the 四 06 San Francisco
+earthquake and discusses 100 years 0f large
+earthquakes,
+including the
+Sumatra
+earthquake that caused the devastating
+tsunami
+===== PAGE 20 =====
+SCIENCE FO RESILIENCE
+防 科 册 http://www.bosai.go.jp/
+地 震 ． 氕 象 。 今 知
+Y7 砌 夕 亻 厶 “ 一 下 。 V 丿 夕 報
+囫 0 的
+邕 到 0 的
+24 時 間 以 内 凳 生 L 地 震
+Hi-netat*-n#*:&M
+雨 一 首 都 圈
+B 本 全 国 刃 今 播 tl
+漫 水 凳 生 危 陰 虔
+0 上 讠 一 首 都 圈
+土 砂 害 危 度
+半 滅 耻 裎 時 妻 兩 量 @
+24 積 算 雨 量 刃 稀 岂
+Strong-Motion Seismog raph Networks K-N ET & Ki K-net
+》 里 ． m 1 》 就的臃四@ph 《 twc 地 kS K-NET ard 和 和 《 忙 ！ GO 卩 0 」 Ct 谊 、 at 幻 剖 引 囤 b 主 ap 卩 № 、 0 》 江 O 团 0 巧 Japan 彘 》 廿 吧 am Cf 祺 主 y
+r•gistr*on r•quired tO 00 d 就 m 妃 d00 ： YOI ] not C 吡 re “
+A № K*ET& K嫩@閬卜 0 宀 · 恤 》 》 rnti 。 “ Topics- K 曲 貊 “ “ ， FAQs.'User R 。 蜘 。 n -
+Latest N
+Latest Ea
+LPGM Monitor—
+． SN r $ 加 A 20 卜 ul “ 忆 E uake （ 上 身 2
+S 《 lnwersion 、 引 $ 吧 25 ， 20 0 e EaIthqLAke
+， 駟 b play “ 5 sm ens s in Past Large 」 a zurrentty under zorrecticn
+ak s
+Strong-motiDn data available here
+D 。 n by Eaflhquake Q DomIo«ui by [ 地 Comdition
+0 a 这 i 身 地 a d betcre 创 ly ℃ e 生
+0 。 n 《 。 ad HTTPS
+2 （ 2 ℃ 2-1 ： 23 ℃ 苋 13 ， 3 〔 茫 01 伽 」 n M33
+More lnf«mation 0 0 剩 n oad
+===== PAGE 21 =====
+http://www.kyoshin.bosai.go•jp/
+Outline Of K-NET and KiK-net
+The Center for Earthq 」 ake, Tsunarni and V c Obsavatbn Research NatO 《 讵 《 Research lnstitute for Earth
+Science 田 》 d Disaster Resiience (NIED) maintains and •perates 1 》 汜 MOV/LAS 《 N on 到 e Obse 「 旧 tion network tor
+earthquakes, tst.namis, volcanoes over land and 就 a ） ， 、 巾 眉 1 consists eight Obse 譽 a 心 0 〕 networks 》 land 引 sea.
+Among them, K-NET and KiK-net serv ground motons with 1 m Of accurately renrding 了 0 mo № n 酽 山 主
+cause damage 、 h （ saturation. 引 ro• ． mot 幻 n datais used for earthquake 05a re»or* ， seismic hazard and
+damage risk assessnent, and ，
+K-NET (Kyoshin Network)
+K-NET a n 0 蔭 de strong ． rno seisrnograc*l network n 酎 more than 10 〕 〕 引 誦 ons with an e 阉
+spacingof 20 km. TO record 頸 motions directly 化 地 0 恤 earhquake under hom•genaous observation
+conditims ， strong-motion seisrmgraphs are installed on theground sudaæ with standardized observation fadlities.
+KiK-net (Kiban Kyoshin Network)
+KiK-net a strong-mction seismograph 1Etwork mnsis-jng approxlmately 7 開 stations, whCh was ℃ p togdher
+山 中 Sensitivity seismogra•h Network Japan 但 仁 n ． At each 0 erv 引 a 蛔 良 蚶 on m on seism•graphs are
+installeC bOth on 0 」 rd sufface undergrcund ()t bOtt 〗 Of theboreholes).
+Station List
+R 0 地 d Station List
+Search 10r stations on the
+http://www.kyoshin.bosai.go•jp/
+About the Jse of Data
+《 」 r g 忻 誦 on is required tO dO 讥 oad seisnic waveform dala Ot K-NET 忆
+the 幻 如 ng three r±quirements 貊 addition tO 《 声 戗 a 盹 0 馮 ； re 跹 酗 at thetime
+0 ） h 釧 you LSe data K-NET and KiK-net, please eci ， SO in 涌 $ on
+KiK-net 0 伍 1759 & 叭 D OC04)
+Ct 01 e × № Ot the data DOI
+Fcr details, please r tO the user registration guide h 巳 讲 n using the däa ， please Dbey
+uS 釕 regstration
+貊 text, data a section, and acknowfedgements LBing the dala DOI K-NET and
+N io• Research lnstr.ute 「 Earth Scence )d DisasIer ResiIience （ 2D19 ） NED K-NET, KiK•net ， 卜 1i01a 《 Research lnstjtute 10r Earth Sdence
+劊 訓 引 er Resilience. https://W*W.dOi.org/10.17598N 庀 0 £ 004
+RegardingdetaiIs 醐 K-NET a 《 KiK•net p 处 as 巳 see the reterences “
+a00u1 K•NET 引 地 KiK-net", and pleese cte 巳 m where n 巳 掣
+〈 2 ） publishedanacaderwcpaper,cmferencepaper,orreportthat b data K-NET KiK-net, péasesendacowtothetolowfngadcressorserx]an
+刨 ee.ror № 地 k 印 噁 hir 而 i 匆 。
+Strong MOtion Seismograph Netw«k Laboratory, Center for Earthq ake, Tsunami and Volcam Observatbn Research, N 引 Research lnsti•.ute for
+E 豇 山 Scier 亡 Oisaster Resilience 3 ． 1 Tennodai, TsukuOa,
+30 豕 0 6 》 兆 n
+PIease understand these fcrustograsp necessity Ofour data
+0 services by accumulating Of data usace 、 The data images• movies and othernes (induding thcse are no lcngerpublicly availab•le) prcvidedfromthis
+website shall b 创 or 地 NIED cl 《 钔 g where there arespecial arrangements 貊 杜 Re is 刂 tiO 叫 selling, and 地 r 貊 on are strictly ptOhibited. NIED shall bear
+reponsibilitywhateær regarCing any ] 0 C•aLSed by use 酊 凵 、 0 酬 i 、 Cf the ØntentS thiS 、 虻 b 已 ln d 地 0n1 NIED 訓 bear nC 「 e 斗 ℃ n 引 0 皿 y 、 %fiatever regardirg any
+danage caused by 1 虻 or deletion contents tÄs wetsite, Th 巳 contents 的 、 跹 b 引 are 就 0 忙 ct tO or deletion without 「 0 ℃ e ，
+===== PAGE 22 =====
+@） 東 京 大 学 地 震 研
+矸 所 0 ， 穸 所 人
+地 0 研 棗 0
+却 2 《 年 5 月 口
+口 一 地
+孬 ． 二 一
+http://www.eri.u-tokvo.ac.jp
+共@到用 。 河 旯
+日 本 东 京 大 学
+地 震 研 宄 所 （ ERI)
+祈 人 々
+地 ． 火 山 報
+大 学 院 两
+用 情 報
+大 正 闋 東 地 震 力 、 犭 100 年 《 持 集 八 一
+亠 2023
+闋 束 大 震
+1 佣 記 念 行 事
+0 舍 EngliSh
+瘗 用
+噴 火
+議 会
+2023 年 9 1 三 《 云 正 生 地 易 100 年 刁 。 地 突 所 0 、 ] 923 年 * 正 生 地 老 1925 年 匚 立 《 地
+http://www.dpri.kyoto-u.ac.jp
+地 震 ． 火 山 研 究 儿 一 丿
+地 震 哭 研 究 剖 門
+． 堆 # 生 構 曰 聋 野
+． 俨 分 野
+， 竊 基 矸 分 轩
+． 齿 矸 究 分 打
+地 煲 害 研 冫 夕 一
+， 地 秆 究 域
+， 内 隍 地 过 矸 究 域
+， 晦 地 0 秆 肇 域
+． 地 鑿 雲 秆 旯 域
+． 地 玎 計 俎 矸 究 铎 域
+． 物 秆 脔 鼕 域
+． 地 耳 物 茳 矸 究 縷 臧 《 客 到
+火 山 防 研 突 -tz 冫 夕 一
+， 火 山 噴 吁 知 0 聋 頡
+． 火 LL 顬@
+日 本 京 都 大 学
+强 震 动 研 宄 分 野 （ 2003 年 ）
+0
+===== PAGE 23 =====
+https ： //www.gfz-potsdam.de/en/geophysics/
+Department 2 ： Geop hysics
+H e [ m h 引 t z C e nt
+GeophySics in Department 2 at GFZ covers a broad range 耐 temporal and spatial SCales Of geoprocesses from deep
+Earth's interior tO the naar-Earth space by Observation and modeling and integrates fundamental and applied research in
+the gecsciences.
+We develop and integrate stat2-of—the-art approaches tO the management and analysis Of big digital data for the imag-
+ing Of tl
+Sections Of the Department
+earthqu
+COVI
+sphere
+for fluid
+anci pro
+ical and
+We hav Physics Of Earthquakes and
+Volcanoes 〉
+intercre
+cally on 。 一
+ismology >
+欧 洲 地 中 海 地 震 中 心 ：
+Geophysical lmaghg >
+Geodynamic Modeling 〉
+Geomagnetism 〉
+《 Seismic Hazard and Risk
+Dynamics 〉
+https://www.emsc-csem.org/
+SEM
+M SC
+C-emre S 旭 0 乙 ， 0 00
+03 ANGELES AREA ， CAUF. ego
+SpeciaI report
+旷 和 ' 0 191 ： 01 筌 0
+EarthquakeS
+Wot map
+So m ℃ d
+LastQuake.
+HO ， ks
+柘 10m “ 《
+Ci 儲 》 卜 0 n 和 k ，
+瓤 《 和 ' 03 0r31 力 巴 JTC
+0
+Latest earthquakes
+Date & n
+0 闷
+202 上 ] 9 。 5 0 圭 7
+About US
+、 Vn dO
+LastQuake on Messenger
+oscover 1h9 旦 时 0 」 能 M 《 ng 一 a tree
+- 一 引 司 pg 0 冂 a 翩 ]
+in 《 儲 n 1 n a 上 “ ． 1 oartl"uakzs ngar ycm.
+上 困 t cli* cu “ 旧 、 LaStQuaKe Alert 00t on
+\lg&弓@以“
+auick access
+Partner with us
+0 囗 n 怡
+M"ion & viston
+Felt M3 。 2 《
+{@， lfelt a n eanhquake
+Lat. Depth
+Mag. Region
+31L & 13 32 GFEATER LOS [ ES AREA
+0 9 1 1 27 TAR' 、 PXA,CHII_E
+Seerch
+Data qu 3
+蟲 n 山 Oid & iOS
+===== PAGE 24 =====
+瑞 士 地 震 服 务 中 心 ： http://www seismo.ethz.ch/en/home/
+ETYzürich
+SWiss Seismological Service
+The 卜 、 Sei !IO 弓 些 Se -ce ETH Zurich is the de 》 agency fDr earthquakes. 》 t 、 a ivities are integrated i the federal action plan foreerthqueke
+miti 000
+Magn 0 Oa 师 0
+№ 、 、 引 hq 《 酽
+Lausa ne
+scfalfhausen
+· GaIIen
+ZLrichC ． 0
+． 、 „uChur
+St Moritz
+MiIano
+Earthq ke, vvhat
+Report 删
+earthquake
+Eartnquakes
+Europe
+Swiss arthquakes cou nter
+013 〕 t2026
+全 球 地 震 台 网 ： https://www.earthscope.org/gsn/
+C10ba 《 Seismographic Network
+Locations Of the GIOba 《 Seismographic Network (GSN) NSF/EarthScope/lDA stations are shown as green circles
+and USGS GSN sites are shownas pink circles. (Updated October 2024 ）
+===== PAGE 25 =====
+国 际 地 震 学 与 地 球 内 部 物 理 学 联 合 会 ： http://wwwiaspei.org/
+n erna lona SSOCla | O n 0 asmo ogy a n
+of the Earth's lnterior
+IASPEI
+IUGG
+YSIC
+The lnternational Association Of SeismoIogy and Physics of the Earth's lnterior (IASPEI lt is
+one Of the eight Associati ns that com prise the lnternational Union Of Geodesy
+Geophysics (IUGG).
+https://www.isc.ac.uk/
+国 际 地 震 中 心 ： lnternational Seism010gicaI Centre
+ISC News
+2026 逋 3 刁 9
+26 £ 3 习 3
+ISC Newsletter 2025 dul-Dec availEble
+26 习 1-13
+25 逋 7 2
+25 呛 1 ． 10
+RAS ～ 层取a@ in ßeophy 多 〖 s10 ． OA ：
+24 ． 11 ． 11
+the ISC m 丽 可 site at IRLS
+News 《 or ， from data contributors
+佣 26m3
+巨 Q.mA 旧 凶 」 00g Fvolu00n 可
+NO 卩 耳 「 N 丙 瞓 k and 《 卜
+佃 帥 t ℃ ns 衙 Selsmotedonlc StudIes
+25-11-19
+Feported ； ℃ Phase StatlStiCS at the
+ISC Over lhe Last Four Decades
+Cenue séisnolog•que
+lnternational
+mo 《 Centre | n rna 旧 1
+国 际 地 震 中 心 |
+Se 还 ℃ 0 “ h ” Z “ trum
+Me»•ayH 00 以 “ “
+Ce*cu
+ISC hypoeentn•s for 964 to 2010
+===== PAGE 26 =====
+美 国 数 字 宽 频 带 地 震 台 网 联 合 会 ：
+https://www.fdsn.org/
+About FDSN
+Mailing Lists
+ueetings
+uembership
+Publicetions
+StnKture
+Terms DfRefererce
+Working Croups
+QSearchFDS
+Contact Us
+lnternational Federation Of Digital Seismograph Networks
+(k)rne About the FDSN
+About the FDSN
+The lnternational Federation ofDigital Seismograph Networks (FDSN) is a global organization. membership
+is comprised Of groups responsible for the 引 a ion and maintenance 0 《 seismogra 卩 hs either within their
+geographic borders 0 r g 《 Ob 引 ， Membership in the FDSN is 0 些 n 10 organizations that operate more than
+one broadband 引 ion ． Members agree 10 cocrdinate station siting and provide free and open cess tO their
+data ThiS cooperation helps SCientistS all 0 、 •ertheworld tO further the advantement Of ezrth 5 匚 处 n （ e ane
+particulady the study Of glObal seismic activity. The FDSN also hOlds ccmmission status within IASPEI.
+The FDSN goals related to station siting and instrumentation are to provide staticns with 80 配 geographic
+distribution. recording data with 24 bits Of ft?solution in cortinuocs time series Wlth at least e 20 sample per
+second sampling rate. The FDSN was also instrumental in deuelopment ofa universal standard for distributbn
+of b ℃ adhand 艹 form data and related parametric information. The Standard Exchange 0f Earthquake
+Data (SEED) format is the result ofthat effort.
+Network Codes
+Network codes are 3k0 assigned by the FDSN in order provide uniqueness to seismolcgical cata streams-
+Network operators request these unique ccdes for both permanent and temporary networks 、 Network Co
+forms
+ioformation
+EARTH AND
+SPACE SCIENCES
+7 一 11 December 2026 | San Francisco, CA
+Welcome to AGU26
+https://www.agu.org/
+AGUS annual meetirg the largest gathering Of Earth and 卵 茈 e scientists,
+convenes 25000 + attendees 什 om ℃ 0 + countries tO shara resea ℃ 、
+connect, CO 鼯 b a and irspire one another.
+Registration and housing are now open!
+Register
+Bcx)k HOLßing
+===== PAGE 27 =====
+https://www.seismosoc.org/
+0
+SSA
+SSA 2027
+SeIsm010gical Society Of America
+AnnuaI Meeting
+20 _ 24 April 2027 《 Seattle ， Washington
+Bu112tin Of the
+BSSA
+Seismological SocIety
+Of America
+raiwan Study Analyzes AttribLtes Of
+Resi ience After Major Earthquakes
+， 舡卩@n&嘌05 」 也 苎
+SeismOlogical
+Research
+SSA Announces Candidat€s for 2 《 25
+Election to Boerd of Directors
+The Se1smic Record
+M 地 rious Fiekle 榋 引 Ear•hquake in
+Northern Californi May Have
+unexpected S 「
+https://www.egu.eu/
+EGl..Jåää#
+ABCHJT - N · MEETNß• PUWCATICNS• AWARDi ， OUT （ 湘 0 EOI_I 〔 T 《 0 、 · 跹 、 - 》 08S LOGIN
+Propose a 0 辶 E - 「 乇 ll
+A e 仃 丿 irj 2027 ！
+欧 洲 地 球 科 学 联 台 会
+欧 洲 地 彝 学 联 合 会 （ 英 文 ： European Geosciences Union) 。 又 许 为 欧 洲 球 科 学 联 。 3MtEGU, 是 欧 顶 级 地 球 物
+娌 学 学 术 组 织 。 具 致 力 于 研 也 球 科 学 、 行星科学及空间科学领0的前沿i!鬟题@ 欧 洲 地 球 科 学 联 合 会 组 织 的 EG 」 年 会 也 是 地 球 物
+学 界 具 有 庄 要 影 响 的 国 际 学 术 会 议 之 一
+欧 满 黽 球 科 学 联 合 会 致 力 于 地 球 与 环 境 ， 星 球 与 空 间 科 学 之 间 的 引 究 合 作 。 负 责 出 版 《 地 球 物 理 学 年 鉴 》 (Annales
+Geophysicae) 等 14 种 0 巾 要 影 啊 的 国 际 学 术 期 刂 ．
+中 文 名
+外 文 名
+相 关 组 织
+欧 辨 地 球 科 学 联 0 会
+英 文 ： European Geosciences Union
+中 匡 地 球 物 跬 学 会 ， 还 地 球 诖 学 0 日 本 地 球 行
+星 科 学 学 衾 等
+[ 1 ． 3 ]
+欧 地 球 科 学 联 望
+EGLJ
+===== PAGE 28 =====
+倉 中 华 人 民 共 和 国 应 急 管 理 部
+http://www.cea.gov.cn/
+《 四 川 直 宾 市 长 宁 具 岌 生 3 ． 0 地 9 月 4 日 18 时 分 四 川 直 宾 市 高 发 生 3 ． 1 地 震 9 月 6 日 10 时 29 分 疆 克 孜 勒 苏 州 乌 恰 发 生 3 ．
+9 月 5 日 21
+习 近 平 主 席 出 席 2026 年 上 海 合 作 组 织 峰 会 并 对 吉 尔 吉 斯 斯 坦 、 埃 及 进 行 国 事 访 问 纪 实
+， 力 安 全 事 故 应 急 处 置 和 调 查 处 理 条 例
+防 的 减 灭 圓
+唐 山 抗 震 敝 灭 50 周 年
+系 列 活 动
+． 唐 ii 航 震 灾 50 周 年 列 氵 叾 动 专 题
+省 吸 地 震 局 直 届 单 位 主 要 地 震 网 站
+· 中 国 地 0 局 克 狙 传 达 学 习 彻 习 沂 平 忘 书 记 重 要 指 示 “
+“ 倦 定 十 年 发 展 愿 立 罡 长 远 貞 抓 实 干
+。 中 国 尥 0 局 与 国 文 物 局 合 召 开 全 匡 文 物 地 震 安 全 “
+@ 中 国 地 震 局 迅 即 开 展 吉 海 海 些 州 直 辖 5 口 级 地 震 应 急 一
+“ 四 川 长 宁 7 ． 7 级 地 智 · 信 皂 从 何 而 来 ？ 中 ． ．
+。 中 国 地 震 屑 恃 续 月 展 曲 凵 则 市 吉 隆 县 泥 0 廒 实 軎 一
+“ 王 昆 调 研 宁 夏 防 的 减 灾 工 作
+· 认 准 言 方 渠 道 ． 好 地 的 预
+中 匡 地 震 台 网 中 心 中 国 地 霖 灾 防 徂 中 心 中 国 地 局 发 扈 研 究 中 心 中 国 地 震 局 地 球 物 理 勘 深 中 心 中 国 地 霖 局 第 一 监 中 心
+中 國 地 震 局 第 二 监 晁 中 心 中 国 地 震 局 地 球 物 理 研 究 所 中 国 地 局 地 质 究 所 中 国 地 震 局 地 震 顸 究 所 中 国 地 局 工 程 力 学 趼 究 所
+2026 ． 08 ． 26
+川 26 ． 佣 一 29
+2026 ． 09 ．
+2026 ． 09 ． 〔 国
+2026 ． 08 ． 27
+2026 ． OB 一 引
+2026 ． 08 、 凸
+2026 ． OB 一 28
+防 灾 科 技 学 院
+http ://www.cea-igp.ac.cn/
+中 国 地 震 局 地 球 物 理 研 究 所 ．
+科 研 机 构
+地 震 学 研 究 墜
+（ 第 一 研 究 室 〕
+研 壳 至 管 介
+研 究 室 人 员
+强 动 地 震 学 研 究 室
+（ 第 二 研 〕
+内 部 物 理 研 究 室
+〔 第 三 研 究 罕 〕
+重 力 与 地 壳 形 变 研 究 室
+。 Web of Science （ 旧 与 TÄR 然 “ 0
+． （ ru 《 domains identification 山
+精 度 地 划 象 方 氵 去 及 在 深 地 泄 中 的 “
+。 高 分 率 全 支 形 力 」 穢 囚 月 《 干 古 一
+学 术 讲 座 ． 超 僭 垂 山 縟 蒎 技 才 酬 一
+． 基 于 微 地 0 # 田 反 濱 的 地 热 储 h 层 和 一
+基 于 全 球 与 区 地 0 学 潞 肉 2025 湎
+2D2 01 1
+2D25 以 01 49
+2026 ． 01 ． 13
+2026 ． 01 ． 09
+0 5 ． 12 ． 25
+20 5 ． 12 幻 8
+。 S 氈 0 五 斯 层 冲 0 下 桩 基 一 桥 巭 型 动 力 哑 “
+． TP: 基 于 反 摺 自 稻 关 示 21 年 小 6 剛 也 过 同 · “
+． CBM Ü+GRA RSM 3D 扌 J 幺 纤 猁 見 凝 土 力 学 一
+· 2026 年 7 月 28H 古 薊 两 片 兴 海 县 5 吸 地 霖 科 支 撑 “ ．
+· EPSL: 2021 年 四 川 泸 县 M Ms4 ． 1 和 Ms3 ， 1 地 翟 一
+． 2026T7 启 1 日 青 庵 河 西 州 百 辖 区 S,2 级 地 雲 科 支 津 一
+“ 2026 年 6 月 29 日 四 川 官 宾 市 高 5 、 5 皮 支 1 鞴 百 “
+． 2026 年 6 燜 2 ] 日 每 崗 西 什 也 锩 区 5 卫 吸 地 隰 科 技 支 一
+0
+思
+0
+0
+0 一 0 邛 年 攻 关 中 国 （ 第 些 岍 究 室 ）
+郡 戋 7 ] 溟 体 旧 ] 卫
+地 磁 学 研 究 室
+0 伊 ． 四 ] 中 国 地 骺 丈 学 五 研 究 室 〕
+107 ． 23 ] 地 0 科 研 有 了
+地 球 物 理 先 导 技 术 研 究
+郡 一 17 ] 化 京 国 家 她
+一 是 谁 墼 造 了 现
+106 一 全 国 科 技 工 作 讠
+105 一 凸 ] 甜 刎 地 破 坏 丿
+（ 第 六 究 室 〕
+菲 天 然 地 震 跚 究 室
+（ 第 七 研 究 室 〕
+===== PAGE 29 =====
+https ： //www.eq-igl.ac.cn/
+地 震 局 地 质 研 究 所
+到 ! 学 术
+首 页 研 究 所 到 兄 机 构 设 置 科 学 研 究 人 才 队 伍 博 士 后
+科 研 动 态 研 究 亮 点 合 作 交 流 学 术 报 告
+怏 乐 科
+研 究 生 教 育
+工 作
+～ ； 一 JGR Solid Earth ： 大 地 壳 孕 震 层 底 部 斷 层 渗 透 性 ．
+一 一 来 自 红 河 断 裂 深 部 层 岩 的 实 验 约 束
+流 显 著 釤 响 断 层 强 豐 与 滑 亍 为 ． 透 車 等 运 f 生 0 星 控 断 层
+带 流 还 行 为 的 关 参 数 · 目 前 对 浅 部 断 芾 已 开 层 了 大 量 的 流 蝓 运 性
+． 《 、 、 ． 质 研 卉 形 成 了 蘇 适 甲 的 " 通 0 ／ 过 " 二 元 水 力 ． 往 孕 一
+北 天 山 前 翘 中 斷 带 深 浅 构 造 相 互 作 用 与 大 孬 级 联 破 裂
+地 行 业 标 ； 隹 《 活 过 层 琛 查 年 代 定 1 部 分 ： 碳 十 匹 方 法 》 正 式 发 柘
+《 全 国 1 ： 100 万 地 陶 造 图 》 正 式 出 版
+Tectonophysics: 解 水 河 断 鑿 带 过 孜 段 三 垂 大 地 0 硭 恣 示 地 卉 流 分 布 」
+地 - 仃 业 标 《 1 ： 1 0 0 閬 区 域 t 也 震 掏 造 图 偏 制 》 正 式 发 布
+JGR•Solid Earth ： 0 南 正 断 层 运 动 与 动 力 征 一 一 02025 年 定 日 ． ．
+0 0 ． 中 国 地 震 局 地 震 顺 测 研 究 所
+坚 持 以 防 为 主 、 防 痈 救 黼 錇 合 ．
+坚 持 常 态 与 非 常 态 救 灾 相 统
+2002 £ 3
+202009 毛 3
+202 一 2
+202 卜 08 一 24
+202 卜 08 一 21
+202 卜 08 一 21
+刈 站 图 》 系 残 们 》 中 国
+科 研 部 门
+> 活 苤 勾 造 研 究 室
+地 壳 形 变 研 究 室
+深 音 勾 造 研 究 室
+> 新 构 造 与 年 代 学 实 验 室
+强 震 构 造 与 地 震 危 险 性 研
+地 震 与 地 质 灾 害 风 险 研 究
+： 舌 动 火 山 与 灾 害 研 究 室
+https://www.ief.ac.cn/
+队 氵 重 后 救 動 0 重 飞 灾 前 预 防 转 变 ， 吓 的 单 夷 种 、 向 肺
+综 ' 合 减 变 · 从 灾 害 · 损 失 向 减 轻 灾 害 风 险 转 ' 变
+科 研 动 态
+地 震 信 息 解 剖 地 震 IASPEI 地 震 科 考 委 员 会
+第 七 届 · 人 工 習 能 地 震 学 ' ' 研 》 026 “ 地 震 人 ． 工 智 能 论 坛 ' ' 在 尔 滨 举 “
+中 国 专 家 组 成 委 内 碳 拉 地 震 科 学 考 察 任 务 回 国
+预 见 所 酬 究 生 刁 洋 洋 发 表 青 藏 高 原 东 》
+： 机 制 与 高 原 应 力 局 相 关 ． ．
+关 于 开 第 七 届 人 工 智 能 地 震 字 研 讨 0 的 通 知 （ 二 号 通 知 ）
+卜 汶 引 地 震 舌 龙 门 山 断 製 带 周
+地 科 考 国 际 研 讨 会 在 京 举 办
+DoubleF ： 快 速 到 效 构
+卜 2026 世 界 T 替 能 大 会
+演 化
+亠 0 录 的 孬 关 联 和 走 砬 新 方 法
+能 + 防 震 减 灾 " 行 动 方 发 布
+科 研 机 构
+地 芒 中 长 期 预 测 研 究 室
+地 短 临 倾 漶 研 究 室
+地 数 值 预 测 与 风 险 预 测 岍 究 室
+地 馨 预 是 新 技 术 应 研 究 室
+地 监 溟 测 系 统 评 估 设 计 酬 究 室
+· 信 息 中 心
+地 社 会 学 与 地 震 对 策 究 室
+成 果 转 化 用 中 心
+地 预 劐 点 实 验 室
+===== PAGE 30 =====
+http ://www.iem.net.cn/
+中 国 地 震 局 工 程 力 学 研 究 所
+lnstitute of Englneering Mechanics ， CEA
+严 讠 直 肆 的
+科 趼 工 作
+我 所 ß 折 了 甸 7 ． 9 级 大 震 远 场 记 录 对 超 高 鼠 0 筑 的
+中 虱 也 震 局 工
+所 2026 度 基 本 科 趼 业 务
+夭 于 组 织 2026 麻 基 本 科 研 业 务 费 专 4 技 创 新 队
+分 了 缅 7 大 震 远 场 记 对 起 高 层 建
+研 究 亮 点
+的 序 研 究 》 专 著 出 版
+基 于 地 质 年 代 和 成 因 的 新 和 首 部 圈 地 区 宏 旗 场 地 分 类
+坦 台 式 隔 点 系 统 及 其 在 佃 长 型 电 气 设 备 § 连 回 路 中 的 应
+渗 和 地 历 史 懼 合 作 用 对 浅 层 砂 土 地 基 液 化 亢 力 影 响
+拟 性 材 糾 损 伤 全 自 动 数 值 仿 真 研 究
+日 本 海 沟 S ． NET 台 网 水 平 向 海 域 板 内 地 震 动 顶 型
+基 于 对 抗 生 成 神 经 网 络 喱 吉 构 楼 层 加 速 记 录 去 噪 方 法
+阻 尼 器 支 壇 框 架 结 构 抗 性 能 的 影 吭
+基 于 参 考 经 验 方 法 的 日 本 海 沟 区 海 还 地 震 动 预 幔 型
+基 于 恃 征 取 匹 配 多 强 度 指 标 的 地 动 台 成 方 法
+纭 瘫 参 & 对 二 维 洞 积 河 谷 地 震 动 放 大 效 的 影 响 趼 究
+纭 梅 沉 囹 塌 能 力 评 估 效 率 显 著 提 高 ， 工 力 所 团 厚 出
+海 断 脉 冲 掣 地 震 訪 1 断 一 一 一 以 20164 M ℃ E
+高 关 钢 筋 监 凝 士 结 自 脹 周 期 经 公 虱 陽 台 及 分 的 研 霄
+科 研 业 务 部 门
+工 程 地 震 研 宄 中 心
+工 程 抗 震 研 究 中 心
+城 市 综 合 防 灾 研 宄 中 心
+岩 土 地 震 工 程 研 宄 中 心
+强 震 动 观 测 中 心
+地 震 工 程 实 验 中 心
+科 技 杂 志 社
+科 技 成 果 转 化 中 心
+http://www.cenc.ac.cn/
+0 中 国 地 震 台 网 中 心
+首 《 监 测 《 項 目 动 态 《 地 文 献 《 党 建 二 作
+体 幡 报
+致 字
+地 震 科 技 产 品 发 布
+20 抟 ． 《 0 ． 0 ， 22 。 ， ， ， 4 新 河 壳 地 & 巫 M3. ： 0 地 0
+微 筛 呵 可 置
+最 新 地 震
+9 启 6 日 22 时 35 分 在 疆 阿 克 苏 地 区 库 车 、
+9 月 6 日 1 〔 29 分 在 新 疆 克 孜 勒 苏 州 乌 恰 “
+9 月 5 日 21 时 28 分 在 新 疆 巴 音 郭 州 轮 台 一
+9 5 日 1 扌 28 分 狂 海 馮 西 外 自 辖 区 友 “
+9 层 4 日 22 时 03 分 旺 四 川 笪 宾 市 长 宁 县 发 “
+9 月 4 日 18 44 分 在 四 川 宣 宾 市 高 县 发 生 ． “
+9 月 4 日 1 时 04 分 在 青 海 州 直 区 及 生
+9 月 1 日 19 时 兮 在 四 川 缤 阳 市 北 川 县 发 “
+[ 09 一 0
+伊 ． 0
+[ 09 一 0
+[09-
+[ 09 ．
+国 五 级 以 上 全 球 七 级 以 上
+月 4 日 1 时 04 分 在 启 海 些 直 辖 区 茇 生 “
+月 28 日 1 3 时 1 3 分 在 些 川 内 江 市 隆 市 发 一
+月 25 日 1 5 00 分 在 台 湾 台 东 县 海 域 生 一
+月 19 日 5 时 36 分 在 肯 海 海 西 州 自 辖 区 友 ． “
+28 日 16 04 分 压 生 海 海 南 州 兴 县 发 一
+月 28 日 11 时 34 分 在 海 海 南 州 兴 海 以 发 一
+月 28 日 11 时 16 分 在 青 海 海 南 州 兴 海 昼 发 一
+月 21 日 19 43 分 在 云 普 遐 市 墨 江 发 ，
+囤 9 ． 0 引
+丨 0 & 28 ]
+[ 08 ． 凸 ]
+[ 08 ． 19 ]
+7 一 28 ]
+囤 7 ． 2 蜀
+[ 07 ． 28 ]
+阳 7 ． 刀 ]
+===== PAGE 31 =====
+http://www.eq-cedpc.cn/index
+树@ 中 国 地 震 灾 害 防 御 中 心
+首 页 关 于 我 们 业 务 领 域 支 平 台 专 家 团 队 党 建 工 作 信 皂 资 正
+0
+地 震 活 动 断 层 数 据 信 息
+网 站
+0
+中 国 地 震 动 参 数 区 划 图
+信 息 网 站
+地 震 构 造 环 境 探 0
+场 地 条 件 调 0
+承 灾 体 调
+地 震 危 跗 性 区 划
+地 震 灾 害 风 险 区 划
+地 震 危 性 评 估
+地 震 灭 軎 凶 附 泮 庙
+地 震 灾 軎 影 响 评 估
+断 层 活 动 性 筌 定
+区 域 （ 城 市 ） 活 动 断 层 探 到
+深 剖 构 造 环 境 探 劐
+场 地 地 震 工 程 地 质 条 件 调 0
+承 实 体 普
+承 实 体 详
+地 甍 《 軎 隐 患 调 查 和 评 定
+地 震 危 性 区 划
+地 震 动 参 数 区 划
+地 硬 地 质 灾 軎 区 划
+地 烹 灾 軎 风 评 估 与 区 划
+重 大 工 程 场 地 地 震 安 评 结 果 审 定
+地 震 灾 害 损 矢 预 评 估
+重 大 基 皚 施 地 震 灭 軎 风 泮 估
+大 震 情 景 构
+地 震 灾 叾 怯 速 评 估
+地 農 灾 善 损 失 评 估
+地 灾 害 调 育 与 烈 度 评 定
+http://www.ninhm.ac.cn
+4 国 家 目 然 灾 叾 湍 硝 贫 阮
+NATIONAL INSTITUTE OF NATURAL HAZARDS
+本 院 厩 况
+到 ， 灾 息
+同 自 然 灾 叾 抗 争 星 人 类 生 存 发 展 的 永 恒 课 题 。
+党 群 工 亻 乍
+直 传 与 科 普
+动 态 资 讯
+习 近 平
+Q EN ·
+B 到 凹 四
+科 研 机 构
+自 然 害 基 础 科 研 究 中 心
+气 象 灾 害 研 究 中 心
+戲 略 规 划 与 创 新 研 中 心
+地 苈 灾 研 究 中 心
+地 震 灾 害 研 究 中 心
+援 忮 术 装 备 物 资 趼 发 中 心
+水 旱 灾 害 研 中 心
+載 市 灾 害 研 突 中 心
+森 林 草 京 防 灭 火 研 究 中 心
+空 间 信 息 酬 究 中 心
+===== PAGE 32 =====
+《 丿 Chinese Geophysical Society 十
+0 中 地 震 学 会
+中 国 灾 害 防 御 协 会
+AnnuaI Meeting Of Chinese Geosciénce Union(CGUJ
+CGU 2026 年 10 月 17 日 、 21 日 杭 州
+中 国 大 陆 高 校 里 ：
+地 震 学 、 强 震 动 地 震 学 、 工 程 地 震 学 研 宄
+6 0 ； 北 京 大 学 地 球 与 空 间 科 学 学 院
+地 球 空 间 科 学 学 院
+School Of Earth and Space Sciences
+地 球 与 空 间 科 学 系
+O@肀阉 彳 丸 地 昧 与 行 星 科 学 学
+===== PAGE 33 =====
+http://seismo.training.ustc.edu/cn
+地 震 学 算 法 与 程 序 培 训 班
+oithub.com
+地 震 字 笪 法 与 程 培 洲 班 旨 在 眉 弼 地 震 学 研 究 者 在 篡 法 运 用 、 程 序 设 计 及 创 新 能 力 方 面 的 能
+力 ， 同 时 促 进 领 域 内 科 研 人 员 间 的 深 入 合 作 与 交 流 · 该 培 训 班 的 内 容 广 泛 ， 包 括 地 震 学 算 法 的 核
+心 知 、 数 聒 处 理 与 分 忻 技 才 ， 以 及 关 楗 的 桂 技 巧
+培 训 讶 可 北 由 中 国 科 字 木 大 字 、 中 国 地 震 字 0 青 年 科 技 工 作 委 员 等 权 威 机 构 联 台 主 办 ．
+培 训 形 式 灵 活 多 样 ， 可 能 盖 线 上 与 线 下 教 学 ， 内 谷 深 入 浅 出 既 有 地 震 学 篡 法 的 理 论 阐 释 ， 也
+有 实 际 应 用 的 例 分 忻 孬 还 有 缤 程 实 践 的 幞 作 指 导 ·
+参 与 者 将 有 机 会 与 擾 灤 老 师 进 行 面 对 面 的 学 术 交 流 ， 湮 过 堤 问 、 屐 示 等 万 式 深 入 探 讨 地 震 学
+法 及 相 关 程 序 问 题 。 这 种 互 动 氩 的 学 习 方 式 有 助 于 与 者 更 好 地 解 和 掌 地 震 学 领 域 的 最 新
+方 法 与 擯 术 ， 对 于 提 升 地 震 学 研 人 的 专 业 荠 准 动 地 震 学 研 壳 的 进 步 具 有 重 要 意 义 ·
+适 注 息 ， 具 的 培 训 班 设 置 及 内 谷 可 能 因 时 间 、 地 宗 等 因 鬏 而 有 所 斓 整 。 如 您 对 地 震 学 算 法
+与 程 麻 培 训 讶 感 兴 趣 ， 建 议 您 关 注 相 关 机 构 或 组 识 的 官 方 信 息 以 及 时 了 解 最 新 的 培 训 动 态 和
+报 名 洋 情 。
+塋 十 二 届 ． 地 震 学 法 与 程 序 研 i 寸 会 ' ： 开 幕 式 致
+呻 国 到 孚 技 术 人 孚 能 和 空 1 孚 享 0 61m4 3 分 直
+《 0 @） 仂 地 震 学 算 法 与 程 序 研 i 寸
+4203
+开 幕 式 致 辞
+2026 年 8 月 1 0 日
+===== PAGE 34 =====
+0
+学 习 建 议
+· 要 掌 握 基 本 概 念 ， 结 合 生 活 实 际 去 理 解
+· 传 不 习 乎 ？
+． 学 而 时 习 之 ， 不 亦 说 乎
+· 浏 览 相 关 书 籍 、 期 刊 、 网 络 资 源
+成 绩 考 核 方 式
+评 时 作 业 ： 30 ％
+期 末 考 试 ： 70 ％
+授 课 蹿 阒 ： 5 7 节
+0
+0 15 ： 25 一 16 ： 10
+===== PAGE 35 =====
+课 上 手 机 静 音
+课 程 讲 授 主 要 内 容
+第 零 章 开 篇 、 课 程 介 绍
+第 一 章 概 述
+1. 工 程 地 震 学 发 展 简 史
+2 · 工 程 地 震 学 的 研 宄 目 的 和 内 容
+3 · 工 程 地 震 学 与 其 他 学 科 的 关 系
+重 点 ： 工 程 地 震 学 研 宄 的 主 要 内 容 与 目 的 。
+难 点 ： 工 程 地 震 学 与 地 震 学 的 关 系 ，
+地 震 预 测 与 地 震 预 报 的 关 系 与 区 别 。
+===== PAGE 36 =====
+课 程 讲 授 主 要 内 容
+第 二 章 地 震 灾 害
+1. 地 震 及 其 特 点
+2 · 地 震 烈 度
+3 · 地 震 灾 害 及 地 震 地 质 灾 害
+重 点 ： 地 震 学 的 基 础 知 识 及 地 震 宏 观 现 象 。
+难 点 ： 地 震 灾 害 分 析 ， 地 震 烈 度 的 发 展 与 现 状 。
+课 程 讲 授 主 要 内 容
+第 三 章 地 震 地 质
+1 · 新 构 造 与 活 动 构 造
+2 · 地 震 地 质 调 查 与 分 析
+3 · 潜 在 震 源 区 划 分 及 其 地 震 活 动 性 参 数 评 估
+重 点 ： 活 动 断 层 特 性 、 活 动 断 层 的 地 震 危 险 性 评 价 的 内 容 ；
+地 震 安 评 中 的 地 震 地 质 调 查 工 作 内 容 ； 潜 在 震 源 区 。
+难 点 ： 活 动 断 层 定 量 研 宄 的 方 法 ； 地 震 安 评 中 的 地 震 地 质
+调 查 的 要 求 与 基 本 方 法 ； 潜 在 震 源 区 的 划 分 及 其 地
+震 活 动 性 参 数 评 估 的 原 则 和 方 法 。
+===== PAGE 37 =====
+课 程 讲 授 主 要 内 容
+第 四 章 地 震 危 险 性 分 析
+1 · 地 震 危 险 性 分 析 的 确 定 性 方 法
+2 · 地 震 危 险 性 分 析 的 概 率 性 方 法
+3 · 地 震 危 险 性 分 析 计 算 及 其 不 确 定 性 和 校 正
+4 · 地 震 危 险 性 分 析 结 果
+重 点 ： 地 震 危 险 性 与 地 震 预 报 ， 地 震 时 空 统 计 分 布 特 征 。
+难 点 ： 地 震 危 险 性 分 析 的 计 算 及 其 不 确 定 性 的 校 正 。
+课 程 讲 授 主 要 内 容
+第 五 章 地 震 动 特 性
+1. 强 震 观 测
+2 · 地 震 动 的 工 程 特 性
+3 · 近 断 层 地 震 动 特 性
+4 · 地 震 动 衰 减 规 律
+5 · 地 震 动 空 间 相 关 性
+6 · 地 震 动 的 随 机 特 性
+重 点 ： 表 征 地 震 动 工 程 特 性 的 “ 三 要 素 ， ” ： 幅 值 、 频 谱
+和 持 续 时 间 ； 地 震 （ 波 ） 动 的 传 播 规 律 。
+难 点 ： 表 征 强 地 震 动 特 征 参 数 的 物 理 含 义 和 分 析 方 法 ；
+近 场 强 地 震 动 的 特 性 及 其 物 理 机 制 ： 地 震 动 时 空 分 布 特 征 。
+===== PAGE 38 =====
+课 程 讲 授 主 要 内 容
+第 六 章 设 计 地 震 动
+1. 抗 震 设 计 规 范
+2 · 设 计 地 震 动 的 原 则 与 参 数
+3 · 设 计 反 应 谱
+4 · 设 计 地 震 动 时 程
+5 · 地 震 动 多 点 输 入 与 多 维 输 入
+重 点 ： 设 计 地 震 动 的 目 的 、 各 类 工 程 建 筑 抗 震 设 计 规 范
+中 有 关 地 震 动 的 规 定
+难 点 ： 反 应 谱 理 论 ， 设 计 地 震 动 的 理 论 与 方 法 。
+课 程 讲 授 主 要 内 容
+第 七 章 地 震 危 害 性 分 析
+1. 影 响 强 地 面 地 震 动 特 性 的 三 个 因 素 ：
+震 源 过 程 、 传 播 途 径 和 场 地 条 件
+2 · 长 周 期 强 地 震 动 的 数 值 模 拟
+3 · 宽 频 带 强 地 面 地 震 动 的 预 测
+重 点 ： 震 源 破 裂 的 物 理 过 程 、 地 震 波 在 介 质 中 的 传 播 、
+局 部 场 地 条 件 的 影 响 。
+难 点 ： 震 源 破 裂 模 型 （ 运 动 学 模 型 与 动 力 学 模 型 ） ，
+强 地 面 地 震 动 预 测 模 型 和 方 法 。
+===== PAGE 39 =====
+课 程 讲 授 主 要 内 容
+第 八 章 场 地 对 地 震 动 影 响
+1. 场 地 对 震 害 的 影 响
+2 · 场 地 地 震 反 应 分 析
+3 · 工 程 场 地 的 分 类
+4 · 场 地 土 动 力 特 性 参 数 的 测 定
+重 点 ： 局 部 场 地 条 件 对 地 震 动 的 影 响 ，
+抗 震 规 范 中 的 场 地 分 类 。
+难 点 ： 场 地 地 震 反 应 分 析 模 型 和 方 法 。
+课 程 讲 授 主 要 内 容
+第 九 章 地 震 区 划 与 地 震 小 区 划
+1. 地 震 区 划 与 地 震 小 区 划 的 意 义 与 目 的
+2 · 地 震 区 划 和 地 震 小 区 划 与 抗 震 规 范
+3 · 地 震 区 划 与 地 震 小 区 划 研 宄 的 发 展
+4 · 我 国 大 陆 地 区 研 宄 的 最 新 成 果
+重 点 ： 地 震 区 划 与 地 震 小 区 划 在 防 震 减 灾 中 的 意 义 与
+作 用 、 及 其 适 用 范 围 。
+难 点 ： 地 震 区 划 与 地 震 小 区 划 研 宄 的 原 则 与 方 法 。
+===== PAGE 40 =====
+课 程 讲 授 主 要 内 容
+第 十 章 防 震 与 减 灾
+1. 现 代 城 市 地 震 灾 害 特 点
+2 · 地 震 的 早 期 预 警
+3 · 地 震 烈 度 速 报 与 快 速 反 应
+重 点 ： 地 震 早 期 预 警 与 烈 度 速 报 的 基 本 原 理 与 发 展 现 状
+难 点 ： 地 震 早 期 预 警 与 烈 度 速 报 在 实 际 应 用 中 的 适 用 性
+与 局 限 性
+课 程 讲 授 主 要 内 容
+第 十 一 章 课 程 总 结 与 结 语
+回 顾 、 总 结 课 程 的 主 要 内 容 ， 与
+学 生 互 动 对 课 程 主 要 内 容 的 理 解 以 及
+探 讨 工 程 地 震 学 的 发 展 趋 势 。
+===== PAGE 41 =====
+2026 - 2027 学 年 秋 Semester) 校 历
+年 度 Year
+月 份 Mouth
+九 月 （ “ p ． ）
+2026
+十 月 （ 0 “ ． ）
+十 一 目 （ NO 叼
+十 二 月 （ D “ ．
+2027
+一 月 (Jan.)
+0-00000@000000000000-
+《 -0 恤 恤 。 0000 能 0000000-
+-00000 。 000000000000
+-000 能 。 04 砬 0000000-
+0000 。 00000000000000
+星 期 四 (Tbur.)
+星 期 五 （ “ ）
+4 11: ] 头
+0 00000
+2 97 1 23n 3013 13 ” 201 ，
+《 -0000 一 0000000000000-
+00 思 0 “ 00000000 到 000 到 -
+星 期 日 (sun.)
+秋 学 期 从 2026 年 8 月 31 日 丌 始 ：
+中 秋 节 ： 2026 年 9 月 25 日 至 9 月 27 日 放 假 停 课 。
+国 节 ： 2026 年 10 月 1 日 至 10 月 7 日 放 假 停 课 ，
+9 月 20 日 （ 第 三 周 周 日 ） 礻 卜 10 月 6 囗 （ ； 六 周 周 二 ） 的 课 ，
+10 月 10 日 〔 第 六 周 周 六 ） 补 10 月 7 日 （ 第 六 周 周 三 ） 的 课 ．
+2 ． 2027 年 1 月 17 日 程 结 束 ：
+一 一 “ 11 月 30 日
+期 末 考 试
+===== PAGE 42 =====
+0
+11 月 30 日 0
+期 末 考 试
+0
+qne_Lu_E
+： 0
+80-8q
+70 ． 79
+25 年 ：
+90 及 以 上 ： 3
+80 一 89 ：
+5
+70 一 79 ：
+12
+60 0 ： 4
+不 及 格 ：
+0
+00 ． 09
+' 24 年 ：
+90 及 以 上 ：
+80 一 89 ：
+70 一 79 ：
+60 一 60 ：
+不 及 格
+4
+10
+21
+2
+23 年 ：
+90 及 以 上 ：
+80 一 89 ：
+2
+5
+不 及
+最 近 三 年 成 绩 分 布
+70 一 79 ：
+23
+不 及 格 ： 0
+不 及
+===== PAGE 43 =====
+时 候 谦 囍 两 手 ？
+教 得 多
+是 你 的 ，
+是 籼 币 囊 的 ：
+当 你 · 天 e 这 旬 话
+诙 隊 谢 师
+选 《 工 程 地 震 学 》 的 理 由 是 什 么 ？
+》 专 业 的 需 要
+》 个 人 感 兴 趣
+》 导 师 的 推 荐 与 要 求
+》 师 兄 / 姐 的 推 荐
+》 听 说 该 课 程 考 试 “ ·
+>1 0 NOT KNOW
+===== PAGE 44 =====
+题 外 一 些 话
+他 是 美 国 人 一
+不 是 中 国 人 ！
+2008 年 诺 贝 尔 化 学 奖 得 主 钱 永 健 。 g 。 ． Tsien) （ 钱 学 森 堂
+侄 ） ， 2016 年 8 月 24 日 在 美 国 俄 勒 冈 州 尤 金 县 去 也 、 享 年 64 岁 。
+得 奖 的 过 程 是 努 力 加 上 幸 运 ， 但 千 万 要 注 意 ， 不 要 让 奖 项 的 光 环 遮 蔽 了 自 己 ， 如 果
+你 能 懂 得 找 到 对 的 合 作 伙 伴 ， 以 谦 虚 有 礼 的 方 式 向 对 方 请 教 ， 就 有 可 能 创 造 出 “ 双
+赢 ” 的 局 面 ， 总 有 一 天 你 会 发 现 ， 长 久 以 来 的 耐 心 与 坚 持 ， 将 会 获 得 甜 蜜 的 回 报 。
+0 时 代 周 报 ： 对 于 两 岸 三 地 的 年 轻 科 学 家 有 什 么 建 议 吗 ？
+钱 永 健 ： 没 有 。 截 至 目 前 为 止 ， 我 对 于 中 国 大 陆 、 香 港 和 台 湾 等 地 的 年 轻 科 学 家 缺 乏 接 触 ， 了 解 也 相 当 有 限 。
+但 可 以 确 定 的 是 ， 年 轻 人 要 懂 得 在 科 学 研 宄 中 找 到 “ 钓 鱼 的 乐 趣 ” ， 只 要 找 到 自 己 的 兴
+趣 ， 确 立 目 标 ， 在 团 队 合 作 的 过 程 中 享 受 个 中 乐 趣 。
+令 时 代 周 报 ： 这 些 年 来 ， 你 如 何 坚 持 普 通 人 看 来 枯 燥 的 科 学 研 宄 ？
+研 究 工 作 其 实 很 有 趣 。 可 以 发 现 新 的 东 西 ， 也 是 让 我 “ 玩 " 下 去 的 动 力 ，
+钱 永 健 ：
+就 算 在 研 宄 的 过 程 中 出 现 失 误 ， 还 是 可 以 从 错 误 中 发 现 新 的 讯 息 ， 所 以 不 要 害 怕 失 败 。
+0 时 代 周 报 ： 如 何 从 错 误 或 失 败 中 吸 取 经 验 ？
+钱 永 健 ： 失 败 和 错 误 都 是 必 然 的 过 程 ， 就 算 研 宄 出 了 差 错 ， 还 是 有 值 得 学 习 的 地 方 。 我 遇 到 过 一 个 博 士 生 ，
+在 研 宄 过 程 中 连 续 失 败 了 三 次 ， 直 到 继 续 进 行 第 匹 次 研 究 的 时 候 , 发 现 了 成 功 的 契 机 。
+坚 持 下 去 ， 是 迈 向 成 功 的 关 键 因 素 。 目

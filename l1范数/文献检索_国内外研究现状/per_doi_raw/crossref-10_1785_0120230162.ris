@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Tian, Shengze
+AU  - Alam, M. Shahria
+TI  - Baseline Correction of Ground Motions for Linearly Detrended Accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 2024
+VL  - 114
+IS  - 4
+SP  - 1803
+EP  - 1817
+DO  - 10.1785/0120230162
+UR  - https://doi.org/10.1785/0120230162
+N2  - ABSTRACT By revisiting the accelerograms from 42 strong-motion stations in Hualien County that recorded the 2018 Mw 6.4 Hualien earthquake, we identified that the released “raw accelerograms” were linearly detrended to remove baselines. Baseline correction for these linearly detrended accelerograms is challenging, because the baseline drift patterns are more complex than typically recognized ones. To deal with this problem, here we propose a jerk correction pattern in addition to our previously 
+DB  - CrossRef
+ER  - 

@@ -1,0 +1,30 @@
+[
+  {
+    "figure": "fig01",
+    "page": 3,
+    "caption": "Fig.1Originalacceleration,velocityanddisplacementtimehistoriesintheNSdirectionof51YAMstationfromtheMs7.0Lushan",
+    "bbox": [
+      30.0,
+      762.7,
+      291.6,
+      802.7
+    ],
+    "crop_path": "assets/figures/fig01_p03.png",
+    "page_render": "assets/pages/p03.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig02",
+    "page": 6,
+    "caption": "Fig.2SchematicdiagramofIwanetal.(1985)two-stagebaselinecorrectionmethod(modifiedfromWuandWu,2007)",
+    "bbox": [
+      30.0,
+      50.5,
+      291.6,
+      367.1
+    ],
+    "crop_path": "assets/figures/fig02_p06.png",
+    "page_render": "assets/pages/p06.png",
+    "confidence": "approximate"
+  }
+]
