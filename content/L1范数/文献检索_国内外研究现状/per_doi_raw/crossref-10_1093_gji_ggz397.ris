@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Zang, Jianfei
+AU  - Xu, Caijun
+AU  - Chen, Guanxu
+AU  - Wen, Qiang
+AU  - Fan, Shijie
+TI  - Real-time coseismic deformations from adaptively tight integration of high-rate GNSS and strong motion records
+JO  - Geophysical Journal International
+T2  - Geophysical Journal International
+PY  - 2019
+VL  - 219
+IS  - 3
+SP  - 1757
+EP  - 1772
+DO  - 10.1093/gji/ggz397
+UR  - https://doi.org/10.1093/gji/ggz397
+N2  - SUMMARYIn traditional tight integration of high-rate GNSS and strong motion sensors, an appropriate process variance is crucial for obtaining accurate broad-band coseismic deformations. In this paper, instead of using a subjectively empirical value, we present an approach for determining the process variance adaptively based on the adaptive Kalman filter for real-time use. The performance of the approach was validated by the colocated stations collected during the 2010 Mw 7.2 earthquake in El-Ma
+DB  - CrossRef
+ER  - 

@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - D'Amico, Maria
+AU  - Schiappapietra, Erika
+AU  - Lanzano, Giovanni
+AU  - Sgobba, Sara
+AU  - Pacor, Francesca
+TI  - Fling-step recovering from near-source waveforms and ground displacement attenuation models
+PY  - 2020
+DO  - 10.5194/egusphere-egu2020-22285
+UR  - https://doi.org/10.5194/egusphere-egu2020-22285
+N2  - &amp;lt;p&amp;gt;We present a processing scheme (eBASCO, extended BASeline COrrection) to remove the baseline of strong-motion records by means of a piece-wise linear de-trending of the velocity time history. Differently from standard processing schemes, eBASCO does not apply any filtering to remove the low-frequency content of the signal. This approach preserves both the long-period near-source ground-motion, featured by one-side pulse in the velocity trace, and the offset at the end of the dis
+DB  - CrossRef
+ER  - 

@@ -1,0 +1,1267 @@
+TY  - JOUR
+AU  - Zhou, Baofeng
+AU  - Guo, Wenxuan
+AU  - Ren, Yefei
+AU  - Wen, Ruizhi
+AU  - Wang, Hongwei
+AU  - Xu, Tong
+AU  - Zhang, Cong
+AU  - Liu, Aiwen
+TI  - Evaluating the identification methods of permanent displacement derived from strong motion records: Case studies in the 2023 Turkey–Syria earthquake
+JO  - Earthquake Engineering and Resilience
+T2  - Earthquake Engineering and Resilience
+JA  - Earthquake Engineering and Resilience
+PY  - 2024
+VL  - 3
+IS  - 1
+SP  - 120
+EP  - 136
+DO  - 10.1002/eer2.72
+UR  - https://doi.org/10.1002/eer2.72
+N2  - AbstractOn February 6, 2023, the Republic of Turkey experienced a rare occurrence of two successive earthquakes, each with a magnitude exceeding 7.0. The Disaster and Emergency Management Agency (AFAD) swiftly shared the strong motion records, thereby enriching the global database of near‐fault strong motion records. Identification of permanent displacement is essential for effectively utilizing these records. In this study, we refined the permanent displacement identification method, which comb
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chang, Zhiwang
+AU  - Li, Wanheng
+AU  - Goda, Katsuichiro
+AU  - Yan, Zhenxu
+TI  - Automated Recovery of Permanent Displacement in Near‐Fault Ground Motions with Fling‐Step Effects
+JO  - Earthquake Engineering &amp; Structural Dynamics
+T2  - Earthquake Engineering &amp; Structural Dynamics
+JA  - Earthq Engng Struct Dyn
+PY  - 2025
+VL  - 54
+IS  - 14
+SP  - 3685
+EP  - 3704
+DO  - 10.1002/eqe.70048
+UR  - https://doi.org/10.1002/eqe.70048
+N2  - ABSTRACTThe fling‐step is a result of the permanent tectonic offset of the ground in the near‐fault regions of large earthquakes. Ground motions containing the fling typically feature a one‐sided pulse in the velocity and a non‐zero permanent displacement (PD) at the end of shaking. Generally, the information regarding PD is not available in many worldwide databases due to the presence of various errors, as well as the limitations of current practices in eliminating the errors that are contained
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Rupakhety, R.
+AU  - Halldorsson, B.
+AU  - Sigbjörnsson, R.
+TI  - Estimating coseismic deformations from near source strong motion records: methods and case studies
+JO  - Bulletin of Earthquake Engineering
+T2  - Bulletin of Earthquake Engineering
+JA  - Bull Earthquake Eng
+PY  - 2009
+VL  - 8
+IS  - 4
+SP  - 787
+EP  - 811
+DO  - 10.1007/s10518-009-9167-9
+UR  - https://doi.org/10.1007/s10518-009-9167-9
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Wu, Yih-Min
+AU  - Wu, Chien-Fu
+TI  - Approximate recovery of coseismic deformation from Taiwan strong-motion records
+JO  - Journal of Seismology
+T2  - Journal of Seismology
+JA  - J Seismol
+PY  - 2007
+VL  - 11
+IS  - 2
+SP  - 159
+EP  - 170
+DO  - 10.1007/s10950-006-9043-x
+UR  - https://doi.org/10.1007/s10950-006-9043-x
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chao, Wei-An
+AU  - Wu, Yih-Min
+AU  - Zhao, Li
+TI  - An automatic scheme for baseline correction of strong-motion records in coseismic deformation determination
+JO  - Journal of Seismology
+T2  - Journal of Seismology
+JA  - J Seismol
+PY  - 2009
+VL  - 14
+IS  - 3
+SP  - 495
+EP  - 504
+DO  - 10.1007/s10950-009-9178-7
+UR  - https://doi.org/10.1007/s10950-009-9178-7
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Sakkas, Georgios
+AU  - Sakellariou, Nikolaos
+TI  - An algorithm developed in Matlab for the automatic selection of cut-off frequencies, in the correction of strong motion data
+JO  - Acta Geophysica
+T2  - Acta Geophysica
+JA  - Acta Geophys.
+PY  - 2018
+VL  - 66
+IS  - 4
+SP  - 425
+EP  - 448
+DO  - 10.1007/s11600-018-0150-1
+UR  - https://doi.org/10.1007/s11600-018-0150-1
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Tu, Rui
+AU  - Wang, Rongjiang
+AU  - Walter, Thomas R.
+AU  - Diao, FaQi
+TI  - Adaptive recognition and correction of baseline shifts from collocated GPS and accelerometer using two phases Kalman filter
+JO  - Advances in Space Research
+T2  - Advances in Space Research
+JA  - Advances in Space Research
+PY  - 2014
+VL  - 54
+IS  - 9
+SP  - 1924
+EP  - 1932
+DO  - 10.1016/j.asr.2014.07.008
+UR  - https://doi.org/10.1016/j.asr.2014.07.008
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Guo, Bofeng
+AU  - Di, Mingwei
+AU  - Song, Fucheng
+AU  - Li, Jingwei
+AU  - Shi, Shuangshuang
+AU  - Limsupavanich, Nutpapon
+TI  - Integrated coseismic displacement derived from high-rate GPS and strong-motion seismograph: Application to the 2017 Ms 7.0 Jiuzhaigou Earthquake
+JO  - Measurement
+T2  - Measurement
+JA  - Measurement
+PY  - 2021
+VL  - 182
+SP  - 109735
+DO  - 10.1016/j.measurement.2021.109735
+UR  - https://doi.org/10.1016/j.measurement.2021.109735
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Boore, David M.
+AU  - Bommer, Julian J.
+TI  - Processing of strong-motion accelerograms: needs, options and consequences
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2005
+VL  - 25
+IS  - 2
+SP  - 93
+EP  - 115
+DO  - 10.1016/j.soildyn.2004.10.007
+UR  - https://doi.org/10.1016/j.soildyn.2004.10.007
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Graizer, Vladimir M.
+TI  - Effect of tilt on strong motion data processing
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2005
+VL  - 25
+IS  - 3
+SP  - 197
+EP  - 204
+DO  - 10.1016/j.soildyn.2004.10.008
+UR  - https://doi.org/10.1016/j.soildyn.2004.10.008
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Lin, Yuanzheng
+AU  - Zong, Zhouhong
+AU  - Tian, Shizhu
+AU  - Lin, Jin
+TI  - A new baseline correction method for near-fault strong-motion records based on the target final displacement
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2018
+VL  - 114
+SP  - 27
+EP  - 37
+DO  - 10.1016/j.soildyn.2018.06.036
+UR  - https://doi.org/10.1016/j.soildyn.2018.06.036
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Dai, Zhijun
+AU  - Li, Xiaojun
+AU  - Chen, Su
+AU  - Zhao, Sicheng
+AU  - Xiong, Zhenghui
+TI  - Baseline correction based on L1-Norm optimization and its verification by a computer vision method
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2020
+VL  - 131
+SP  - 106047
+DO  - 10.1016/j.soildyn.2020.106047
+UR  - https://doi.org/10.1016/j.soildyn.2020.106047
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chen, Xiaoyu
+AU  - Wang, Dongsheng
+TI  - Baseline correction of near-fault ground motion records based on the hilbert spectral analysis
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2022
+VL  - 154
+SP  - 107162
+DO  - 10.1016/j.soildyn.2022.107162
+UR  - https://doi.org/10.1016/j.soildyn.2022.107162
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Schiappapietra, Erika
+AU  - Lanzano, Giovanni
+AU  - Sgobba, Sara
+TI  - Empirical predictive models for fling step and displacement response spectra based on the NESS database
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2022
+VL  - 158
+SP  - 107294
+DO  - 10.1016/j.soildyn.2022.107294
+UR  - https://doi.org/10.1016/j.soildyn.2022.107294
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - He, Zhizhou
+AU  - Zhang, Yanjie
+AU  - Wang, Haishen
+AU  - Pan, Peng
+TI  - Baseline correction method of acceleration time history based on residual displacement and convex optimization
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2023
+VL  - 165
+SP  - 107676
+DO  - 10.1016/j.soildyn.2022.107676
+UR  - https://doi.org/10.1016/j.soildyn.2022.107676
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zhou, Baofeng
+AU  - Zhang, Cong
+AU  - Wang, Xiaomin
+AU  - Wang, Yinuo
+AU  - Yin, Yue
+AU  - Gong, Maosheng
+TI  - A VMD-based baseline correction method of strong ground motion records and permanent displacement evaluation
+JO  - Soil Dynamics and Earthquake Engineering
+T2  - Soil Dynamics and Earthquake Engineering
+JA  - Soil Dynamics and Earthquake Engineering
+PY  - 2026
+VL  - 203
+SP  - 110089
+DO  - 10.1016/j.soildyn.2026.110089
+UR  - https://doi.org/10.1016/j.soildyn.2026.110089
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zhu, Lupei
+TI  - Recovering permanent displacements from seismic records of the June 9, 1994 Bolivia deep earthquake
+JO  - Geophysical Research Letters
+T2  - Geophysical Research Letters
+JA  - Geophysical Research Letters
+PY  - 2003
+VL  - 30
+IS  - 14
+DO  - 10.1029/2003gl017302
+UR  - https://doi.org/10.1029/2003gl017302
+N2  - Ground displacements of the 1994 deep Bolivia earthquake are recovered from six on‐scale velocity records of a temporary array located ∼600 km south of the epicenter. I first removed the instrument (STS‐2) response using a time‐domain deconvolution. To correct for baseline drift in the deconvolutions, I used two separate windows of the trace, one before and one after the transient motion from the earthquake, and fit them simultaneously with a 4th‐order polynomial. The amount of permanent displac
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zhang, Zhi-Min
+AU  - Chen, Shan
+AU  - Liang, Yi-Zeng
+TI  - Baseline correction using adaptive iteratively reweighted penalized least squares
+JO  - The Analyst
+T2  - The Analyst
+JA  - Analyst
+PY  - 2010
+VL  - 135
+IS  - 5
+SP  - 1138
+DO  - 10.1039/b922045c
+UR  - https://doi.org/10.1039/b922045c
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Baek, Sung-June
+AU  - Park, Aaron
+AU  - Ahn, Young-Jin
+AU  - Choo, Jaebum
+TI  - Baseline correction using asymmetrically reweighted penalized least squares smoothing
+JO  - The Analyst
+T2  - The Analyst
+JA  - Analyst
+PY  - 2015
+VL  - 140
+IS  - 1
+SP  - 250
+EP  - 257
+DO  - 10.1039/c4an01061b
+UR  - https://doi.org/10.1039/c4an01061b
+N2  - Baseline correction methods based on penalized least squares are successfully applied to various spectral analyses.
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Tu, R.
+AU  - Wang, R.
+AU  - Zhang, Y.
+AU  - Walter, T. R.
+TI  - Application of a net-based baseline correction scheme to strong-motion records of the 2011 Mw 9.0 Tohoku earthquake
+JO  - Geophysical Journal International
+T2  - Geophysical Journal International
+JA  - Geophysical Journal International
+PY  - 2014
+VL  - 197
+IS  - 3
+SP  - 1808
+EP  - 1821
+DO  - 10.1093/gji/ggu092
+UR  - https://doi.org/10.1093/gji/ggu092
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Tian, Shengze
+AU  - Gardoni, Paolo
+AU  - Li, Han
+AU  - Yuan, Wancheng
+TI  - Baseline correction of ground motions with physics-based correction patterns
+JO  - Geophysical Journal International
+T2  - Geophysical Journal International
+PY  - 2019
+VL  - 217
+IS  - 1
+SP  - 668
+EP  - 681
+DO  - 10.1093/gji/ggz039
+UR  - https://doi.org/10.1093/gji/ggz039
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zang, Jianfei
+AU  - Xu, Caijun
+AU  - Chen, Guanxu
+AU  - Wen, Qiang
+AU  - Fan, Shijie
+TI  - Real-time coseismic deformations from adaptively tight integration of high-rate GNSS and strong motion records
+JO  - Geophysical Journal International
+T2  - Geophysical Journal International
+PY  - 2019
+VL  - 219
+IS  - 3
+SP  - 1757
+EP  - 1772
+DO  - 10.1093/gji/ggz397
+UR  - https://doi.org/10.1093/gji/ggz397
+N2  - SUMMARYIn traditional tight integration of high-rate GNSS and strong motion sensors, an appropriate process variance is crucial for obtaining accurate broad-band coseismic deformations. In this paper, instead of using a subjectively empirical value, we present an approach for determining the process variance adaptively based on the adaptive Kalman filter for real-time use. The performance of the approach was validated by the colocated stations collected during the 2010 Mw 7.2 earthquake in El-Ma
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Mallat, S.G.
+AU  - Zhifeng Zhang, 
+TI  - Matching pursuits with time-frequency dictionaries
+JO  - IEEE Transactions on Signal Processing
+T2  - IEEE Transactions on Signal Processing
+JA  - IEEE Trans. Signal Process.
+PY  - 1993
+VL  - 41
+IS  - 12
+SP  - 3397
+EP  - 3415
+DO  - 10.1109/78.258082
+UR  - https://doi.org/10.1109/78.258082
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Donoho, David L.
+AU  - Tsaig, Yaakov
+TI  - Fast Solution of $\ell _{1}$-Norm Minimization Problems When the Solution May Be Sparse
+JO  - IEEE Transactions on Information Theory
+T2  - IEEE Transactions on Information Theory
+JA  - IEEE Trans. Inform. Theory
+PY  - 2008
+VL  - 54
+IS  - 11
+SP  - 4789
+EP  - 4812
+DO  - 10.1109/tit.2008.929958
+UR  - https://doi.org/10.1109/tit.2008.929958
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Wang, Yanfei
+AU  - Cao, Jingjie
+AU  - Yang, Changchun
+TI  - Recovery of seismic wavefields based on compressive sensing by an l1-norm constrained trust region method and the piecewise random subsampling
+JO  - Geophysical Journal International
+T2  - Geophysical Journal International
+PY  - 2011
+VL  - 187
+IS  - 1
+SP  - 199
+EP  - 213
+DO  - 10.1111/j.1365-246x.2011.05130.x
+UR  - https://doi.org/10.1111/j.1365-246x.2011.05130.x
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Tibshirani, Robert
+TI  - Regression Shrinkage and Selection Via the Lasso
+JO  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+T2  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+PY  - 1996
+VL  - 58
+IS  - 1
+SP  - 267
+EP  - 288
+DO  - 10.1111/j.2517-6161.1996.tb02080.x
+UR  - https://doi.org/10.1111/j.2517-6161.1996.tb02080.x
+N2  - SUMMARY We propose a new method for estimation in linear models. The ‘lasso’ minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models. Our simulation studies suggest that the lasso enjoys some of the favourable properties of both subset selection and ridge regression. It produces interpretable 
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Pan, Chao
+AU  - Zhang, Ruifu
+AU  - Luo, Hao
+AU  - Shen, Hua
+TI  - Target-based algorithm for baseline correction of inconsistent vibration signals
+JO  - Journal of Vibration and Control
+T2  - Journal of Vibration and Control
+JA  - Journal of Vibration and Control
+PY  - 2017
+VL  - 24
+IS  - 12
+SP  - 2562
+EP  - 2575
+DO  - 10.1177/1077546316689014
+UR  - https://doi.org/10.1177/1077546316689014
+N2  - A target-based baseline correction algorithm that can directly assign acceleration/velocity/displacement values equal or close to preset target values is proposed in this study for correcting vibration acceleration signals with inconsistent initial velocities and displacements. Baseline shift or drift phenomena can arise for velocity and displacement values obtained by numerical integration of recorded acceleration signals using assumed initial values that are inconsistent with reality. Two indi
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Pan, Chao
+AU  - Zhang, Ruifu
+AU  - Luo, Hao
+AU  - Shen, Hua
+TI  - Baseline correction of vibration acceleration signals with inconsistent initial velocity and displacement
+JO  - Advances in Mechanical Engineering
+T2  - Advances in Mechanical Engineering
+JA  - Advances in Mechanical Engineering
+PY  - 2016
+VL  - 8
+IS  - 10
+DO  - 10.1177/1687814016675534
+UR  - https://doi.org/10.1177/1687814016675534
+N2  - This study improves upon the traditional polynomial detrending method in order to correct the vibration acceleration signals with inconsistent initial velocity and displacement more rationally and efficiently. When numerical integration of recorded acceleration signals using assumed initial velocity and displacement values (which are generally inconsistent with real values) is performed, baseline shift or drift phenomenon can arise in velocity and displacement curves obtained. Baseline correctio
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Xu, Degang
+AU  - Liu, Song
+AU  - Cai, Yaoyi
+AU  - Yang, Chunhua
+TI  - Baseline correction method based on doubly reweighted penalized least squares
+JO  - Applied Optics
+T2  - Applied Optics
+JA  - Appl. Opt.
+PY  - 2019
+VL  - 58
+IS  - 14
+SP  - 3913
+DO  - 10.1364/ao.58.003913
+UR  - https://doi.org/10.1364/ao.58.003913
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Boore, D. M.
+TI  - Effect of Baseline Corrections on Displacements and Response Spectra for Several Recordings of the 1999 Chi-Chi, Taiwan, Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2004
+VL  - 91
+IS  - 5
+SP  - 1199
+EP  - 1211
+DO  - 10.1785/0120000703
+UR  - https://doi.org/10.1785/0120000703
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Boore, D. M.
+TI  - Comments on Baseline Correction of Digital Strong-Motion Data: Examples from the 1999 Hector Mine, California, Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2002
+VL  - 92
+IS  - 4
+SP  - 1543
+EP  - 1560
+DO  - 10.1785/0120000926
+UR  - https://doi.org/10.1785/0120000926
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Wang, G.-Q.
+TI  - Some Observations on Colocated and Closely Spaced Strong Ground-Motion Records of the 1999 Chi-Chi, Taiwan, Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2003
+VL  - 93
+IS  - 2
+SP  - 674
+EP  - 693
+DO  - 10.1785/0120020045
+UR  - https://doi.org/10.1785/0120020045
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Boore, D. M.
+TI  - On Pads and Filters: Processing Strong-Motion Data
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2005
+VL  - 95
+IS  - 2
+SP  - 745
+EP  - 750
+DO  - 10.1785/0120040160
+UR  - https://doi.org/10.1785/0120040160
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chen, S.-M.
+AU  - Loh, C.-H.
+TI  - Estimating Permanent Ground Displacement from Near-Fault Strong-Motion Accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2007
+VL  - 97
+IS  - 1B
+SP  - 63
+EP  - 75
+DO  - 10.1785/0120060060
+UR  - https://doi.org/10.1785/0120060060
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Graizer, V.
+TI  - Tilts in Strong Ground Motion
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2006
+VL  - 96
+IS  - 6
+SP  - 2090
+EP  - 2102
+DO  - 10.1785/0120060065
+UR  - https://doi.org/10.1785/0120060065
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Akkar, S.
+AU  - Boore, D. M.
+TI  - On Baseline Corrections and Uncertainty in Response Spectrafor Baseline Variations Commonly Encounteredin Digital Accelerograph Records
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2009
+VL  - 99
+IS  - 3
+SP  - 1671
+EP  - 1690
+DO  - 10.1785/0120080206
+UR  - https://doi.org/10.1785/0120080206
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Javelaud, E. H.
+AU  - Ohmachi, T.
+AU  - Inoue, S.
+TI  - A Quantitative Approach for Estimating Coseismic Displacements in the Near Field from Strong-Motion Accelerographs
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2011
+VL  - 101
+IS  - 3
+SP  - 1182
+EP  - 1198
+DO  - 10.1785/0120100146
+UR  - https://doi.org/10.1785/0120100146
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Wang, R.
+AU  - Schurr, B.
+AU  - Milkereit, C.
+AU  - Shao, Z.
+AU  - Jin, M.
+TI  - An Improved Automatic Scheme for Empirical Baseline Correction of Digital Strong-Motion Records
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2011
+VL  - 101
+IS  - 5
+SP  - 2029
+EP  - 2044
+DO  - 10.1785/0120110039
+UR  - https://doi.org/10.1785/0120110039
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Wang, R.
+AU  - Parolai, S.
+AU  - Ge, M.
+AU  - Jin, M.
+AU  - Walter, T. R.
+AU  - Zschau, J.
+TI  - The 2011 Mw 9.0 Tohoku Earthquake: Comparison of GPS and Strong-Motion Data
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2013
+VL  - 103
+IS  - 2B
+SP  - 1336
+EP  - 1347
+DO  - 10.1785/0120110264
+UR  - https://doi.org/10.1785/0120110264
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Huang, J.-Y.
+AU  - Wen, K.-L.
+AU  - Li, X.-J.
+AU  - Xie, J.-J.
+AU  - Chen, C.-T.
+AU  - Su, S.-C.
+TI  - Coseismic Deformation Time History Calculated from Acceleration Records Using an EMD-Derived Baseline Correction Scheme: A New Approach Validated for the 2011 Tohoku Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+JA  - Bulletin of the Seismological Society of America
+PY  - 2013
+VL  - 103
+IS  - 2B
+SP  - 1321
+EP  - 1335
+DO  - 10.1785/0120120278
+UR  - https://doi.org/10.1785/0120120278
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Inbal, Asaf
+AU  - Ziv, Alon
+TI  - Automatic Extraction of Permanent Ground Offset from Near-Field Accelerograms: Algorithm, Validation, and Application to the 2004 Parkfield Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 2020
+VL  - 110
+IS  - 6
+SP  - 2638
+EP  - 2646
+DO  - 10.1785/0120200040
+UR  - https://doi.org/10.1785/0120200040
+N2  - ABSTRACTPermanent ground offsets, constituting a prime dataset for constraining final fault-slip distributions, may not be recovered straightforwardly by double integration of near-field accelerograms due to tilt and other distorting effects. Clearly, if a way could be found to recover permanent ground offsets from acceleration records, then static datasets would be enlarged, and thus the resolution of fault-slip inversions would be enhanced. Here, we introduce a new approach for extracting perm
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Tian, Shengze
+AU  - Alam, M. Shahria
+TI  - Baseline Correction of Ground Motions for Linearly Detrended Accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 2024
+VL  - 114
+IS  - 4
+SP  - 1803
+EP  - 1817
+DO  - 10.1785/0120230162
+UR  - https://doi.org/10.1785/0120230162
+N2  - ABSTRACT By revisiting the accelerograms from 42 strong-motion stations in Hualien County that recorded the 2018 Mw 6.4 Hualien earthquake, we identified that the released “raw accelerograms” were linearly detrended to remove baselines. Baseline correction for these linearly detrended accelerograms is challenging, because the baseline drift patterns are more complex than typically recognized ones. To deal with this problem, here we propose a jerk correction pattern in addition to our previously 
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chen, Xiaoyu
+AU  - Jin, Mingyang
+AU  - Sun, Zhiguo
+AU  - Chen, Tianheng
+AU  - Wang, Jianning
+AU  - Li, Ying
+AU  - Wei, Guo
+AU  - Wang, Dongsheng
+TI  - Leveraging the Physics of Jerk: An Automated Framework for Recovering Permanent Displacement from Seismic Records
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 2026
+DO  - 10.1785/0120260075
+UR  - https://doi.org/10.1785/0120260075
+N2  - ABSTRACT Coseismic permanent ground displacement is essential for understanding earthquake rupture mechanisms and assessing seismic hazards. However, traditional geodetic methods are often limited by sparse spatiotemporal coverage and high costs. Strong-motion records offer a valuable supplement but are frequently contaminated by baseline offsets. Existing baseline correction methods largely rely on visual inspection and empirical image-based judgments, lacking a clear physical foundation and su
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - D’Amico, Maria
+AU  - Felicetta, Chiara
+AU  - Schiappapietra, Erika
+AU  - Pacor, Francesca
+AU  - Gallovič, František
+AU  - Paolucci, Roberto
+AU  - Puglia, Rodolfo
+AU  - Lanzano, Giovanni
+AU  - Sgobba, Sara
+AU  - Luzi, Lucia
+TI  - Fling Effects from Near‐Source Strong‐Motion Records: Insights from the 2016 Mw 6.5 Norcia, Central Italy, Earthquake
+JO  - Seismological Research Letters
+T2  - Seismological Research Letters
+PY  - 2018
+VL  - 90
+IS  - 2A
+SP  - 659
+EP  - 671
+DO  - 10.1785/0220180169
+UR  - https://doi.org/10.1785/0220180169
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Dong, Sheng
+AU  - Li, Zhengbo
+AU  - Hu, Feng
+AU  - Yu, Zhenjiang
+AU  - Chen, Xiaofei
+TI  - TraceNet: An Effective Deep-Learning-Based Method for Baseline Correction of Near-Field Acceleration Records
+JO  - Seismological Research Letters
+T2  - Seismological Research Letters
+PY  - 2023
+DO  - 10.1785/0220220272
+UR  - https://doi.org/10.1785/0220220272
+N2  - AbstractIn strong ground-motion observations, accelerograms are an important material in both seismic research and earthquake engineering. However, the ubiquitous baseline drift in near-field acceleration records has a large impact on the integrated velocity and double-integrated displacement with linear and parabolic drift, respectively. Conventionally, high-pass filtering and two-stage baseline fitting methods are commonly applied in baseline corrections to obtain reliable strong-motion record
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Yang, Hongwu
+AU  - Li, Yingmin
+AU  - Hu, Lei
+AU  - Pan, Weihao
+AU  - Ji, Shuyan
+TI  - New Baseline Correction Method for Near-Fault Ground-Motion Records Based on Continuous Wavelet Transform
+JO  - Seismological Research Letters
+T2  - Seismological Research Letters
+PY  - 2024
+VL  - 95
+IS  - 2A
+SP  - 607
+EP  - 625
+DO  - 10.1785/0220230184
+UR  - https://doi.org/10.1785/0220230184
+N2  - Abstract On 6 February 2023, a magnitude 7.8 earthquake struck south-central Türkiye. It was followed by many aftershocks, the largest of which was a magnitude 7.5 aftershock. This earthquake caused considerable loss of life and property. Numerous near-fault ground-motion records were collected during the 2023 Türkiye earthquake. Most existing baseline correction methods for near-fault ground motions disregard the commonly used filtering techniques due to their potential elimination of actual pe
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Housner, George W.
+TI  - Ground displacement computed from strong-motion accelerograms*
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1947
+VL  - 37
+IS  - 4
+SP  - 299
+EP  - 305
+DO  - 10.1785/bssa0370040299
+UR  - https://doi.org/10.1785/bssa0370040299
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Hershberger, John
+TI  - Recent developments in strong-motion analysis*
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1955
+VL  - 45
+IS  - 1
+SP  - 11
+EP  - 21
+DO  - 10.1785/bssa0450010011
+UR  - https://doi.org/10.1785/bssa0450010011
+N2  - Abstract The integration of acceleration records as performed by the U. S. Coast and Geodetic Survey to produce velocity and displacement curves has nearly always required the use of arbitrary “adjustments,” in addition to the three legitimate adjustments involved in fixing the two constants of integration and the acceleration axis. These additional adjustments were justified on the assumption of accelerometer zero shifts. An improved accelerometer eliminated the possibility of zero shifts, ther
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Boyce, W. H.
+TI  - Integration of accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1970
+VL  - 60
+IS  - 1
+SP  - 261
+EP  - 263
+DO  - 10.1785/bssa0600010261
+UR  - https://doi.org/10.1785/bssa0600010261
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Trifunac, Mihailo D.
+TI  - Zero baseline correction of strong-motion accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1971
+VL  - 61
+IS  - 5
+SP  - 1201
+EP  - 1211
+DO  - 10.1785/bssa0610051201
+UR  - https://doi.org/10.1785/bssa0610051201
+N2  - abstract A new method is proposed for standard baseline correction of strong-motion accelerograms. It is based on high-pass filtering of the uncorrected digitized accelerogram data. Unlike the parabolic baseline correction, the new method has well-defined frequency transfer function properties which are largely independent of the record length.
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Trifunac, M. D.
+AU  - Lee, V. W.
+TI  - A note on the accuracy of computed ground displacements from strong-motion accelerograms
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1974
+VL  - 64
+IS  - 4
+SP  - 1209
+EP  - 1219
+DO  - 10.1785/bssa0640041209
+UR  - https://doi.org/10.1785/bssa0640041209
+N2  - abstract In this paper the accuracy of routine methods for processing strong-motion earthquake accelerograms (Trifunac, 1971, 1972; Hudson et al., 1971) has been tested by comparing displacement curves computed from the twice-integrated accelerograph recordings with displacement curves computed from displacement-meter measurements. The displacement meters have transducers with natural periods typically several seconds long. Agreement is found to be very good, suggesting that the methods used for
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Iwan, Wilfred D.
+AU  - Moser, Michael A.
+AU  - Peng, Chia-Yen
+TI  - Some observations on strong-motion earthquake measurement using a digital accelerograph
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1985
+VL  - 75
+IS  - 5
+SP  - 1225
+EP  - 1246
+DO  - 10.1785/bssa0750051225
+UR  - https://doi.org/10.1785/bssa0750051225
+N2  - Abstract This paper presents results of a study of some of the characteristics of a PDR-1 digital strong-motion accelerograph. Results are presented for laboratory tests of the background noise level of the instrument, and these results are compared with previously reported observations for optical instruments. Noise levels for the digital instrument are found to be one or two orders of magnitude lower than for an analog optimal instrument. The paper discusses determination of displacement from 
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chiu, Hung-Chie
+TI  - Stable baseline correction of digital strong-motion data
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1997
+VL  - 87
+IS  - 4
+SP  - 932
+EP  - 944
+DO  - 10.1785/bssa0870040932
+UR  - https://doi.org/10.1785/bssa0870040932
+N2  - AbstractMost baseline errors of analog strong-motion data still exist in highresolution data. In this study, we identify the major baseline errors of digital strong-motion data and propose a three-step algorithm to correct these errors. The major baseline errors found in these digital data consist of constant drift in the acceleration, low-frequency instrument noise, low-frequency background noise, the small initial values for acceleration and velocity, and manipulation errors. This threestep al
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Graizer, V.
+TI  - Strong Motion Recordings and Residual Displacements: What Are We Actually Recording in Strong Motion Seismology?
+JO  - Seismological Research Letters
+T2  - Seismological Research Letters
+JA  - Seismological Research Letters
+PY  - 2010
+VL  - 81
+IS  - 4
+SP  - 635
+EP  - 639
+DO  - 10.1785/gssrl.81.4.635
+UR  - https://doi.org/10.1785/gssrl.81.4.635
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Chiu, Hung-Chie
+TI  - A Compatible Baseline Correction Algorithm for Strong-Motion Data
+JO  - Terrestrial, Atmospheric and Oceanic Sciences
+T2  - Terrestrial, Atmospheric and Oceanic Sciences
+JA  - Terr. Atmos. Ocean. Sci.
+PY  - 2012
+VL  - 23
+IS  - 2
+SP  - 171
+DO  - 10.3319/tao.2011.10.25.01(t)
+UR  - https://doi.org/10.3319/tao.2011.10.25.01(t)
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zhang, Yuanfan
+AU  - Nie, Zhixi
+AU  - Wang, Zhenjie
+AU  - Zhang, Guohong
+AU  - Shan, Xinjian
+TI  - Integration of High-Rate GNSS and Strong Motion Record Based on Sage–Husa Kalman Filter with Adaptive Estimation of Strong Motion Acceleration Noise Uncertainty
+JO  - Remote Sensing
+T2  - Remote Sensing
+JA  - Remote Sensing
+PY  - 2024
+VL  - 16
+IS  - 11
+SP  - 2000
+DO  - 10.3390/rs16112000
+UR  - https://doi.org/10.3390/rs16112000
+N2  - A strong motion seismometer is a kind of inertial sensor, and it can record middle- to high-frequency ground accelerations. The double-integration from acceleration to displacement amplifies errors caused by tilt, rotation, hysteresis, non-linear instrument response, and noise. This leads to long-period, non-physical baseline drifts in the integrated displacements. GNSS enables the direct observation of the ground displacements, with an accuracy of several millimeters to centimeters and a sample
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - D'Amico, Maria
+AU  - Schiappapietra, Erika
+AU  - Lanzano, Giovanni
+AU  - Sgobba, Sara
+AU  - Pacor, Francesca
+TI  - Fling-step recovering from near-source waveforms and ground displacement attenuation models
+PY  - 2020
+DO  - 10.5194/egusphere-egu2020-22285
+UR  - https://doi.org/10.5194/egusphere-egu2020-22285
+N2  - &amp;lt;p&amp;gt;We present a processing scheme (eBASCO, extended BASeline COrrection) to remove the baseline of strong-motion records by means of a piece-wise linear de-trending of the velocity time history. Differently from standard processing schemes, eBASCO does not apply any filtering to remove the low-frequency content of the signal. This approach preserves both the long-period near-source ground-motion, featured by one-side pulse in the velocity trace, and the offset at the end of the dis
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - Zhang, Yuanfan
+AU  - Li, Yanchuan
+AU  - Shan, Xinjian
+TI  - Strong motion baseline correction based on acceleration smoothness priors and co-located GNSS static displacement constraints
+PY  - 2026
+DO  - 10.5194/egusphere-egu26-1482
+UR  - https://doi.org/10.5194/egusphere-egu26-1482
+N2  - Strong-motion acceleration records are crucial for seismic research and vibration analysis. Still, baseline offsets often introduce drift in displacement integration estimates, compromising the accuracy of the coseismic displacement retrieval. By providing precise ground deformation signals, the high-rate Global Navigation Satellite System (GNSS) offers ideal baseline correction constraints. In this paper, we propose a baseline correction method based on acceleration smoothness priors and co-loc
+DB  - CrossRef
+ER  -
+
+TY  - JOUR
+AU  - 王国权
+AU  - 周锡元
+TI  - 9·21 台湾集集地震近断层强震记录的基线校正
+JO  - 地震地质
+PY  - 2004
+VL  - 26
+IS  - 1
+SP  - 1
+EP  - 14
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 于海英
+AU  - 江汶乡
+AU  - 解全才
+AU  - 杨永强
+AU  - 程翔
+AU  - 杨剑
+TI  - 近场数字强震仪记录误差分析与零线校正方法
+JO  - 地震工程与工程振动
+PY  - 2009
+VL  - 29
+IS  - 6
+SP  - 1
+EP  - 12
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 周宝峰
+AU  - 于海英
+AU  - 温瑞智
+AU  - 谢礼立
+TI  - 一种识别永久位移的新方法
+JO  - 土木工程学报
+PY  - 2013
+VL  - 46
+IS  - S2
+SP  - 135
+EP  - 140
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 荣棉水
+AU  - 彭艳菊
+AU  - 喻畑
+AU  - 杨宇
+TI  - 近断层强震观测记录基线校正的优化方法
+JO  - 土木工程学报
+PY  - 2014
+VL  - 47
+IS  - S2
+SP  - 308
+EP  - 314
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 彭小波
+AU  - 李小军
+AU  - 刘泉
+TI  - 数字加速度记录基线校正相关问题的初步研究
+JO  - 世界地震工程
+PY  - 2010
+VL  - 26
+IS  - S1
+SP  - 142
+EP  - 147
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 彭小波
+AU  - 李小军
+AU  - 刘启方
+TI  - 基于强震记录估算同震位移的研究进展及方法
+JO  - 世界地震工程
+PY  - 2011
+VL  - 27
+IS  - 3
+SP  - 73
+EP  - 80
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 彭小波
+AU  - 李小军
+TI  - 汶川地震强震动地面倾斜研究
+JO  - 地震学报
+PY  - 2012
+VL  - 34
+IS  - 1
+SP  - 64
+EP  - 75
+LA  - chi
+ER  -
+
+TY  - THES
+AU  - 彭小波
+TI  - 汶川地震强震动记录分析及应用
+PB  - 中国地震局工程力学研究所
+CY  - 哈尔滨
+PY  - 2011
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 张斌
+AU  - 俞言祥
+AU  - 肖亮
+TI  - 近断层强震记录基线校正的改进方法
+JO  - 振动与冲击
+PY  - 2020
+VL  - 39
+IS  - 5
+SP  - 137
+EP  - 142
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 张斌
+AU  - 俞言祥
+TI  - 近场强震动记录基线校正方法
+JO  - 地球与行星物理论评
+PY  - 2022
+VL  - 53
+IS  - 2
+SP  - 204
+EP  - 213
+DO  - 10.19975/j.dqyxx.2021-053
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 赵思程
+AU  - 陈苏
+AU  - 李小军
+TI  - 基于视觉观测技术的强震动记录校正方法验证
+JO  - 地震工程与工程振动
+PY  - 2019
+VL  - 39
+IS  - 5
+SP  - 189
+EP  - 198
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 周雍年
+AU  - 章文波
+AU  - 于海英
+TI  - 数字强震仪记录的长周期误差分析
+JO  - 地震工程与工程振动
+PY  - 1997
+VL  - 17
+IS  - 2
+SP  - 1
+EP  - 9
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 谢礼立
+AU  - 周雍年
+AU  - 胡成祥
+AU  - 于海英
+TI  - 地震动反应谱的长周期特性
+JO  - 地震工程与工程振动
+PY  - 1990
+VL  - 10
+IS  - 1
+SP  - 1
+EP  - 19
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 谢俊举
+AU  - 温增平
+AU  - 高孟潭
+TI  - 利用强震数据获取汶川地震近断层地面永久位移
+JO  - 地震学报
+PY  - 2013
+VL  - 35
+IS  - 3
+SP  - 369
+EP  - 379
+DO  - 10.3969/j.issn.0253-3782.2013.03.008
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - 熊政辉
+AU  - 李小军
+AU  - 戴志军
+AU  - 陈苏
+TI  - 基于 L1 范数正则化的强震动加速度记录基线漂移识别方法
+JO  - 地震学报
+PY  - 2019
+VL  - 41
+IS  - 1
+SP  - 111
+EP  - 123
+DO  - 10.11939/jass.20180072
+LA  - chi
+ER  -
+
+TY  - JOUR
+AU  - Graizer, V. M.
+TI  - Determination of the true displacement of the ground from strong-motion recordings
+JO  - Izvestiya, USSR Academy of Sciences, Physics of the Solid Earth
+PY  - 1979
+VL  - 15
+IS  - 12
+SP  - 875
+EP  - 885
+ER  -
+
+TY  - JOUR
+AU  - Kalkan, Erol
+AU  - Graizer, Vladimir
+TI  - Coupled Tilt and Translational Ground Motion Response Spectra
+JO  - Journal of Structural Engineering
+PY  - 2007
+VL  - 133
+IS  - 5
+SP  - 609
+EP  - 619
+DO  - 10.1061/(ASCE)0733-9445(2007)133:5(609)
+ER  -
+
+TY  - JOUR
+AU  - Efron, Bradley
+AU  - Hastie, Trevor
+AU  - Johnstone, Iain
+AU  - Tibshirani, Robert
+TI  - Least Angle Regression
+JO  - The Annals of Statistics
+PY  - 2004
+VL  - 32
+IS  - 2
+SP  - 407
+EP  - 499
+DO  - 10.1214/009053604000000067
+ER  -

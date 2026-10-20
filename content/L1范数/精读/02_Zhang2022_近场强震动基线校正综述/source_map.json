@@ -1,0 +1,440 @@
+{
+  "paper": {
+    "title": "近场强震动记录基线校正方法（张斌、俞言祥，2022）— 逐节精读",
+    "venue": "",
+    "source_type": "pdf",
+    "language": "zh",
+    "source_path": "C:\\Users\\15512\\Desktop\\l1范数\\精读\\02_Zhang2022_近场强震动基线校正综述\\paper.md"
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 1,
+      "type": "paragraph",
+      "order": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "S002",
+      "page": 1,
+      "type": "paragraph",
+      "order": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "S003",
+      "page": 2,
+      "type": "paragraph",
+      "order": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "S004",
+      "page": 3,
+      "type": "paragraph",
+      "order": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "S005",
+      "page": 4,
+      "type": "paragraph",
+      "order": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 6,
+      "confidence": "high",
+      "latex": "\\Delta g = g\\theta",
+      "image_path": null
+    },
+    {
+      "id": "E002",
+      "page": 4,
+      "type": "equation",
+      "order": 7,
+      "confidence": "high",
+      "latex": "\\Delta g = \\frac{g\\theta^2}{2}",
+      "image_path": null
+    },
+    {
+      "id": "S006",
+      "page": 4,
+      "type": "paragraph",
+      "order": 8,
+      "confidence": "high"
+    },
+    {
+      "id": "S007",
+      "page": 4,
+      "type": "paragraph",
+      "order": 9,
+      "confidence": "high"
+    },
+    {
+      "id": "S008",
+      "page": 5,
+      "type": "paragraph",
+      "order": 10,
+      "confidence": "high"
+    },
+    {
+      "id": "S009",
+      "page": 5,
+      "type": "paragraph",
+      "order": 11,
+      "confidence": "high"
+    },
+    {
+      "id": "S010",
+      "page": 5,
+      "type": "paragraph",
+      "order": 12,
+      "confidence": "high"
+    },
+    {
+      "id": "S011",
+      "page": 5,
+      "type": "paragraph",
+      "order": 13,
+      "confidence": "high"
+    },
+    {
+      "id": "E003",
+      "page": 5,
+      "type": "equation",
+      "order": 14,
+      "confidence": "high",
+      "latex": "v_f(t) = v_0 + a_f t",
+      "image_path": null
+    },
+    {
+      "id": "E004",
+      "page": 5,
+      "type": "equation",
+      "order": 15,
+      "confidence": "high",
+      "latex": "a_m = \\frac{v_f(t_2)}{t_2 - t_1}",
+      "image_path": null
+    },
+    {
+      "id": "E005",
+      "page": 6,
+      "type": "equation",
+      "order": 16,
+      "confidence": "high",
+      "latex": "t_2 = -\\frac{v_0}{a_f}",
+      "image_path": null
+    },
+    {
+      "id": "E006",
+      "page": 6,
+      "type": "equation",
+      "order": 17,
+      "confidence": "high",
+      "latex": "f = \\frac{|r|}{|b|\\sigma}",
+      "image_path": null
+    },
+    {
+      "id": "E007",
+      "page": 7,
+      "type": "equation",
+      "order": 18,
+      "confidence": "high",
+      "latex": "t_1 = t_{end} - i\\Delta",
+      "image_path": null
+    },
+    {
+      "id": "E008",
+      "page": 7,
+      "type": "equation",
+      "order": 19,
+      "confidence": "high",
+      "latex": "d_i = d_{0,i} + a_{f,i}t",
+      "image_path": null
+    },
+    {
+      "id": "E009",
+      "page": 7,
+      "type": "equation",
+      "order": 20,
+      "confidence": "high",
+      "latex": "k_i = \\frac{a_{f,i+1}}{a_{f,i}}",
+      "image_path": null
+    },
+    {
+      "id": "E010",
+      "page": 7,
+      "type": "equation",
+      "order": 21,
+      "confidence": "high",
+      "latex": "\\mathrm{RMSD} = \\sqrt{\\frac{1}{N}\\sum_{n=1}^{N}\\left[X_n(t)\\right]^2}",
+      "image_path": null
+    },
+    {
+      "id": "S012",
+      "page": 6,
+      "type": "paragraph",
+      "order": 22,
+      "confidence": "high"
+    },
+    {
+      "id": "S013",
+      "page": 7,
+      "type": "paragraph",
+      "order": 23,
+      "confidence": "high"
+    },
+    {
+      "id": "S014",
+      "page": 7,
+      "type": "paragraph",
+      "order": 24,
+      "confidence": "high"
+    },
+    {
+      "id": "S015",
+      "page": 7,
+      "type": "paragraph",
+      "order": 25,
+      "confidence": "high"
+    },
+    {
+      "id": "F001",
+      "page": 3,
+      "type": "figure",
+      "order": 26,
+      "confidence": "high",
+      "image_path": "assets/figures/fig01_p03.png",
+      "caption_id": null
+    },
+    {
+      "id": "S016",
+      "page": 7,
+      "type": "paragraph",
+      "order": 27,
+      "confidence": "high"
+    },
+    {
+      "id": "F002",
+      "page": 6,
+      "type": "figure",
+      "order": 28,
+      "confidence": "high",
+      "image_path": "assets/figures/fig02_p06.png",
+      "caption_id": null
+    },
+    {
+      "id": "S017",
+      "page": 8,
+      "type": "paragraph",
+      "order": 29,
+      "confidence": "high"
+    },
+    {
+      "id": "S018",
+      "page": 8,
+      "type": "paragraph",
+      "order": 30,
+      "confidence": "high"
+    },
+    {
+      "id": "S019",
+      "page": 8,
+      "type": "paragraph",
+      "order": 31,
+      "confidence": "high"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "block_ids": [
+        "S001",
+        "S002"
+      ]
+    },
+    {
+      "page": 2,
+      "block_ids": [
+        "S003"
+      ]
+    },
+    {
+      "page": 3,
+      "block_ids": [
+        "S004",
+        "F001"
+      ]
+    },
+    {
+      "page": 4,
+      "block_ids": [
+        "S005",
+        "E001",
+        "E002",
+        "S006",
+        "S007"
+      ]
+    },
+    {
+      "page": 5,
+      "block_ids": [
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "E003",
+        "E004"
+      ]
+    },
+    {
+      "page": 6,
+      "block_ids": [
+        "E005",
+        "E006",
+        "S012",
+        "F002"
+      ]
+    },
+    {
+      "page": 7,
+      "block_ids": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "S013",
+        "S014",
+        "S015",
+        "S016"
+      ]
+    },
+    {
+      "page": 8,
+      "block_ids": [
+        "S017",
+        "S018",
+        "S019"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 3,
+      "caption_id": null,
+      "image_path": "assets/figures/fig01_p03.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F001"
+    },
+    {
+      "id": "F002",
+      "page": 6,
+      "caption_id": null,
+      "image_path": "assets/figures/fig02_p06.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F002"
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 6,
+      "confidence": "high",
+      "latex": "\\Delta g = g\\theta",
+      "image_path": null
+    },
+    {
+      "id": "E002",
+      "page": 4,
+      "type": "equation",
+      "order": 7,
+      "confidence": "high",
+      "latex": "\\Delta g = \\frac{g\\theta^2}{2}",
+      "image_path": null
+    },
+    {
+      "id": "E003",
+      "page": 5,
+      "type": "equation",
+      "order": 14,
+      "confidence": "high",
+      "latex": "v_f(t) = v_0 + a_f t",
+      "image_path": null
+    },
+    {
+      "id": "E004",
+      "page": 5,
+      "type": "equation",
+      "order": 15,
+      "confidence": "high",
+      "latex": "a_m = \\frac{v_f(t_2)}{t_2 - t_1}",
+      "image_path": null
+    },
+    {
+      "id": "E005",
+      "page": 6,
+      "type": "equation",
+      "order": 16,
+      "confidence": "high",
+      "latex": "t_2 = -\\frac{v_0}{a_f}",
+      "image_path": null
+    },
+    {
+      "id": "E006",
+      "page": 6,
+      "type": "equation",
+      "order": 17,
+      "confidence": "high",
+      "latex": "f = \\frac{|r|}{|b|\\sigma}",
+      "image_path": null
+    },
+    {
+      "id": "E007",
+      "page": 7,
+      "type": "equation",
+      "order": 18,
+      "confidence": "high",
+      "latex": "t_1 = t_{end} - i\\Delta",
+      "image_path": null
+    },
+    {
+      "id": "E008",
+      "page": 7,
+      "type": "equation",
+      "order": 19,
+      "confidence": "high",
+      "latex": "d_i = d_{0,i} + a_{f,i}t",
+      "image_path": null
+    },
+    {
+      "id": "E009",
+      "page": 7,
+      "type": "equation",
+      "order": 20,
+      "confidence": "high",
+      "latex": "k_i = \\frac{a_{f,i+1}}{a_{f,i}}",
+      "image_path": null
+    },
+    {
+      "id": "E010",
+      "page": 7,
+      "type": "equation",
+      "order": 21,
+      "confidence": "high",
+      "latex": "\\mathrm{RMSD} = \\sqrt{\\frac{1}{N}\\sum_{n=1}^{N}\\left[X_n(t)\\right]^2}",
+      "image_path": null
+    }
+  ],
+  "glossary": []
+}

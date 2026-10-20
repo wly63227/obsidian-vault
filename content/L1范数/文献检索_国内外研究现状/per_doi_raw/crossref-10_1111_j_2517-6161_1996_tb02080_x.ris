@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Tibshirani, Robert
+TI  - Regression Shrinkage and Selection Via the Lasso
+JO  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+T2  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+PY  - 1996
+VL  - 58
+IS  - 1
+SP  - 267
+EP  - 288
+DO  - 10.1111/j.2517-6161.1996.tb02080.x
+UR  - https://doi.org/10.1111/j.2517-6161.1996.tb02080.x
+N2  - SUMMARY We propose a new method for estimation in linear models. The ‘lasso’ minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. Because of the nature of this constraint it tends to produce some coefficients that are exactly 0 and hence gives interpretable models. Our simulation studies suggest that the lasso enjoys some of the favourable properties of both subset selection and ridge regression. It produces interpretable 
+DB  - CrossRef
+ER  - 

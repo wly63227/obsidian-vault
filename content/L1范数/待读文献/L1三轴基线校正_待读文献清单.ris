@@ -1,0 +1,415 @@
+TY  - JOUR
+AU  - Tian, Shengze
+AU  - Gardoni, Paolo
+AU  - Li, Han
+AU  - Yuan, Wancheng
+TI  - Baseline correction of ground motions with physics-based correction patterns
+JO  - Geophysical Journal International
+VL  - 217
+IS  - 1
+SP  - 668
+EP  - 681
+PY  - 2019
+DO  - 10.1093/gji/ggz039
+UR  - https://doi.org/10.1093/gji/ggz039
+AB  - Recovery of ground displacements from strong motion accelerographs alone is still performed in an empirical way. This paper starts with a theoretical description of strong motion instruments. Then, based on observations from the non-tilt 2-D shake table tests, this paper proposes a baseline correction procedure with a cumulative correction pattern. The procedure is validated by recorded displacements of the shake tables. The paper also extends the baseline correction procedure to deal with 3-D strong motions by introducing a tilt correction pattern. The results from the proposed baseline correction procedure are compared with those from an existing empirical baseline correction procedure as well as nearby GPS measurements. The accuracy of the proposed procedure is studied considering 41 accelerographs and the corresponding GPS stations that recorded the 2011 Mw 9.0 Tohoku earthquake in Japan. We find that the corrected displacements from recorded accelerations alone are not always consistent with the GPS measurements. In this specific Tohoku event of which the primary direction of motion was eastward, the ground displacements derived from strong motion stations using the proposed b…
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 6（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：唯一已把物理校正模式扩展到三维的基线校正工作；含无倾斜振动台实测位移验证 + 41 个 Tohoku 台站与 GPS 对比。核心任务：判断其 tilt correction pattern 与你要做的『三分量共享跳变』是否同一件事。
+ER  - 
+TY  - JOUR
+AU  - He, Zhizhou
+AU  - Zhang, Yanjie
+AU  - Wang, Haishen
+AU  - Pan, Peng
+TI  - Baseline correction method of acceleration time history based on residual displacement and convex optimization
+JO  - Soil Dynamics and Earthquake Engineering
+VL  - 165
+SP  - 107676
+PY  - 2023
+DO  - 10.1016/j.soildyn.2022.107676
+UR  - https://doi.org/10.1016/j.soildyn.2022.107676
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 13（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：残余位移约束 + 凸优化，与熊政辉2019/Dai2020 同属『凸优化+结构约束』家族。需读原文确认是否已覆盖三分量。年份口径：线上 2022、正式卷期 2023（SDEE 卷165），引用建议用 2023。
+ER  - 
+TY  - JOUR
+AU  - Chang, Zhiwang
+AU  - Li, Wanheng
+AU  - Goda, Katsuichiro
+AU  - Yan, Zhenxu
+TI  - Automated Recovery of Permanent Displacement in Near‐Fault Ground Motions with Fling‐Step Effects
+JO  - Earthquake Engineering & Structural Dynamics
+VL  - 54
+IS  - 14
+SP  - 3685
+EP  - 3704
+PY  - 2025
+DO  - 10.1002/eqe.70048
+UR  - https://doi.org/10.1002/eqe.70048
+AB  - ABSTRACT The fling‐step is a result of the permanent tectonic offset of the ground in the near‐fault regions of large earthquakes. Ground motions containing the fling typically feature a one‐sided pulse in the velocity and a non‐zero permanent displacement (PD) at the end of shaking. Generally, the information regarding PD is not available in many worldwide databases due to the presence of various errors, as well as the limitations of current practices in eliminating the errors that are contained in the raw or unprocessed ground motions. The sources of the errors are usually complex and unpredictable, making the work of retrieving PD challenging. To address this issue, an automated baseline correction approach is proposed to recover the PD of interest. Raw ground motions are first assumed as consisting of the low‐frequency (LF) and the high‐frequency (HF) contents, with the former and the latter containing the PD and the errors, respectively. The LF contents are extracted from the raw motion by using a modified progressive iterative approach, while the HF contents are filtered to remove the error. The corrected ground motions are then obtained by combining the extracted LF and the …
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 5（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：全自动 fling-step 永久位移恢复，把原始记录拆为低频(含PD)+高频两部分。断言全球多数数据库不含 PD 信息，是需求论证最硬的引文。
+ER  - 
+TY  - JOUR
+AU  - Chen, Xiaoyu
+AU  - Jin, Mingyang
+AU  - Sun, Zhiguo
+AU  - Chen, Tianheng
+AU  - Wang, Jianning
+AU  - Li, Ying
+AU  - Wei, Guo
+AU  - Wang, Dongsheng
+TI  - Leveraging the Physics of Jerk: An Automated Framework for Recovering Permanent Displacement from Seismic Records
+JO  - Bulletin of the Seismological Society of America
+PY  - 2026
+DO  - 10.1785/0120260075
+UR  - https://doi.org/10.1785/0120260075
+AB  - ABSTRACT Coseismic permanent ground displacement is essential for understanding earthquake rupture mechanisms and assessing seismic hazards. However, traditional geodetic methods are often limited by sparse spatiotemporal coverage and high costs. Strong-motion records offer a valuable supplement but are frequently contaminated by baseline offsets. Existing baseline correction methods largely rely on visual inspection and empirical image-based judgments, lacking a clear physical foundation and sufficient robustness. As a result, they are ill-suited for the automated processing of large-scale strong-motion datasets, and the valuable displacement information contained in these records remains underutilized. This study breaks away from conventional approaches by reformulating baseline correction as an inverse problem in robot trajectory planning and proposing a fully automated correction framework based on jerk constraints. The method achieves fully automated processing and effectively handles challenging scenarios such as velocity pulses, complex waveform distortions, and nonideal instrument states. Its strong cross-event adaptability is validated using records from the Chi-Chi, Wench…
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 0（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：最新一代：明确批评既有方法『依赖目视判读、缺乏物理基础』，改用 jerk 物理约束并把校正重构为机器人轨迹规划逆问题。判断你的研究空间是否被它挤压。
+ER  - 
+TY  - JOUR
+AU  - Lin, Yuanzheng
+AU  - Zong, Zhouhong
+AU  - Tian, Shizhu
+AU  - Lin, Jin
+TI  - A new baseline correction method for near-fault strong-motion records based on the target final displacement
+JO  - Soil Dynamics and Earthquake Engineering
+VL  - 114
+SP  - 27
+EP  - 37
+PY  - 2018
+DO  - 10.1016/j.soildyn.2018.06.036
+UR  - https://doi.org/10.1016/j.soildyn.2018.06.036
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 54（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：『目标最终位移』驱动范式：把期望 PD 当输入反推校正。是『三轴联合约束』思路的最近前辈，本方向被引最高之一(54)。
+ER  - 
+TY  - JOUR
+AU  - Zhou, Baofeng
+AU  - Guo, Wenxuan
+AU  - Ren, Yefei
+AU  - Wen, Ruizhi
+AU  - Wang, Hongwei
+AU  - Xu, Tong
+AU  - Zhang, Cong
+AU  - Liu, Aiwen
+TI  - Evaluating the identification methods of permanent displacement derived from strong motion records: Case studies in the 2023 Turkey–Syria earthquake
+JO  - Earthquake Engineering and Resilience
+VL  - 3
+IS  - 1
+SP  - 120
+EP  - 136
+PY  - 2024
+DO  - 10.1002/eer2.72
+UR  - https://doi.org/10.1002/eer2.72
+AB  - Abstract On February 6, 2023, the Republic of Turkey experienced a rare occurrence of two successive earthquakes, each with a magnitude exceeding 7.0. The Disaster and Emergency Management Agency (AFAD) swiftly shared the strong motion records, thereby enriching the global database of near‐fault strong motion records. Identification of permanent displacement is essential for effectively utilizing these records. In this study, we refined the permanent displacement identification method, which combines the Hermit interpolation baseline correction with flatness determination by incorporating a low‐pass filter. Following this, we compared four permanent displacement identification methods, including our improved approach. We applied these to the strong motion record of station 4404 and compared the results with the Global Positioning System coseismic displacement. At the same time, we used field investigation data to verify the effectiveness of our improved method, studying its applicability for both single‐wave packet and multiwave packet records. The conclusions are the following: the improved method provides a more reasonable and effective means of identifying permanent displacement…
+KW  - T1-必读
+KW  - L1基线校正三轴
+N1  - 优先级 T1｜被引 6（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：四种永久位移识别方法在同一批 2023 土耳其记录上横向对比并做 GPS 校核。可直接照此格式搭建你自己的三轴评测协议。
+ER  - 
+TY  - JOUR
+AU  - Tu, R.
+AU  - Wang, R.
+AU  - Zhang, Y.
+AU  - Walter, T. R.
+TI  - Application of a net-based baseline correction scheme to strong-motion records of the 2011 Mw 9.0 Tohoku earthquake
+JO  - Geophysical Journal International
+VL  - 197
+IS  - 3
+SP  - 1808
+EP  - 1821
+PY  - 2014
+DO  - 10.1093/gji/ggu092
+UR  - https://doi.org/10.1093/gji/ggu092
+AB  - The description of static displacements associated with earthquakes is traditionally achieved using GPS, EDM or InSAR data. In addition, displacement histories can be derived from strong-motion records, allowing an improvement of geodetic networks at a high sampling rate and a better physical understanding of earthquake processes. Strong-motion records require a correction procedure appropriate for baseline shifts that may be caused by rotational motion, tilting and other instrumental effects. Common methods use an empirical bilinear correction on the velocity seismograms integrated from the strong-motion records. In this study, we overcome the weaknesses of an empirically based bilinear baseline correction scheme by using a net-based criterion to select the timing parameters. This idea is based on the physical principle that low-frequency seismic waveforms at neighbouring stations are coherent if the interstation distance is much smaller than the distance to the seismic source. For a dense strong-motion network, it is plausible to select the timing parameters so that the correlation coefficient between the velocity seismograms of two neighbouring stations is maximized after the ba…
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 4（OpenAlex）｜开放获取
+N1  - 为什么读：思想源头：用『相邻台站低频波形相似』的物理原理确定 bilinear 校正的时刻参数。与『三分量共享跳变时刻』同源，优先级被低估。开放获取。
+N1  - 免费全文：https://academic.oup.com/gji/article-pdf/197/3/1808/1863534/ggu092.pdf
+ER  - 
+TY  - JOUR
+AU  - Yang, Hongwu
+AU  - Li, Yingmin
+AU  - Hu, Lei
+AU  - Pan, Weihao
+AU  - Ji, Shuyan
+TI  - New Baseline Correction Method for Near-Fault Ground-Motion Records Based on Continuous Wavelet Transform
+JO  - Seismological Research Letters
+VL  - 95
+IS  - 2A
+SP  - 607
+EP  - 625
+PY  - 2024
+DO  - 10.1785/0220230184
+UR  - https://doi.org/10.1785/0220230184
+AB  - Abstract On 6 February 2023, a magnitude 7.8 earthquake struck south-central Türkiye. It was followed by many aftershocks, the largest of which was a magnitude 7.5 aftershock. This earthquake caused considerable loss of life and property. Numerous near-fault ground-motion records were collected during the 2023 Türkiye earthquake. Most existing baseline correction methods for near-fault ground motions disregard the commonly used filtering techniques due to their potential elimination of actual permanent displacement. To address this, a new automatic baseline correction method is proposed based on the continuous wavelet transform, which incorporates filtering while preserving permanent displacement. This method is compatible with existing filtering techniques and demonstrates good applicability. In this approach, the raw record is decomposed into a pulse signal containing permanent displacement and a nonpulse signal. The nonpulse signal is high-pass filtered to obtain the corrected nonpulse signal, and then the true ground motion is obtained by combining the pulse signal with the corrected nonpulse signal. The effectiveness of the proposed method is evaluated across five aspects usin…
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 10（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：连续小波变换自动校正，卖点是兼容常规滤波又不抹掉永久位移——正面回应『滤波 vs 保永久位移』两难。
+ER  - 
+TY  - JOUR
+AU  - Wang, R.
+AU  - Schurr, B.
+AU  - Milkereit, C.
+AU  - Shao, Z.
+AU  - Jin, M.
+TI  - An Improved Automatic Scheme for Empirical Baseline Correction of Digital Strong-Motion Records
+JO  - Bulletin of the Seismological Society of America
+VL  - 101
+IS  - 5
+SP  - 2029
+EP  - 2044
+PY  - 2011
+DO  - 10.1785/0120110039
+UR  - https://doi.org/10.1785/0120110039
+AB  - Abstract Compared with seismic waves, near-field static deformation can provide more robust constraints on earthquake size and slip distribution because it is less sen-sitive to the rupture process and Earth structure. The static deformation data are now obtained using space-geodetic measurements. For early warning and rapid hazard assessment, such geodetic measurements are less useful because they are usually avail-able only with a time delay of days to weeks or even longer. Recent studies have shown that coseismic static displacements can be estimated frommodern seismometer records after an appropriate correction for baseline errors that may be caused by rotational motion, tilt, instrument, and other effects. For this purpose, several empirical baseline correction methods have been proposed. Algorithms, in which an acceleration or other acceleration record derived threshold is used to determine the timing of baseline shift, can be easily implemented. In practice, however, the baseline shift is not necessarily accompanying the strongest ground shaking; methods based on the threshold approach tend to lead to an over- or underestimation of the true baseline shift. Other correction s…
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 198（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：自动经验基线校正方案中被引最高者(198)，『自动化』这一支的标杆，写研究现状必引。
+ER  - 
+TY  - JOUR
+AU  - Chao, Wei-An
+AU  - Wu, Yih-Min
+AU  - Zhao, Li
+TI  - An automatic scheme for baseline correction of strong-motion records in coseismic deformation determination
+JO  - Journal of Seismology
+VL  - 14
+IS  - 3
+SP  - 495
+EP  - 504
+PY  - 2010
+DO  - 10.1007/s10950-009-9178-7
+UR  - https://doi.org/10.1007/s10950-009-9178-7
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 56（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：自动基线校正的开山之一(Chao, Wu & Zhao)，与 Wang2011 配对阅读。
+ER  - 
+TY  - JOUR
+AU  - Zang, Jianfei
+AU  - Xu, Caijun
+AU  - Chen, Guanxu
+AU  - Wen, Qiang
+AU  - Fan, Shijie
+TI  - Real-time coseismic deformations from adaptively tight integration of high-rate GNSS and strong motion records
+JO  - Geophysical Journal International
+VL  - 219
+IS  - 3
+SP  - 1757
+EP  - 1772
+PY  - 2019
+DO  - 10.1093/gji/ggz397
+UR  - https://doi.org/10.1093/gji/ggz397
+AB  - SUMMARY In traditional tight integration of high-rate GNSS and strong motion sensors, an appropriate process variance is crucial for obtaining accurate broad-band coseismic deformations. In this paper, instead of using a subjectively empirical value, we present an approach for determining the process variance adaptively based on the adaptive Kalman filter for real-time use. The performance of the approach was validated by the colocated stations collected during the 2010 Mw 7.2 earthquake in El-Mayor, 2016 Mw 7.8 earthquake in New Zealand and 2016 Mw 6.5 earthquake in central Italy. The results show that this method complements the advantages of GNSS and strong motion accelerometers and can provide more accurate coseismic waveforms especially during the strong shaking period, due to the ability of the method to adjust the process variance in real time according to the actual status of the station. In addition, this method is also free from the influence of the baseline shift. Testing of the new method for the integration of strong motion and multi-GNSS indicates that multi-GNSS has an obvious improvement in the precision while single GPS has a poor observation condition.
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 21（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：自适应过程噪声的 GNSS/强震紧组合，实时化路线代表。
+ER  - 
+TY  - JOUR
+AU  - Chen, Xiaoyu
+AU  - Wang, Dongsheng
+TI  - Baseline correction of near-fault ground motion records based on the hilbert spectral analysis
+JO  - Soil Dynamics and Earthquake Engineering
+VL  - 154
+SP  - 107162
+PY  - 2022
+DO  - 10.1016/j.soildyn.2022.107162
+UR  - https://doi.org/10.1016/j.soildyn.2022.107162
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 15（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：Hilbert 谱分析路线。注意卷号是 154（报告里的 158 有误）。
+ER  - 
+TY  - JOUR
+AU  - Zhou, Baofeng
+AU  - Zhang, Cong
+AU  - Wang, Xiaomin
+AU  - Wang, Yinuo
+AU  - Yin, Yue
+AU  - Gong, Maosheng
+TI  - A VMD-based baseline correction method of strong ground motion records and permanent displacement evaluation
+JO  - Soil Dynamics and Earthquake Engineering
+VL  - 203
+SP  - 110089
+PY  - 2026
+DO  - 10.1016/j.soildyn.2026.110089
+UR  - https://doi.org/10.1016/j.soildyn.2026.110089
+KW  - T2-方法变体
+KW  - L1基线校正三轴
+N1  - 优先级 T2｜被引 0（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：VMD 路线，中文团队最新英文成果，用于确认信号分解这条支线走到哪了。
+ER  - 
+TY  - CPAPER
+AU  - Zhang, Yuanfan
+AU  - Li, Yanchuan
+AU  - Shan, Xinjian
+TI  - Strong motion baseline correction based on acceleration smoothness priors and co-located GNSS static displacement constraints
+T2  - EGU General Assembly 2026
+PY  - 2026
+PB  - Copernicus GmbH
+DO  - 10.5194/egusphere-egu26-1482
+UR  - https://doi.org/10.5194/egusphere-egu26-1482
+AB  - Strong-motion acceleration records are crucial for seismic research and vibration analysis. Still, baseline offsets often introduce drift in displacement integration estimates, compromising the accuracy of the coseismic displacement retrieval. By providing precise ground deformation signals, the high-rate Global Navigation Satellite System (GNSS) offers ideal baseline correction constraints. In this paper, we propose a baseline correction method based on acceleration smoothness priors and co-located high-rate GNSS static displacement constraints. First, accelerations are processed using the smoothness priors method (SPM). This method separates steady-state acceleration signals from potential non-periodic noise trends through regularization. Second, static displacements from co-located high-rate GNSS stations are applied as external constraints to refine a step-fitting function. The optimal baseline correction time parameters are iteratively determined through a grid search method. Finally, the displacement time series is then fitted with this constrained step-fitting function to achieve baseline deviation correction of acceleration records. A shake table experiment and two seismic …
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 0（OpenAlex）｜开放获取
+N1  - 为什么读：离本课题最近：光滑先验(SPM)分离稳态信号 + 同址高频 GNSS 静态位移作外部约束做阶梯拟合。首要任务：确认它是单分量还是三分量。开放获取。
+N1  - 免费全文：https://doi.org/10.5194/egusphere-egu26-1482
+ER  - 
+TY  - CPAPER
+AU  - Tian, S.
+AU  - Alam, M.
+TI  - DEMONSTRATION OF BASELINE CORRECTION OF GROUND MOTIONS  USING PHYSICS-BASED CORRECTION PATTERNS
+T2  - Proceedings of the 18th World Conference on Earthquake Engineering (WCEE2025)
+PY  - 2025
+PB  - International Association for Earthquake Engineering
+DO  - 10.71846/18-wcee-0664
+UR  - https://doi.org/10.71846/18-wcee-0664
+AB  - Baseline correction of ground motions has long been seen as an open problem due to insufficient understanding as well as the absence of trustworthy recorded ground rotations. Current baseline correction methods deal with the problem by focusing on extracting drift trends from integrated velocity time-histories. Due to the relatively direct sensitivity of ground motion recovery to the selection of the time points used in obtaining the drift trends, baseline correction of ground motions is considered unrobust. With the widely recognized assumption that ground tilt is the dominant factor of baseline drift, we proposed the tilt correction pattern. Based on our non-tilt 2-dimensional shake table tests, we found the existence of cumulative velocity errors and we proposed the cumulative correction pattern to address this problem. Our recent studies reveal that a sufficient recording length is essential for proper baseline corrections. Our studies on the 2018 Mw 6.4 Hualien earthquake and the most recent 2023 Mw 7.8 and Mw 7.6 Turkey earthquake doublet suggest that the majority of recorded accelerograms can be properly recovered where ground motion recoveries are consistent with geodetic r…
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 0（OpenAlex）｜开放获取
+N1  - 为什么读：Tian 2019 续作，补充『记录长度必须足够』的边界条件，把第一梯队那篇讲全。开放获取。
+N1  - 免费全文：https://doi.org/10.71846/18-wcee-0664
+ER  - 
+TY  - CPAPER
+AU  - Yang, H.
+AU  - Li, Y.
+AU  - Hu, L.
+AU  - Pan, W.
+AU  - Ji, S.
+TI  - BASELINE CORRECTION METHOD OF NEAR-FAULT GROUND MOTIONS BASED ON THE TRUE PERMANENT DISPLACEMENT
+T2  - Proceedings of the 18th World Conference on Earthquake Engineering (WCEE2025)
+PY  - 2025
+PB  - International Association for Earthquake Engineering
+DO  - 10.71846/18-wcee-0356
+UR  - https://doi.org/10.71846/18-wcee-0356
+AB  - Most of the current baseline correction methods for near-fault ground motions process raw acceleration records to obtain permanent ground displacements. However, the permanent displacements obtained in this type of method are bound to have deviations because the rotational components of the ground motion are not recorded. Currently, the Global Navigation Satellite System (GNSS) is extensively used in earthquake engineering to accurately record ground motion displacement. Thus, a new baseline correction method based on the continuous wavelet transform (CWT) is proposed, which uses the true permanent displacement. The new method is compatible with existing filtering methods and is well applicable. In this new method, the raw record is decomposed into a pulse signal containing the permanent displacement and a non-pulse signal, then the non-pulse signal is high-pass filtered, and finally, the corrected ground motion is obtained by combining the two signals. To examine this new method, it was applied to the seismic records of the 1999 Taiwan Chi-Chi earthquake. The analysis results indicate that the tails of the corrected displacement time histories remain flat and close to the GNSS dat…
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 0（OpenAlex）｜开放获取
+N1  - 为什么读：CWT 升级版：用 GNSS 提供的『真实永久位移』作为目标，是『目标驱动』范式的第二代。开放获取。
+N1  - 免费全文：https://doi.org/10.71846/18-wcee-0356
+ER  - 
+TY  - JOUR
+AU  - Sollberger, David
+AU  - Igel, Heiner
+AU  - Schmelzbach, Cedric
+AU  - Edme, Pascal
+AU  - van Manen, Dirk-Jan
+AU  - Bernauer, Felix
+AU  - Yuan, Shihao
+AU  - Wassermann, Joachim
+AU  - Schreiber, Ulrich
+AU  - Robertsson, Johan O. A.
+TI  - Seismological Processing of Six Degree-of-Freedom Ground-Motion Data
+JO  - Sensors
+VL  - 20
+IS  - 23
+SP  - 6904
+PY  - 2020
+DO  - 10.3390/s20236904
+UR  - https://doi.org/10.3390/s20236904
+AB  - Recent progress in rotational sensor technology has made it possible to directly measure rotational ground-motion induced by seismic waves. When combined with conventional inertial seismometer recordings, the new sensors allow one to locally observe six degrees of freedom (6DOF) of ground-motion, composed of three orthogonal components of translational motion and three orthogonal components of rotational motion. The applications of such 6DOF measurements are manifold-ranging from wavefield characterization, separation, and reconstruction to the reduction of non-uniqueness in seismic inverse problems-and have the potential to revolutionize the way seismic data are acquired and processed. However, the seismological community has yet to embrace rotational ground-motion as a new observable. The aim of this paper is to give a high-level introduction into the field of 6DOF seismology using illustrative examples and to summarize recent progress made in this relatively young field. It is intended for readers with a general background in seismology. In order to illustrate the seismological value of rotational ground-motion data, we provide the first-ever 6DOF processing example of a telesei…
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 55（OpenAlex）｜开放获取
+N1  - 为什么读：六自由度(3 平动 + 3 转动)地震动处理框架，直接支撑『倾斜/转动是漂移主因』与『以转动约束平动』的论证。开放获取。
+N1  - 免费全文：https://www.mdpi.com/1424-8220/20/23/6904/pdf?version=1607083344
+ER  - 
+TY  - JOUR
+AU  - Chen, Zengshun
+AU  - Fu, Jun
+AU  - Peng, Yanjian
+AU  - Chen, Tuanhai
+AU  - Zhang, LiKai
+AU  - Yuan, Chenfeng
+TI  - Baseline Correction of Acceleration Data Based on a Hybrid EMD–DNN Method
+JO  - Sensors
+VL  - 21
+IS  - 18
+SP  - 6283
+PY  - 2021
+DO  - 10.3390/s21186283
+UR  - https://doi.org/10.3390/s21186283
+AB  - Measuring displacement response is essential in the field of structural health monitoring and seismic engineering. Numerical integration of the acceleration signal is a common measurement method of displacement data. However, due to the circumstances of ground tilt, low-frequency noise caused by instruments, hysteresis of the transducer, etc., it would generate a baseline drift phenomenon in acceleration integration, failing to obtain an actual displacement response. The improved traditional baseline correction methods still have some problems, such as high baseline correction error, poor adaptability, and narrow application scope. This paper proposes a deep neural network model based on empirical mode decomposition (EMD-DNN) to solve baseline correction by removing the drifting trend. The feature of multiple time sequences that EMD obtains is extracted via DNN, achieving the real displacement time history of prediction. In order to verify the effectiveness of the proposed method, two natural waves (EL centro wave, Taft wave) and one Artificial wave are selected to test in a shaking table test. Comparing the traditional methods such as the least squares method, EMD, and DNN method,…
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 16（OpenAlex）｜开放获取
+N1  - 为什么读：EMD–DNN 混合深度学习方法做基线校正，需知道有人这么做过。开放获取。
+N1  - 免费全文：https://www.mdpi.com/1424-8220/21/18/6283/pdf?version=1632303670
+ER  - 
+TY  - JOUR
+AU  - He, Zhizhou
+AU  - Wang, Haishen
+AU  - Pan, Peng
+TI  - A model‐driven method based on multisource data for reproducing displacement time history
+JO  - Earthquake Engineering & Structural Dynamics
+VL  - 52
+IS  - 10
+SP  - 2910
+EP  - 2927
+PY  - 2023
+DO  - 10.1002/eqe.3901
+UR  - https://doi.org/10.1002/eqe.3901
+AB  - Abstract The seismic displacement time history of a structure is very important for damage assessment. This paper proposes a displacement estimation method based on multisource measurement data. In this method, the structure is simplified to a mass‐spring shear model, where a set of tunable parameters are assigned. The particle swarm optimization algorithm is used to search for the optimal values of the parameters, and the objective of the optimization problem is to minimize the difference between the measured roof response and that calculated by the model. A refined finite element model was established in ABAQUS, and the numerical calculation results were used to verify this proposed method. Results show that the estimation error of the maximum inter‐story drift ratio among all floors is 8.9%, and the average error of the maximum displacement of each floor is 7.0%, representing a satisfactory estimation effectiveness. The source of the errors is discussed, and we find that this method is more suitable for low‐rise buildings. Shaking table tests of a scaled four‐story reinforced concrete (RC) frame were conducted, and the estimation error of the maximum inter‐story drift ratio amon…
+KW  - T3-新发现
+KW  - L1基线校正三轴
+N1  - 优先级 T3｜被引 9（OpenAlex）｜开放获取
+N1  - 为什么读：与 He2022 同组的多源数据模型驱动位移重建（对象是结构位移），用于看清该课题组的整体技术路线。开放获取。
+N1  - 免费全文：https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/eqe.3901
+ER  - 
+TY  - JOUR
+AU  - Yuan, Ming
+AU  - Lin, Yi
+TI  - Model Selection and Estimation in Regression with Grouped Variables
+JO  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+VL  - 68
+IS  - 1
+SP  - 49
+EP  - 67
+PY  - 2006
+DO  - 10.1111/j.1467-9868.2005.00532.x
+UR  - https://doi.org/10.1111/j.1467-9868.2005.00532.x
+AB  - Summary We consider the problem of selecting grouped variables (factors) for accurate prediction in regression. Such a problem arises naturally in many practical situations with the multifactor analysis-of-variance problem as the most important and well-known example. Instead of selecting factors by stepwise backward elimination, we focus on the accuracy of estimation and consider extensions of the lasso, the LARS algorithm and the non-negative garrotte for factor selection. The lasso, the LARS algorithm and the non-negative garrotte are recently proposed regression methods that can be used to select individual variables. We study and propose efficient algorithms for the extensions of these methods for factor selection and show that these extensions give superior performance to the traditional stepwise backward elimination method in factor selection problems. We study the similarities and the differences between these methods. Simulations and real examples are used to illustrate the methods.
+KW  - T4-数学工具
+KW  - L1基线校正三轴
+N1  - 优先级 T4｜被引 7469（OpenAlex）｜开放获取
+N1  - 为什么读：Group Lasso 原始文献。『三分量共享跳变时刻』即组稀疏，绕不过去。开放获取。
+N1  - 免费全文：https://academic.oup.com/jrsssb/article-pdf/68/1/49/49794691/jrsssb_68_1_49.pdf
+ER  - 
+TY  - JOUR
+AU  - Tibshirani, Robert
+AU  - Saunders, Michael
+AU  - Rosset, Saharon
+AU  - Zhu, Ji
+AU  - Knight, Keith
+TI  - Sparsity and Smoothness Via the Fused Lasso
+JO  - Journal of the Royal Statistical Society Series B: Statistical Methodology
+VL  - 67
+IS  - 1
+SP  - 91
+EP  - 108
+PY  - 2005
+DO  - 10.1111/j.1467-9868.2005.00490.x
+UR  - https://doi.org/10.1111/j.1467-9868.2005.00490.x
+AB  - Summary The lasso penalizes a least squares regression by the sum of the absolute values (L1-norm) of the coefficients. The form of this penalty encourages sparse solutions (with many coefficients equal to 0). We propose the ‘fused lasso’, a generalization that is designed for problems with features that can be ordered in some meaningful way. The fused lasso penalizes the L1-norm of both the coefficients and their successive differences. Thus it encourages sparsity of the coefficients and also sparsity of their differences—i.e. local constancy of the coefficient profile. The fused lasso is especially useful when the number of features p is much greater than N, the sample size. The technique is also extended to the ‘hinge’ loss function that underlies the support vector classifier. We illustrate the methods on examples from protein mass spectroscopy and gene expression data.
+KW  - T4-数学工具
+KW  - L1基线校正三轴
+N1  - 优先级 T4｜被引 2804（OpenAlex）｜付费，需图书馆/文献互助
+N1  - 为什么读：Fused Lasso：L1 同时惩罚系数与其差分。目标函数中的 |Dx|_1 是其直系，方法章必须引。
+ER  - 

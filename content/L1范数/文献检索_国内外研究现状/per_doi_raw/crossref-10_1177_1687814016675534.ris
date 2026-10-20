@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Pan, Chao
+AU  - Zhang, Ruifu
+AU  - Luo, Hao
+AU  - Shen, Hua
+TI  - Baseline correction of vibration acceleration signals with inconsistent initial velocity and displacement
+JO  - Advances in Mechanical Engineering
+T2  - Advances in Mechanical Engineering
+JA  - Advances in Mechanical Engineering
+PY  - 2016
+VL  - 8
+IS  - 10
+DO  - 10.1177/1687814016675534
+UR  - https://doi.org/10.1177/1687814016675534
+N2  - This study improves upon the traditional polynomial detrending method in order to correct the vibration acceleration signals with inconsistent initial velocity and displacement more rationally and efficiently. When numerical integration of recorded acceleration signals using assumed initial velocity and displacement values (which are generally inconsistent with real values) is performed, baseline shift or drift phenomenon can arise in velocity and displacement curves obtained. Baseline correctio
+DB  - CrossRef
+ER  - 

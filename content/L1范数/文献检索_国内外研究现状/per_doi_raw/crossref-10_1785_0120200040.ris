@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Inbal, Asaf
+AU  - Ziv, Alon
+TI  - Automatic Extraction of Permanent Ground Offset from Near-Field Accelerograms: Algorithm, Validation, and Application to the 2004 Parkfield Earthquake
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 2020
+VL  - 110
+IS  - 6
+SP  - 2638
+EP  - 2646
+DO  - 10.1785/0120200040
+UR  - https://doi.org/10.1785/0120200040
+N2  - ABSTRACTPermanent ground offsets, constituting a prime dataset for constraining final fault-slip distributions, may not be recovered straightforwardly by double integration of near-field accelerograms due to tilt and other distorting effects. Clearly, if a way could be found to recover permanent ground offsets from acceleration records, then static datasets would be enlarged, and thus the resolution of fault-slip inversions would be enhanced. Here, we introduce a new approach for extracting perm
+DB  - CrossRef
+ER  - 

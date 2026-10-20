@@ -1,0 +1,1537 @@
+===== PAGE 1 =====
+《 工 程 地 震 学 》
+Engineering Seism010gy
+2026 年 9 月 14 日
+中 国 科 学 院 大 学 ： 章 文 波
+email: wenbo@ucas.ac.cn
+上 次 课 的 要 点 回 顾
+》 发 生 在 我 国 大 陆 的 伤 亡 人 数 超 过 20 万 的 地 震 ；
+》 地 震 触 发 的 物 理 机 制 及 局 部 成 因 的 学 说 ；
+》 断 层 的 几 何 参 数 ： 走 向 、 倾 角 、 滑 动 角 ；
+》 工 程 地 震 、 地 震 预 报 。
+===== PAGE 2 =====
+带 着 问 题 来 听 课
+》 地 球 分 层 结 构 的 发 现 ；
+》 传 统 地 震 烈 度 的 涵 义 及 其 作 用
+》 现 代 地 震 烈 度 的 产 生 ： 仪 器 烈 度 ；
+》 历 史 上 具 有 标 志 性 的 大 地 震 。
+0 认 识 地 震 ： 地 震 波
+地 震 在 地 球 内 部 产 生 2 种 体 波 ： p 波 和 s 波
+咩 就 屮 的
+《 到 弹 簧 产 生 的
+0 孬 寸
+： 子 产 生 的 、 波
+《 到 沿 地 表 的
+p 波 、 sv 波 与 SH 波
+〔 d 》 沿 地 的
+===== PAGE 3 =====
+0 认 识 地 震 ： 地 震 波
+面 波 是 沿 地 球 表 面 附 件 传 播 的 一 种 弹 性 波 ， 其 传 播 速 度 比
+体 波 慢 。 最 重 要 的 面 波 有 两 种 ： Ray1eigh 波 和 Love 波 。
+图 2 一 II Rayleigh 而 波 传 播 时 ，
+质 点 在 沿 着 波 传 播 方 向 的 垂 直 的 平
+面 作 时 的 椭 圆 运 动 ， 到 来 时 ，
+地 面 的 运 动 刚 水 面 上 的 波 浪 运 动 一
+样 （ 参 看 “ 啸 " 一 章 中 ' 波 浪 运 动 "
+2 一 ] 2 Love 面 波 传 播 时 ，
+质 点 作 水 平 运 动 ， 而 且 运 动 方 向
+与 波 传 播 方 向 垂 直 ， 地 面 上 质 点
+运 动 最 大 ， 越 往 地 下 深 处 运 动 的
+幅 度 趣 小 。 Love 面 波 传 播 速 度 比
+Rayleigh 面 波 快
+0
+传 播 方 向
+一 传 播 方 向
+0 利 用 地 震 ： 照 亮 地 球 内 的 一 盏 明 灯
+00 。
+0 世 纪 初 ， 地 震 学 家 发 现 ， 大 地 震 发 生 后 ， 在
+震 震 中 约 103 。 ． 143 。 的 范 围 内 记 录 不 到 地 震 p
+是 他 们 猜 想 ， 地 球 具 有 分 层 结 构 , 地 球 内 部
+个 低 速 的 地 核 ， 地 震 p 波 由 于 折 射 ， 到 达 不 了
+103 。 一 143 。 的 范 围 。
+out COR
+===== PAGE 4 =====
+0 利 用 地 震 ： 照 亮 地 球 内 的 一 盏 明 灯
+地 有
+pulp
+岩 石 圈
+软 流 睏
+mantle
+地 墁
+skin
+外 核
+内 核 《
+1 2 《 》 3 4 0 5 佴 ℃ 6 0
+深 度 /km
+地 球 可 分 为 地 壳 、
+地 幔 和 地 核 ， 地
+核 又 包 括 一 个 液
+态 的 外 核 和 一 个
+固 态 的 内 核 。 对
+于 地 球 内 部 的 认
+识 ， 都 来 源 于 天
+然 地 震 波 的 资 料
+和 数 据
+0 利 用 地 震 ： 照 亮 地 球 内 的 一 盏 明 灯
+人 们 挑 选 西 瓜 都 有 个 经 验 ， 用 手 拍 打 西 瓜 听 听 声 音 便 可 以 判 断 西 瓜 的
+成 熟 情 况 ， 这 是 因 为 不 同 的 西 瓜 振 动 时 发 出 的 音 调 和 音 色 不 同 。 地 球 物 理
+工 作 者 的 事 业 和 拍 西 瓜 很 相 似 ， 只 不 过 有 时 候 通 过 人 工 地 震 手 段 让 地 球 振
+动 ， 有 时 候 是 地 球 自 己 发 生 地 震 产 生 振 动 ， 科 学 家 则 通 过 记 录 和 “ 倾 听 ”
+这 些 来 自 地 球 内 部 振 动 的 交 响 乐 一 地 震 波 ， 来 判 断 地 球 内 部 的 结 构 和 状 态
+迄 今 为 止 ， 地 震 波 是 唯 一 能 够 贯 穿 地 球 的 波 动 。
+感 言
+地 球 物 理
+===== PAGE 5 =====
+忆
+获 得 地 球 的 这 种 分 层 结 构 的 大 事 年 表
+． 1906 年 奥 尔 德 姆 首 先 试 图 从 地 震 波 穿 过 地 球 的 时 间 来 推
+' 、 断 整 个 地 球 内 部 构 造 。
+． 1909 年 莫 霍 洛 维 奇 根 据 近 震 初 至 波 的 走 时 ， 算 出 地 下 56
+公 里 处 存 在 一 个 间 断 面 ， 间 断 面 以 上 物 质 的 平 均 速 度 为
+5 ， 6 公 里 / 秒 ， 以 下 物 质 的 速 度 为 7 ． 8 公 里 / 秒 。 后 来 发 现 ，
+无 论 是 海 洋 还 是 大 陆 ， 绝 大 多 数 地 区 都 存 在 这 个 间 断 面 ，
+通 常 称 它 为 莫 霍 界 面 ， 其 平 均 深 度 约 为 30 公 里 ， 莫 霍 界
+面 以 上 的 部 分 称 为 地 壳 ， 以 下 的 部 分 称 为 地 幔
+． 1914 年 Gutenburg 根 据 地 震 体 波 的 “ 影 区 ” 确 认 了 地 核 的 存 在 ， 并 测 定 了 地 幔 和
+地 核 之 间 的 间 断 面 ， 其 深 度 为 2900 公 里 。 这 个 数 值 相 当 准 确 ， 直 到 现 在 也 改 进
+不 多 。 根 据 地 核 不 能 传 播 横 波 （ 地 震 波 的 一 种 ， 不 能 在 液 体 中 传 播 ） 的 特 性 ，
+地 震 学 家 又 推 断 出 地 核 是 液 态 的 。
+． 1936 年 赖 曼 通 过 对 体 波 “ 影 区 ” 的 进 一 步 研 宄 ， 发 现 了 在 液 态 的 地 核 中 还 有 一
+个 固 态 的 地 球 内 核
+0 1996 年 中 国 旅 美 学 者 宋 晓 东 通 过 研 宄 穿 过 地 核 的 地 震
+波 ， 推 断 出 内 核 旋 转 速 度 要 比 外 核 快 ， 这 个 发 现 进 一
+步 加 深 了 人 类 对 地 球 的 认 识 ， 被 评 为 该 年 度 美 国 十 大
+科 学 新 闻 之 一
+中 国 科 大 孙 道 远 教 授 团 队 ·
+· 」 M “ 加 “ ， Vol. 645 《 4 Scpt. 2025 《 67
+火 星 存 在 固 态 内 核
+中 国 科 学 技 术 大 学 孙 道 远 教 授 、 毛 竹 教 授 团 队 联 合 国 外 学 者 在 行 星 科 学 研 宄 领
+域 取 得 重 大 进 展 。 研 究 团 队 通 过 深 入 分 析 美 国 国 家 航 空 航 天 局 洞 察 号
+(InSight) 探 测 器 记 录 的 火 震 数 据 ， 首 次 确 证 火 星 内 部 存 在 一 个 半 径 约 600 千
+米 的 固 态 内 核 ， 并 揭 示 其 主 要 成 分 构 成 可 能 是 富 含 轻 元 素 的 结 晶 铁 镍 合 金 。 北
+京 时 间 9 月 3 日 ， 该 成 果 发 表 于 《 自 然 》 ， 并 被 选 为 《 自 然 》 期 刊 新 闻 稿 。
+无 内
+P 醚 0
+PW.P, P 〖 P 到 和 酽 和 明 霎
+===== PAGE 6 =====
+0 利 用 地 震 ： 地 震 勘 探
+在 石 油 和 其 它 矿 产 资 源 的 勘 探 中 ， 用 地 震 波 进 行 勘 探 是
+最 主 要 和 最 有 效 的 方 法 之 一 。 各 种 矿 产 资 源 在 构 造 上 都 会 具
+有 某 种 特 征 ， 如 石 油 、 天 然 气 只 有 在 一 定 封 闭 的 构 造 中 才
+能 形 成 和 保 存 。 地 震 波 在 穿 过 这 些 构 造 时 会 产 生 反 射 和 折 射
+通 过 分 析 地 表 上 接 收 到 的 信 号 ， 就 可 以 对 地 下 岩 层 的 结 构 、
+深 度 、 形 态 等 作 出 推 断 ， 从 而 可 以 为 以 后 的 钻 探 工 作 提 供 准
+确 的 定 位 。
+0 利 用 地 震 ： 核 爆 炸 监 测
+0 引 a Recorded at Obninsk. Russia
+10 呛 ， 3 Ch 0 苤 · NucIear E 黑 00 ， io• 、
+(MagnitudO
+21 2 Chinese Nuc ExpIOsion
+亻 M 四 ni № 穆
+1 1 Mong01ian Earthquake Lg
+(Nagnitude 獸
+全 面 禁 止 核 试 验 条 约
+(CTBT) 的 地 震 台 站 分 布
+红 颜 色 的 是 地 下 爆 炸 产 生 的 地 震 波 ， 其 记 录 特
+征 是 “ 大 头 小 尾 ” ， 蓝 颜 色 的 是 天 然 地 震 产 生
+的 地 震 波 ， 它 的 特 征 是 “ 小 头 大 尾 ” 。 利 用 记
+录 到 的 地 震 波 的 特 点 ， 可 以 区 分 地 下 核 爆 炸 和
+天 然 地 震 。
+0
+===== PAGE 7 =====
+牡 丹 江 2013 年 和 2017 年 的 比 较 ， 2013 年 的 放 大 了 50 倍 。
+2013 年 是 5 · 1 级 ， 2017 年 是 6 ． 3 级 一 一
+M0d. ℃ 汜 H 乙 2013 ℃ 43 ． 02 0 ． 00 47 一 201 043 · 59 ． 59 ． 99 & S 軋
+MDd. IC.OO 汜 日 乙 2017 ， 24 & 03 〕 00 1 9 一 2017 ． 246 · 0 34 · 26 ． 269 ． SAC
+1 CO
+1 四
+1 绸
+since the origin tirne S
+2 的
+eptember
+． 1 佣 一
+． 2 佣
+． 3 佣 一
+． 4 佣
+． 6 佣
+1 ． 0
+Cya n
+eptem er
+2 ． 0
+7 re
+ecor e at
+taton J
+made by Andy Frassett0@iris
+25
+min
+===== PAGE 8 =====
+0 利 用 地 震 ： 爆 炸 监 测
+2 闐 0 年 8 月 12 日 俄 罗 斯 的 库 尔 斯 克 号
+潜 艇 发 生 爆 炸 沉 入 巴 伦 支 海
+1 闐 0
+11D0
+13 凶
+0
+走 时 踩
+俄 罗 斯 当 局 早 先 将 这 一 事 件 归 罪 于 一 艘 不 明 身 份 外 国 潜 艇 的 碰 撞 。 2001 年 1 月 ， 正 是
+地 震 学 家 使 得 这 场 灾 难 起 因 的 争 论 最 终 得 以 结 束 。 波 罗 的 海 地 震 台 记 录 到 了 库 尔 斯 克
+号 上 爆 炸 产 生 的 可 说 明 问 题 的 震 动 。 这 一 证 据 表 明 ， 这 场 悲 剧 是 当 潜 艇 在 水 面 上 时 艇
+上 的 一 枚 鱼 雷 意 外 引 起 的 ， 随 即 在 深 部 发 生 了 几 枚 鱼 雷 爆 炸 。
+． 利 用 地 震 ： 爆 炸 监 测
+世 贸 中 心 事 件 以 北 的 约 帕 利 兹 台 站 的 地 0 记 录
+二 次
+一 壩
+記 鯡 到 ， 力 对 《 疒 O' 〕 「 0 匐
+离 美 国 世 界 贸 易 中 心 34 公 里 的 地
+震 台 ， 记 录 了 911 事 件 的 全 部 时
+间 进 程
+===== PAGE 9 =====
+0 利 用 地 震 ： 广 泛 的 应 用
+目 前 用 地 震 的 方 法 预 测 火 山 喷 发 取 得 了 很 大
+的 进 步 ； 对 水 库 诱 发 地 震 的 研 宄 可 以 为 大 型 水 库
+提 供 安 全 保 障 ， 例 如 我 国 的 三 峡 工 程 ， 库 区 地 震
+灾 害 的 研 宄 就 是 工 程 可 行 性 论 证 的 重 要 内 容 之 一
+对 矿 山 地 震 的 监 测 是 保 护 矿 山 安 全 的 重 要 手 段 之
+； 地 震 学 还 可 用 于 对 行 星 的 探 测 ， 通 过 对 行 星
+自 由 振 荡 的 研 宄 可 以 揭 示 行 星 内 部 大 尺 度 结 构 。
+因 此 ， 地 震 学 这 门 古 老 的 学 科 ， 不 断 获 得 活 力 ，
+成 为 正 在 迅 速 发 展 的 前 沿 学 科 之 一
+0 地 震 的 特 点 ： 能 量 巨 大
+表 示 地 震 大 小 基 本 有 两 种 方 法 ，
+种 是 利 用 地 震 震 级 表 示 地 震 的 大 小 ；
+另 一 种 是 根 据 地 震 造 成 的 破 坏 程 度 一
+烈 度 确 定 地 震 的 大 小 。
+几 位 著 名 地 震 学 家 1956 年 的 合 影 ， 从 左 到 右 ： FrankPress ， Beno
+Gutenberg, Hugo Benioff 和 Charles Richter. 其 中 里 克 特 （ Richter) 是
+里 氏 震 级 的 发 明 人 。
+1935 年 ， CharIes Richter 首 次 引 入 了 震 级 这 一 概 念 。
+零 级 的 定 义 为 ： A = 100 ， ， 4 广 1 微 米 时 所 对 应 的 震 级 。 则 有 ：
+===== PAGE 10 =====
+0 地 震 的 特 点 ： 能 量 巨 大
+I
+自 然 界 各 种 事 件 的 能 量 排 序 《
+震 级 相 差 1 级 ， 能
+0
+行 星 撞 击 地 球
+地 球 每 天 接 受 的 太 阳 能
+馳 球 内 部 热 流
+美 国 年 能 量 释 放
+智 利 地 震
+每 年 地 震 释 放 能 量
+圣 海 伦 火 山 爆 发 世 界 最 大 核 爆 炸
+飓 风 山 地 震
+大 陆 地 区 丽 年 的 活 动
+量 相 差 多 少 倍 ？
+0 地 震 的 震 级 和 能 量
+t945 年 广 岛 原 子 弹
+暴 风 雨
+旋 风
+闪 电
+等 效 矩 震 级 地
+0 自 然
+0 人 为
+地 震
+0
+里 氏 震 级 计 算 公 式 ：
+1 8 + 15M
+E 性 波 能 量 约 当 子
+总 能 量 的 十 芬 之 一
+M 一 震 级
+相 当 縫 量 的 ntr
+20 还 OD 崆
+120 ， 0 吨
+3 ， EO 000 崆
+， 000 羽 啐
+112 ， 000 ， 0 羽 啤
+i0r
+0 相 一 。 释 的 0 报 大 “
+180 ． 0 一 ．
+震 的 震 级 和 能
+0 地 震 的 特 点 ： 破 坏 力 巨 大
+烈 度 ： 表 征 破 坏 程 度
+小 于 111 度 ： 人 无 感 受 ， 只 有 仪 器 能 记 录 到 ；
+111 度 ： 夜 深 人 静 时 人 有 感 受 ；
+1V—v 度 ： 睡 觉 的 人 惊 醒 ， 吊 灯 摆 动 ；
+、 度 ： 器 皿 倾 倒 、 房 屋 轻 微 损 坏 ；
+VI—VII 度 ： 房 屋 破 坏 ， 地 面 裂 缝 ；
+VIII 一 x 度 ： 房 倒 屋 塌 ， 地 面 破 坏 严 重 ：
+XI 一 XII 度 ： 毁 灭 性 的 破 坏 。
+某 地 点 的 地 震 烈 度 表 示
+地 震 引 致 该 地 地 面 运
+动 的 猛 烈 程 度 ．
+震 级
+烈 度
+5
+VI
+VII
+VII
+7
+以
+台 站
+X
+===== PAGE 11 =====
+0 地 震 的 特 点 ： 分 布 规 律
+0 地 震 活 动 是 规 律 性
+与 随 机 性 共 存
+主 要 分 布 在 三 个 地 震 带 上 ： 首 先 约 70 ％ 的 地 震 分 布 在 环 太 平 洋 地 震 带 ， 包 括
+日 本 、 台 湾 、 美 国 加 州 圣 安 德 列 斯 断 层 区 等 著 名 的 地 震 活 动 区 。 第 二 个 地 震
+带 是 从 地 中 海 到 喜 马 拉 雅 的 欧 亚 地 震 带 ， 其 上 地 震 分 布 的 特 点 是 比 较 分 散 ，
+不 像 环 太 平 洋 地 震 带 那 么 集 中 那 么 有 规 则 ， 欧 亚 地 震 带 约 占 全 球 地 震 的 巧 ％
+左 右 。 第 三 个 地 震 带 是 沿 着 各 大 洋 洋 中 脊 分 布 的 洋 脊 地 震 带 ， 约 占 5 ％ 左 右 。
+0 地 震 的 特 点 ： 分 布 规 律
+地 震 活 动 是 规 律 性 与 随 机 性 共 存 有 约 10 ％ 的 地 震 不 是 那
+0
+0 》
+0
+么 有 规 律 ， 而 是 分 布
+在 这 些 地 震 带 之 外 、
+离 板 块 边 界 相 当 远 的
+地 方 。 这 就 是 所 谓 的
+板 内 地 震
+的 如 美 国 的 新 马 德 里
+地 震 带 ， 它 远 离 板 块
+边 界 ， 却 频 繁 发 生 大
+地 震 ，
+中 国 大 陆 发 生
+的 地 震 多 属 “ 板 内 地
+震 ” ， 其 发 生 机 制 仍
+中 国 地 震 震 中 分 布 图 （ 公 元 前 780 年 至 2005 年 ）
+然 是 个 未 解 之 谜 。
+===== PAGE 12 =====
+0 地 震 的 特 点 ： 分 布 规 律
+中 国 大 陆 地 震 呈 带 分 布 图
+尔 0 山
+0 山 过
+的 地 苤 的 环 大 率
+自 胄 地 过 0
+粼 心 身
+地 震 的 特 点 ： 突 发 性 和 毁 灭 性
+》 地 震 发 生 ： 突 发 性 ， 难
+以 预 报 一 世 界 性 的 难 题 ；
+》 地 震 灾 害 ： 毁 灭 性 ！
+===== PAGE 13 =====
+第 二 章 地 震 灾 害
+1 · 地 震 及 其 特 点
+2 · 地 震 烈 度
+3 · 地 震 灾 害 及 地 震 地 质 灾 害
+重 点 ： 地 震 学 的 基 础 知 识 及 地 震 宏 观 现 象 。
+难 点 ： 地 震 灾 害 分 析 ， 地 震 烈 度 的 发 展 与 现 状 。
+到 烈 度 的 含 义
+〖 地 震 烈 度 （ lntensity) 〗 是 指 地 震 发 生 时 在 某 一 地
+区 引 起 的 地 震 动 强 度 及 其 所 产 生 的 影 响 、 造 成 破 坏
+的 强 烈 程 度 。 烈 度 是 以 人 的 感 觉 、 器 物 反 应 、 房 屋
+等 结 构 和 地 表 破 坏 程 度 综 合 评 定 ， 反 映 的 是 一 定 地
+域 范 围 内 （ 如 自 然 村 或 城 市 部 分 区 域 ） 的 平 均 水 平 。
+烈 度
+烈 度 仪 如
+震 中
+震 源
+===== PAGE 14 =====
+到 烈 度 的 起 源 与 发 展
+〖 起 源 〗 巧 64 年 意 大 利 地 图 绘 制 者 伽 斯 塔 尔 第 （ J · Gasta1di) 在 地 图
+上 用 各 种 颜 色 标 注 滨 海 阿 尔 卑 斯 （ Maritime A1ps ） 地 震 影 响 和 破 坏 程
+度 不 同 的 地 区 ， 这 是 地 震 烈 度 概 念 和 烈 度 分 布 图 的 雏 形 。 后 人 借 鉴
+并 改 进 了 他 的 做 法 ， 采 用 地 震 烈 度 表 划 分 烈 度 的 等 级 ， 规 定 了 评 定
+烈 度 的 宏 观 破 坏 现 象 的 标 志 ， 逐 步 明 确 了 衡 量 烈 度 大 小 的 方 法 。
+〖 烈 度 表 〗 是 说 明 地 震 烈 度 的 等 级 划 分 、 评 定 方 法 与 评 定 标 志 的 技
+术 标 准 。 它 规 定 地 震 烈 度 划 分 的 等 级 ， 以 及 衡 量 各 烈 度 等 级 的 地 震
+影 响 和 破 坏 现 象 。
+1874 年 意 大 利 人 罗 西 （ M. s. de Rossi) 编 制 了 最 早 有 实 用 价 值 的 地 震
+烈 度 表 ， 反 映 了 如 下 有 关 烈 度 定 义 和 烈 度 评 定 方 法 的 共 识 ：
+． 从 弱 到 强 按 等 级 划 分 地 震 烈 度 ， 烈 度 只 有 整 数 值 ；
+@ 利 用 地 震 的 宏 观 影 响 和 各 种 破 坏 现 象 评 定 烈 度 ；
+O 不 探 宄 这 些 现 象 间 的 联 系 或 因 果 关 系 ， 最 终 结 果 以 综 合 平 均
+的 方 式 确 定 ；
+@ 烈 度 由 评 定 者 根 据 烈 度 表 主 观 判 定 。
+世 界 上 几 种 常 用 的 烈 度 表
+苏 联 度 表
+欧 洲 烈 度 改 进 的
+RF 烈 度 表 日 本 度 表 MSC
+MSK
+JMA
+VIII
+VIII
+麦 加 利 烈 渡 表
+IV
+VII
+VIII
+XII
+XII
+几 乎 没 有 感 觉
+感 觉 如 车 边 的 震 动
+人 人 有 感 ， 睡 者 惊 醒
+对 砖 石 建 筑 造 成 破 坏
+人 难 0 、 站 立
+人 惊 逃 ， 部 分 墙 倒
+大 范 围 破 环 ， 山 崩 坡
+全 面 破 坏 ， 地 面 起 伏 如 波 浪
+===== PAGE 15 =====
+Table 1 The mod 山 儲 山 山 在 a 地
+IV
+训
+VIII
+刈
+剛
+telt a fewuncer e a V 引 a08
+Felt 川 by ] 卿 訕 rest. 《 如 on 叩 p tloors ct
+Oelcately s 虧 p 0 Obiects s 巛
+Felt 脚 n 引 ic 》 ， indoors. 卩 毿 厚 on uppertloors 引
+bu•ldi1VS. but 1 鳴 people dO not r it an
+a h 叩 a 舵 Sta1 囝 i 叩 a 」 加 rno 旧 may ℃ slightfy. Vibration
+廬 《 passim 引 茈 《
+0u0 the day. 川 indoors by 旧 n OLltd001S 茫 n 甬 厑
+SO 1 《 山 ， nd 伍 ， 開 dvsturied:walls make
+0 翮 ki 叫 SDund. 1s31i0n like h 翮 岩 truck stnking building.
+Standi1g automobiks rock2d no 就 b ，
+Felt 仳 a 巾 以 用 r 巴 《 訊 n 、 Some dishes. V 市 dO &
+3 就 on brOken; tracked plaster 山 a 0 岫 头 un 蜮
+0b0 魃 巴 ur 吒 oftrees. 0 5 ． and Other 0 到
+Ob 伐 即 me 加 就 $ notted Pe1dulum cl st 呷
+Felt by 測 ． many 厅 刂 h n md run 0 重 ors SOrne a
+加 m 电 们 地 0 ： a in 引 川 $ 圄 《 劃 phStEr ard
+mneys- D 田 些 帥 t
+Ever/body runs t 山 0 O 川 些 01 buildings 90
+d 咿 and [ 0 t 电 1. sight moderate in w 蒯 t
+0 山 a 、 structures CO 巧 i 曲 in pocrls•' 0 「 山 y
+de•grMt stn 山 re 髯 c 加 m 就 broken, N ℃ 獨
+pesors CarS
+Dalmge sllght inSpe•,iallV designed 用 亡 u 化 0 〕 們 a 8 iß
+0 在 山 a 、 substantial bu ldings with 过 唄 即 杰 里 1 in
+pmrly bullt st 化 c 加 「 ， PaneI a 《 ov 搁 0 trame
+stmctures FaII 耐 chimneys. t 瓿 地 sta 韭 ， columns,
+monumenls. VÄIS. № a lurn•ture 0 urn ． Sand and
+mud e 《 in a 的 0 Chanoes ] 《 a 佗 0 Persons
+山 Wi CMS disturtnd
+considerable in specially desOned structures: wel•
+d 坤 d trame StruCtLlres thrcwn Ctut 0 m 鋣 1 俪
+s 们 sta b 丽 山 n ， partal C00 即 s 也 就 in 蝻
+旧 d ons 、 G und cracked cons@口皿吲是 Llndemround
+0 0 n
+邝 v 卜 00 n struttures m 詢 rvyand
+《 ran 《 就 加 「 然 小 rty W1th 化 腼 山 ． 地 丽 ， 0 的 u 司 badly
+0 k ． Ra•ls Laßdslides considerable 〔 m riverb•nks
+an 」 Steep s 《 0 s ． Shitted sand and rn 刂 0 Water splashed.
+c 叩 0 r 酏 縑 s
+Few 《 m ， 曲 六 StruCtureS remain stardlng. Bndges
+destrwed. BrOJd 枞 su $ 0 ground. Urderyound 卩 e 加 門
+、 0 s 扪 飛 也 黼 slumps ant 《 a slips ir lt
+grourui Rails 准 耵
+Damagetotzl- Wa 5 SMI 00 gr0undSurtaca, LireS Of Slght a10
+@、到 dis № № 1 Pb 匚 卜 山 r 伍 湖 into 《 №
+29
+地 震 烈 度 的 评 定 ： 地 震 的 宏 观 现 象
+0 人 的 感 觉
+令 人 工 结 构 物 的 破 坏
+0 物 体 的 反 应
+0 自 然 现 象 的 变 化
+===== PAGE 16 =====
+， 钔 。 1 05
+中 华 人 民 共 和 国 国 家 标 准
+010T 一 羽
+代 了 」 一 20 吓
+中 国 地 震 烈 度 表
+1 上 《 （ 垣 以 seismic 山 ” i 《 ， “ 《
+与 以 往 烈 度 表 的 区 别 ：
+增 加 了 仪 器 烈 度 评 判 指
+a) 不 具 备 仪 器 测 定 地 震
+烈 度 条 件 的 地 区 ， 一 应 一
+使 用 宏 观 调 查 评 定 地
+震 烈 度 。
+b) 具 备 仪 器 测 定 地 震 烈
+度 条 件 的 地 区 ， 宜 采
+用 仪 器 测 定 的 地 震 烈
+20200 卜 21 发 布
+旧 家 市 场 柰 智 管 呷 总 局
+旧 家 准 化 理 委 员 会
+卜 02 刁 1 实 施
+中 国 地 震 烈 度 表 (GB/T 17742 一 2020 ）
+The Chinese seismic intensity scale
+吓 范 围
+本 标 准 规 定 了 地 震 烈 度 等 级 和 评 定 地 震 烈 度 的 房 屋 类 别 ， 以
+及 地 震 烈 度 评 定 方 法 。 评 定 指 标 包 括 房 屋 震 害 、 人 的 感 觉 、
+一 器 物 反 应 、 生 命 线 工 程 震 害 、 其 他 震 害 现 象 和 仪 器 测 定 的 地
+震 烈 度 。 评 定 方 法 为 综 合 运 用 宏 观 调 查 和 仪 器 测 定 的 多 指 标
+方 法 。 本 标 推 适 用 于 地 震 烈 度 评 定 。
+2 《 术 语 孙 定 义
+2 · 1.1 地 震 烈 度 seismic intensity
+地 震 引 起 的 地 面 震 动 及 其 影 响 的 强 弱 程 度 。
+2 · 1.2 震 害 指 数 damage i ndex
+房 屋 震 害 程 度 的 定 量 指 标 ： 以 0 · 00 到 L00 之 间 的 数 字 表
+示 由 轻 到 重 的 震 害 程 度 。
+2 · I. 3 平 均 震 害 指 数 mean damage i ndex
+同 类 房 屋 震 害 指 数 的 加 权 平 均 值 ， 即 各 级 震 害 的 房 屋 所
+占 的 比 率 与 其 相 应 的 震 害 指 数 的 乘 积 之 和 。
+===== PAGE 17 =====
+」 地 震 烈 度 等 级 和 评 定 地 震 烈 度 的 房 屋 类 别
+3 ， 1 地 震 烈 度 等 级
+震 烈 度 分 为 12 等 级 ， 分 别 用 罗 马 数 《 、 ） 或 阿 拉 伯 数 字
+（ 1 ～ 12 ） 表 示 。
+3 · 2 数 量 词 的 界 定
+数 量 词 采 用 个 、 少 数 、 多 数 、 大 多 数 和 绝 大 多 数 ， 其 范 围 界 定
+如 下 ：
+b)
+c ）
+“ 个 别 ” 为 10 ％ 以 下 ；
+“ 少 数 ” 为 10 ％ 、 45 ％ ；
+“ 多 数 ” 为 40 ％ 、 70 ％ ；
+“ 大 多 数 ” 为 60 ％ 、 9 ；
+“ 绝 大 多 数 ” 为 80 ％ 以 上 。
+3 ， 3 评 定 烈 度 的 房 屋 类 型
+穿 斗 木 构 架 房 屋
+于 评 定 烈 度 的 房 屋 ， 包 括 以 下 五 种 类 型 ：
+a) AI 类 ： 未 经 抗 震 设 防 的 土 木 、 砖 木 、 石 木 等 房 屋 ：
+b) A2 类 ： 穿 斗 木 构 架 房 屋 ；
+c ） B 类 ： 未 经 抗 震 设 防 的 砖 混 结 构 房 屋 ；
+d) c 类 ： 按 照 VII 度 （ 7 度 ） 抗 震 设 防 的 砖 混 结 构 房 ；
+e) D 类 ： 按 照 VII 度 （ 7 度 ） 抗 震 设 防 的 钢 筋 混 凝 土 框 架 结 构 房 。
+3 · 4 房 屋 破 坏 等 级 及 其 对 应 的 震 害 指 数
+房 屋 破 坏 等 级 分 为 基 本 完 好 、 轻 微 破 坏 、 中 等 破 坏 、 严 重 破 坏 和 毁
+坏 五 类 ， 其 定 义 和 对 应 的 震 害 指 数 如 下 ：
+a ） 基 本 完 好 ： 承 重 和 非 承 重 构 件 完 好 ， 或 个 别 非 承 重 构 件 轻 微 损 坏 ，
+不 加 修 理 可 继 续 使 用 。 对 应 的 震 害 指 数 范 围 为 0 · 00 < 旧 0 ；
+b ） 轻 微 破 坏 ： 个 别 承 重 构 件 出 现 可 见 裂 缝 ， 非 承 重 构 件 有 明 显 裂 缝 ，
+不 需 要 修 理 或 稍 加 修 理 即 可 继 续 使 用 。 对 应 的 震 害 指 数 范 围 为 0 · 10 <
+0 · 30 ；
+） 中 等 破 坏 ： 多 数 承 重 构 件 出 现 轻 微 裂 缝 ， 部 分 有 明 显 裂 缝 ， 个 别
+非 承 重 构 件 破 坏 严 重 ， 需 要 一 般 修 理 后 可 使 用 。 对 应 的 震 害 指 数 范 围 为
+0 · 30 d < 0 · 55 ：
+d ） 严 重 破 坏 ： 多 数 承 重 构 件 破 坏 较 严 重 ， 非 承 重 构 件 局 部 倒 塌 ， 房
+屋 修 复 困 难 。 对 应 的 震 害 指 数 范 围 为 0 · 55 < 0 ． 85 ；
+e ） 毁 坏 ： 多 数 承 重 构 件 严 重 破 坏 ， 房 屋 结 构 濒 于 崩 溃 或 己 倒 毁 ， 己
+无 修 复 可 能 。 对 应 的 震 害 指 数 范 围 为 0 · 85 < L00 ；
+4 地 震 烈 度 评 定
+综 合 运 用 宏 观 调 查 和 仪 器 测 定 的 多 指 标 方 法 。
+===== PAGE 18 =====
+表 1
+评 定 指 标
+地 震 烈 度 表
+地 震
+1 5 《 于 < 20
+20 飞 ； 于 < 3
+飞 ； 于 < 50
+房 屋 震 害
+震 考 程 度
++ 均 震 害
+指 数
+茫 均 震 害
+妩 02 ～
+《 0@6
+私0@1
+引
+能 9 ～
+妩 05 ～
+六 国 ～
+人 的 感 觉
+个 别 静 止 中 的
+人 盲 感 觉 ， 1 ． 别
+高 喽 层 中 的 人 有
+室 内 少 数 静 止 中 的
+人 有 感 觉 · 少 数 咬
+高 中 的 人 有 明
+感 觉
+内 多 数 人 ． 室 卟
+少 孜 人 有 感 觉 ． 少
+孜 № 梦 中 惊 醒
+内 绝 大 多 数 ，
+卟 多 数 人 有 感 觉 ·
+多 牧 人 梦 中 原
+· 少 数 人 惊
+户 外
+器 物 反 啮
+悬 物 微 动
+悬 砗 犒 期 显 摆
+动 ， 器 0 作 狗
+悬 挂 物 大 辄 度
+是 动 ， 少 数 架
+上 小 犒 品 ， 个
+地 部 沉 重 或
+放 置 不 稳 定 器
+携 摇 动 或 翻
+倒 。 水 是 动 并
+从 满 的 溶 器
+中 应 出
+生 命 线 工 程 霪 吉
+生 命 线 工 程 震 害
+个 别 梁 桥 块 破
+耳 · 个 别 拱 桥 主
+狎 圈 理 裂 缝 及
+桥 台 开 裂 《 个 别
+主 变 压 器 闸
+别 老 旧 攴 线 管
+甬 有 坏 ， 局 部
+水 下 降
+少 数 梁 桥 挡 块 破
+出 理 期 显 裂
+髯 和 变 形 以 及 少
+桥 台 开 裊 《 个
+变 康 器 的 套 管
+坏 · 个 别 瓷 柱
+高 床 电 气 设 备
+础 10 少 数 支 我
+饩 道 破 1 吓 局 部
+俜 水
+他 震 害 税
+他 蕊 害 城
+河 甲 和 松
+十 地 出 理 製
+· 饱 和 的
+出 现
+冒 水 ： 个 别
+独 立 砖 闵
+轻 度 裂 缝
+河 岸 出 理 嵋
+方 。 饱 和
+0 常 见 喷 水
+冒 砂 ， 松 牧
+0 也 裂
+噠 较 多 《 大
+多 数 伸 立 砖
+烟 囱 中 等
+仅 器 肖 定 妩
+地 烈 度 l,
+仪 器 定 的
+地 震 烈 度
+合 成 地 震 动 的 最 大 值
+加 邃 度
+1.21 X 蜘 一
+（ 匕 58 10 “
+5 之 8 、 10 “
+（ 5 ， 29 区 10 一 ，
+L08 冫 《 10 一
+L55 ： （ 10 一 《
+（ L09 10 ．
+2 · 22 、 《 0 ．
+X 1 （ 0
+上 56 10 ．
+（ L78 × 10 ．
+3 I 风 10 一
+5 · 58 IO 一 、
+（ 上 82 × 10 一
+& 0 × 10 ．
+L20 区 lo-
+（ & 2 《 0 ： 10 ．
+1 ． 70 10 '
+59 区 @一 ，
+口 ． 77 区 10 一
+3 ． 80 区 10 ． ．
+35
+地 震
+勹 。 窗 轻 响
+门 窗 作 响
+门 窗 ． 屋 。 屋 欒 动 作
+响 ， 灰 上 掉 落 ， 个 别 房 屋 墻
+体 抹 从 出 理 细 敵 裊 ， 个
+别 老 旧 A 1 类 或 A2 类 房
+屋 墻 体 出 轻 微 裂 缝 或 原
+有 裂 醭 扩 展 ， 个 别 屋 伸 烟
+囱 抻 抟 ， 个 糾 0 思 抻 落
+屋 震 害
+震 害 程 度
+少 数 轻 懒 破 和 屮 等 疲
+烬 ， 多 数 本 完 好
+少 数 轻 微 破 和 等
+还 · 大 多 玫 基 本 完 好
+少 数 轻 微 破 坏 和 中 等 陂
+不 ， 大 多 基 本 完 好
+少 数 或 个 别 轻 破 坏 “ 迦
+大 多 数 鼕 本 定 好
+少 数 或 个 别 轻 徽 破 坏 ． 地
+大 多 数 鼕 本 完 好
+少 数 严 重 破 坏 毁 坏
+数 中 等 破 环 和 轻 微 破
+少 数 中 破 坏 ． 多 数 轻 微
+陂 坏 和 本 定 好
+少 数 中 等 破 坏 “ 多 数 轻 微
+陂 和 本 定 好
+少 数 轻 徵 破 沐 和 屮 等
+塔 ， 多 数 本 完 好
+少 数 轻 破 琢 和 屮 等 疲
+婊 ， 大 多 基 车 完 好
+评 定 指 标
+合 成 地 动 的 最 丿 ： 值
+人 的 感 觉
+多 数 人 站 立 不 隐 ，
+多 数 人 惊 逃 户 外
+大 多 数 人 惊 逃 了
+外 ， 自 行 车 的 人
+有 召 定 “ 万 毅 中 的
+汽 车 骂 乘 人 员 有
+器 物 反 应
+少 数 轻 家 具 科
+物 是 移 动 ， 少
+数 頂 部 沉 重 的
+器 物 翻 的
+物 品 从 架 子 十
+掉 落 ， 多 数 0
+部 沉 重 的 器 物
+到 。 少 数 家
+旦 纈 倒
+加 攏 度
+5 × | 0 到
+凵 .57 IO¯
+906 IO 一 0
+速 度
+& 旨 ] 0
+L20 区 10 ．
+36
+===== PAGE 19 =====
+评 定 指 标
+合 成 地 震 动 的 最 大 直
+地 震
+（ L95 ～ 0 ] ：
+0 霪 6-3 0
+A2
+B
+0
+房 屋 震 害
+震 害 程 度
+少 毁 坯 ． 多 数 中 破
+和 严 重 烁
+少 严 重 破 坏 ． 多 数 中 等
+玻 和 徵 破 坏
+少 然 严 正 破 坏 毁 年 ， 多
+数 忄 轻 微 破 坏
+少 0 等 坏 和 产 重 破
+坏 · 多 数 微 破 坏 相 基 本
+完 好
+少 蟲 中 破 坏 。 多 数 轻 微
+陂 耳 和 鼕 厶 完 好
+大 多 数 坏 和 产 重 破 坏
+少 然 以 坯 庵 多 数 严 破 坏
+和 忄 坏
+少 毁 ． 多 数 严 重 破 坏
+和 中 等 矾 炼
+多 然 严 重 鈹 坏 和 中 等 鈹
+坏 · 少 数 破 坏
+少 严 正 破 坏 · 多 枚 中 等
+陂 和 徵 破 坏
+房 屋 蕊 害
+震 害 程 度
+绝 多 是 毁 坏
+大 多 数 烁
+大 名 数 坏
+大 多 数 严 重 破 坏 和 毁 坏
+人 多 数 严 重 破 坏 和 毁 坏
+艳 丿 ： 多 毁 坏
+跹 全 毁 坏
+” 表 示 丸 内 。
++ 均 震 害
+0 2 ． 一
+29 ～
+骁 25-
+0 」 8 ～
+就 33-
+25 一
+T- 均 震 害
+指 数
+88
+人 的 感 觉
+多 数 人 摇 见 順 簸 。
+行 走 困 难
+行 动 的 八 荇 倒
+物 及 脚
+除 重 家 且 ．
+室 内 物 品 人
+数@倒 移 位
+室 内 拷 品 大 多
+数@倒 移 倘
+生 命 线 T 程 震 害
+少 数 梁 峤 梁 体 杉
+位 裂 璧 多 犜
+捫 块 破 坏 · 少
+拱 桥 主 拱 圈 裂
+严 重 《 少 嫂 生 枞
+器 的 套 箭 坏 。
+个 别 或 少 数 骁
+型 高 电 气 没 备
+破 坏 ； 多 支 线
+管 道 及 少 数 线
+管 通 破 坏 ． 部 分
+区 域 停 水
+个 别 梁 桥 桥 墩 長
+部 或 巛 梁 ·
+个 别 拱 桥 垮 里 或
+于 垮 塌 ， 多 数
+度 乐 器 套 膏 破
+坏 、 少 数 飞 压 器
+穆 位 ， 少 嫂 瓷
+高 电 气 没 条
+磕 坏 ， 各 处 水
+管 道 破 坏 。 漏
+广 泛 发 生 · 弋 范
+以 停 水
+他 震 觋
+出 戊 裂 缝
+和 砂 层 绝
+人 多 数 嗅 陟
+冒 水 ！ 大 多
+敷 也 抟 烟
+严 而 坏
+多 处 出 观 裂
+缝 · 可 见 基
+裂 建 。
+动 ， 滑 址 ． 塤
+方 常 见 《 独
+立 砖 烟 多
+数 倒
+他 震 羰
+山 和 地 震
+裂 出 ：
+人 多 数 独 立
+砖 烟 从 杖
+坏 或
+0 毁
+地 蕊 斯
+续 很 大 大 早
+山 滑
+地 而 劓 隻
+化 · 山 回 改
+仅 器 定 的
+地 烈 度
+< 80
+80 《 0 < 上 5
+仪 器 测 定 的
+地 震 烈 度
+飞 飞 ] 艺
+加 谏 癭
+5
+0 2 - ． 卜 」 0
+55 》 O ．
+37
+表 1 〔 续 ）
+评 定 指 标
+人 的 党
+猗 自 行 乍 的 人 会 择
+倒 ． 处 不 0 然 态 的
+人 会 摔 禽 原 尥 ． 有
+法 起 惑
+物 脚
+生 命 线 工 程 震 害
+刷 梁 桥 桥 墩
+溪 或 折 ． 少 数
+落 梁 · 少 棋 桥
+垮 塌 或 亍 垮
+塌 ： 绝 大 多 牧 变
+器 移 位 ， 轨 。
+套 管 斯 裂 油 。
+多 数 瀅 型 高 珏
+电 气 设 备 皺 10
+俱 水 管 网 以 坏 。
+全 区 域 停 水
+合 成 地 震 动 的 最 大 直
+加 速 墳
+L72 × 1 ）
+2 」 7 区 0 《
+00J 区 1@
+0 土 50 区 IO'
+注 2 ： 表 中 给 建 的 合 地 震 勁 的 最 大 为 所 对 瞒 的 器 定 的 地 震 烈 度 中 0 ， 每 这 度 和 速 度 数 值 分 别 对 应 附 录 A 中 公 式 《 A ． 5 ， 和 公 式 ． A ． 6 》 的 PGV ： 适 号 内 为
+化 围 ，
+===== PAGE 20 =====
+烈 度 分 布 图 ： 等 震 线
+24 。 20 '
+24m '
+四 。 40 '
+图 2 巧 一 4
+41 。
+102 。 伊
+玉 溪 。
+发 震 断 层
+石 屏
+异 龙 湖
+1 伲 。 30 '
+华 宁 。
+通 河
+建 水
+1970 年 通 海 7 ． 7 级 地 震 等 震 线 图 （ 据 胡 聿 贤 ）
+烈 度 分 布 图 ： 等 震 线
+0 北 京
+1170
+平 谷
+薊 具
+三 河
+1180
+宁 河
+渤
+烈 度 异 区 （ 7 兮 6 ）
+平 泉
+0 级 地 等 过 线
+07 ， 1 級 地 震 等 震 线
+（ ： ： 供 参 考 等 震 线
+1976 年 中 国 唐 山 7 ． 8 级 地 震 烈 度 分 布 图 （ 据 杨 理 华 ）
+图 2 ． 5
+高 烈 度 异 常 区 （ 7 兮 8 ）
+40
+===== PAGE 21 =====
+发 屦 断 层
+危 地 马 拉 市
+太 平 洋
+5 一 2 ] 976 年 危 地 马 拉 杰 9 级 地 震 等 震 线 图 （ 据 埃 斯 皮 诺 萨 （ E 饵 两 a) ）
+102 。 脚 '
+江 川 。
+发 震 断 层
+建 水
+异 龙 湖
+图 2 巧 一 4 1970 年 通 海 7 ． 7 级 地 震 等 震 线 图 （ 据 胡 聿 贤 ）
+烈 度 分 布 图 ： 信 息 参 考 （ 断
+层 走 向 、 倾 向 ， 破 裂 传 播 方
+向 ， 地 震 动 衰 减 特 性 等 ）
+112 》
+图 2 ． 5 一 3 巧 年 中 国 华 县 8 级 地 震 等 震 线 图 （ 据 郭 增 建 ）
+、 川 & 0 级 地 震 烈 度 分 布 图 （ 第 3 ． 0 稿 ）
+0 1 闐 公 里
+===== PAGE 22 =====
+建 筑 性 能
+震 中 距
+地 下 水
+烈 度
+波 动 时 间 《
+震 源 深 度
+地 质
+影 响 地 震 烈 度 的 因 素
+不 同 地 质 结 构 的 不 同 地 震 波 谱
+震 中 距
+烈 度 值
+震 源 深
+烈 度 等 震 线 和 震 中 的 两 种 定 义
+不 同 地 层 和 建 筑 对 同 一 地 震 波 的 不 同 反 应
+（ 源 自 ： 趣 味 地 農 学 ， 冯 锐 ， 地 震 出 版 社 ， 202D
+传 统 地 震 烈 度 的 特 性 及 其 适 用 性
+》 特 性
+1. 多 指 标 的 综 合 性
+2 · 分 等 级 的 宏 观 性
+3 · 以 后 果 表 示 原 因 地 间 接 性
+》 适 用 性
+地 震 烈 度 是 一 个 粗 略 的 等 级 概 念 ， 是 一 定 范
+围 内 地 震 影 响 强 弱 程 度 的 总 体 评 价 ， 这 种 衡
+量 是 定 性 的 、 宏 观 的 、 综 合 性 的 。 不 应 过 分
+外 推 其 应 用 范 围 ， 用 其 表 示 地 震 动 的 多 种 特
+性 ， 或 从 中 推 求 出 多 种 设 计 地 震 动 参 数 。
+===== PAGE 23 =====
+地 震 烈 度 的 用 途
+1 · 作 为 震 害 的 简 便 估 计 ：
+2 · 为 地 震 工 作 者 提 供 一 种 宏 观 尺 度 来
+描 述 地 震 影 响 的 大 小 ；
+3 · 作 为 一 种 粗 略 而 简 便 的 指 标 ， 为 地
+震 工 程 总 结 抗 震 经 验 、 进 行 烈 度 区
+划 ， 从 而 规 定 地 震 动 设 计 参 数 。
+45
+仪 器 烈 度 (lnstrumental lntensity) ：
+现 代 地 震 烈 度 的 发 展 ： 采 用 地 震 动 参 数 使
+之 定 量 化 。
+Seismic intensity has been traditionally used worldwide as a method
+for quantifying the shaking pattern and the extent Of damage for
+earthquakes. Though derived prior tO the advent Of today's modern
+seismometric instrumentation, seismic intensity still provides a
+useful means Of describing information contained in these
+recordings. Such simplification is helpful for those users whO are
+unfamiliar with instrumental ground-motion parameters.
+That is not tO say that instrumentally derived seismic intensity alone
+is sufficient for IOSS estimation. ln fact, eak veloci and Sbectr
+physical basis
+espons provide a more
+for such analyses.
+However, ， for the majority Of users, we expect that the intensity map
+will be more readily interpreted than other maps Of ground-motion
+p arameters and will be, therefore, more useful.
+===== PAGE 24 =====
+lnstrumental lntensity (cont.)
+Converting from Peak Acceleration and
+Velocity 0 lnstrumental lntensity
+(Wald and others, 1999 ）
+(Earthquake Spectra ， VOI. 巧 ， No. 3 ， 557 一 564 ）
+For ／ / ,n IX ：
+= 3 · 66 log （ G ） 一 L66 （ g “ ： L08 ）
+= 3 · 47 10g (PGV) + 2 · 35 (sigma ： 0 · 98 ）
+(1•1)
+(1.2)
+ShakeMap lnstrumental lntens ity Scale
+PERC EIVED
+SHAKINO
+PO 亻 E 引 L
+0 、 ， AGF
+PEAK CC* ，
+L 乖
+INSTROMENTAL
+Not 上 Weak
+Lbght
+1 ． 4 一 39
+1 ． 03 ． 4
+MOderate Strong Very strOng Sev 的 恂
+ViO 》 0 社
+none
+< ． 17
+01
+． 1 14
+0 ． 10 · 1
+ll-lll
+Very light
+3.9-92
+3 0
+V
+Light
+9 ． 2 一 18
+& 吓 16
+训
+Mode«ate M00 ate 旧 e ， Heavy
+18 “ 34
+VII
+65 ， 124
+600 1
+三 xtrerr №
+Heavy
+> 124
+、 11
+3 1 0
+VIII
+S / ia en lnstrum ental lntensity ScaIe Legend: CoIor palette ， two-word
+text descriptors ， and ranges Of peak motions for lnstrumental lntensities. 47
+lnstrumental lntensity @叫
+0
+0
+NOt 0
+SH 厶 以 《 、 0
+POTENIIAL
+PAMAZE
+PEAK ACCÅ%g)
+017
+PEAK 色 」 “ ' 00
+INSTRVMENTAL
+10 20 30
+Weak
+01 巧 0
+Moderate
+Very l•ght
+3 ． 4 娼 ． 1
+V
+Strcng e 雪 凵 r000
+Severe
+ught McOerate 札 化 0 “ 酎 + iea ' /
+VioIent Extrerr 》 0
+Hea'•'V Very e
+65 “ 124 > 124
+60 」 1 6
+1 卜 3 ． 4
+IV
+1 34
+& 106
+训
+34 壬 5
+3 1 而 0
+VIII
+Northridge lnstrumental lntensity Map. Shaded relief map showing recorded peak
+instrumental intensity for the magnitude 6 ． 7 ， 1994 Northridge earthquake. The open
+star shows the epicenter and the black rectangle depicts the fault surface projection.
+48
+===== PAGE 25 =====
+IAN ， CHINA
+OUT
+lOkm
+tion Ex osed to Ea rth
+10 貊 飞 7k 《 5 」 C9
+] 2 351 k
+Light 肟 00 Strmg v00 5 《
+PAG E R
+Version 6
+uake Shakin
+& 2k 608k 瓴 k
+VoEnt Extreme
+1 生 吖 0 3 吖
+」 酌 。 n ； “ 一 1 川 km fr•m L3ndszan 二 0 Selected C EX sure
+10 誕 》 5 〕 0 1COC0
+重 庆
+资 来 源 中 国 地 震 局
+0
+Ch 」 0
+\ 0 Zi3C' 还
+- ' ， 00n 。 h 的 “
+第 二 章 地 震 灾 害
+1. 地 震 及 其 特 点
+2 · 地 震 烈 度
+Xlanyang•
+cnongqlng
+： 000 刂 二
+》 打 、 过 n
+wi
+VIII 河 ； eng
+Oeyane
+凵 n 四
+'•' Nanchc•nq
+V
+Chongqing
+5 y
+0 0 cat 噁 00p 《 噁 m 〕
+Shaking lntensity
+2 小 ．Tlr蛋“于恶、@0《
+了 Guiin 7
+3 · 地 震 灾 害 及 地 震 地 质 灾 害
+重 点 ： 地 震 学 的 基 础 知 识 及 地 震 宏 观 现 象 。
+难 点 ： 地 震 灾 害 分 析 ， 地 震 烈 度 的 发 展 与 现 状 。
+PO' 》 000n
+3 ， 9
+70
+3 ，
+3 ， 2 伽 k
+(k 竺 划 00 的
+50
+===== PAGE 26 =====
+本 节 资 料 无 特 殊 指 明 时 ， 多 数 源 自 ：
+《 自 然 灾 害 》 ， 陈 順 ， 史 培 军 ， 2007 年
+鑷 世 杞 等 学 狡
+巫 史 培 军 ／ 蓍
+自 然 灾 害
+0 地 震 灾 害 ： 突 发 性 和 毁 灭 系
+0 地 表 破 坏 ：
+彗 ： 重 力 性 地 裂 、 震 陷 、 滑 坡 、 沙
+0 结 构 物 破 坏 ：
+0 次 生 灾 害 ：
+地 震 所 引 起 的 爆 破 、 火 灾 、 水 灾 和 疫 情 等 。
+===== PAGE 27 =====
+0 地 震 灾 害 ： 震 害 实 例
+0 971 Å
+0 地 震 灾 害 ： 震 害 实 例
+Earthquake of 1984 ， Morgan Hill ， CA
+===== PAGE 28 =====
+0 地 震 灾 害 ： 震 害 实 例
+地 震 对 交 通 系 统 的 破 坏
+Earthquake 0 1965 SeattIe, US
+0 地 震 灾 害 ： 震 害 实 例
+地 震 对 建 筑 物 的 破 坏
+Earthquake 0f 1980 EI Asnam ， 地 芭 的 ．
+===== PAGE 29 =====
+0 地 震 灾 害 ： 震 害 实 例
+地 震 对 建 筑 物 酽
+The 1994 Northridge earthquake
+0 地 震 灾 害 ： 1906 旧 金 山 大 地 震
+===== PAGE 30 =====
+0 地 震 灾 害 ： 次 生 灾 害 一 火 灾
+1906 旧 金 山 大 地 震
+59
+0 地 震 灾 害 ： 1906 旧 金 山 大 地 震
+1906 年 4 月 18 日 清 晨 5 点 20 分 ， 美 国 旧 金 山 发 生 & 3 级 地 震 ， 60 ， 000 余 人 遇
+难 。 震 时 全 城 起 火 ， 社 会 秩 序 一 度 混 乱 ， 抢 劫 杀 人 等 恶 性 事 件 多 有 发 生 。
+全 市 进 入 紧 急 状 态 。 近 10 万 人 逃 离 城 市 ， 经 济 损 失 超 过 5 亿 美 元 。
+皿 IÅM 川 0
+3Y THE MAYOR
+I ' 《 q ' 0 《 al htn 》 № rm 肆 《 “
+WARN 0 以 “ n
+市 长 令
+授 先 吝
+种 等 可 以 开 射 杀
+打 帷 火
+打 饪 佴 人 ·
+己 命 所 有 煤 气
+和 电 力 公 利 停 止 伐 气
+身 民 曖 E 呆 中 ．
+不 外 出 ．
+巽 咬 民 0
+市 长 SCHMTZ
+E. MITZ, 洳 or
+1 6 年 4 月 日
+60
+===== PAGE 31 =====
+0 地 震 灾 害 ： 次 生 灾 害 一 火 灾
+Tank Farm Fire
+Th is slide shows a fire at Valdez ， Alaska ， The
+tank fire was triggered by failure of oil storage
+tanks at the Union OiI tank farm. By 10 ： 30
+p.m. about 5 hours after the quake, the whole
+waterfront was burning furiously. Some
+buildings along Front Street and Standard
+OiI's pumping control station also caught fire.
+The Union Oil tank farm continued to burn
+for two weeks.
+0 地 震 灾 害 ： 次 生 灾 害 一 沙 土 液 化
+Sand BOiI produced by Liquefaction
+Earthquake Of October 15 ， 1979 ， EI Centro ， A
+964 Niigata Earthqua e
+===== PAGE 32 =====
+0 现 代 地 震 学 史 上
+标 志 性 大 地 震
+》 1906 旧 金 山 大 地 震
+， 现 代 地 震 科 学 的 诞 生
+This fence was offset 2 · 6
+by the main fault
+===== PAGE 33 =====
+》 1923 年 日 本 关 东 大 地 震
+工 程 地 震 学 的 诞 生 、 忽
+闋 東 大 震
+Great KantO Earthquake 1923
+》 1964 年 日 本 新 洞 （ Niigata) 地 震
+66
+===== PAGE 34 =====
+》 1985 年 墨 西 哥 地 震 ： 场 地 效 应
+加 速 度 的
+加 速 度 係 司
+加 这 度 / n/ 170
+加 連 度 № 丷 的
+海 平 曲
+0 现 代 地 震 学 史 上 标 志 性 地 震
+》 1933 年 3 月 10 日 的 Long Beach （ M6 · 3 ） 地 震
+世 界 上 第 一 次 记 录 到 强 震 加 速 度 记 录 ， 是 工 程 地 震 学
+起 源 过 程 中 最 为 重 要 的 一 步 ， 标 志 着 工 程 地 震 学 作 为
+学 科 研 宄 的 起 点 。
+》 1966 年 6 月 27 日 Parkfield 地 震 （M5·6）
+首 次 获 取 台 阵 观 测 记 录 （ 5 台 强 震 加 速 度 仪 和 15 台 地 震
+计 ， 其 中 2 号 强 震 加 速 度 仪 距 断 层 地 表 破 裂 仅 80 米 左 右 ）
+促 使 另 一 新 的 研 宄 领 域 一 强 震 地 震 学 （ Strong-
+Motion Seism010gy)
+的 形 成 与 发 展 。
+===== PAGE 35 =====
+》 1960 年 智 利 大 地 产 9 · 5 ： 迄 今 最 大 ！
+1960 年 5 月 22 日 下 午 3 时 11 分 ， 南 美 洲 智 利 发 生 震 级 为 9 ， 5 的 地 震 ， 这
+事 迄 今 全 球 发 生 的 震 级 最 大 的 地 震 。 震 中 烈 度 可 达 XII 度 。 其 后 两 天 之 内 ，
+在 南 纬 36 至 48 之 间 ， 沿 海 岸 南 北 长 140 肽 m 的 狭 长 地 带 ， 发 生 上 百 次 强 烈
+地 震 ， 其 中 超 过 8 级 的 3 次 ， 超 过 7 级 的 10 次 。 地 震 照 成 5700 人 死 亡 ， 几 十
+万 座 房 屋 被 彻 底 摧 毁 。 这 次 地 震 还 引 起 了 附 件 的 火 山 喷 发 ， 地 震 引 起 的
+海 啸 席 卷 了 整 个 太 平 洋 地 区 。
+次 生 灾 害 一 海 啸
+《 自 然 灾 害 》 陈 顺 、 史 培 军 ／ 编 著
+This photo shows
+earthquake damage
+good quality
+， WOOd-
+frame houses ln
+Valdivia. These houses
+were located in a filled
+ground area. They slid
+down hill to the right
+because Of SOil
+liquefaction
+(downslope flow Of
+waterlogged soil).
+Great C hile Earthqu
+of 1960
+===== PAGE 36 =====
+》 95 年 日 本 阪 神 大 地 震
+改 变 了 破 坏 性 大 地 震 可 能 发 生 区 域 地 点 的 观 念 ；
+首 次 出 现 了 地 下 工 程 的 明 显 破 坏 。
+On the morning of January 17 ， 1995 (January 16 at 20 ： 46 GMT) ， a
+maJ0r earthquake occurred near the City of Kobe, Japan. The
+greatest intensity of shaking for the 6 · 9 magnitude earthquake was in
+a narrow corridor Of tWO tO four kilometers stretching 40 km along
+the coast Of Osaka Bay. The worst destruction ran along the
+尹 mde c 还 和 on the coast ， east Of Kobe. Kobe's major
+businesses and port facilities, and residences are located on this strip.
+5 ， 480 / 6432 deaths,
+This earthquake caused
+and totally
+destroyed more than 192 ， 000 houses and buildings. The slide set
+shows damage in the downtown region and along the waterfront. lt
+illustrates structural types that were vulnerable to failure.
+CoIIapsed fifth f 《 00 r Of high rise
+CoIIapsed first f 《 00r Of retail store
+===== PAGE 37 =====
+CoIIapsed walkway between
+two buildings
+Major split in foundation
+The Kobe waterfront on January 17 ， 1995 ， at 8 ： 30 A.M. showing damage tO the pier and
+waterfront. Widespread ground failure was observed throughout the strongly shaken reg
+ion along the margin Of Osaka Bay. Liquefaction caused subsidence in the range of 50 to
+300 cm in some areas; large volumes Of silt were ejected. LocaI lateral spreading Of soils
+occurred along quay walls in many parts Of the extensive port facilities.
+===== PAGE 38 =====
+Many buildings were out
+of plumb, or leaning. This
+was usually caused by
+partial collapse Of a floor
+on one side of the building,
+or by permanent offset of
+the stru ctural system.
+A completely destroyed concrete frame office building. Such collapses blocked
+streets, making it difficult for firefighters tO extinguish flames. OnIy a minimal
+number Of firefighters were on duty at 5 ： 46 A.M. when the earthquake occurred.
+Three hours after the earthquake there were at least 150 significant, simultancous
+fires in the city. The only water available at this time came from tanker trucks.
+===== PAGE 39 =====
+A support beam for the K0be port expressway. This support
+was 8 feet wide by 10 feet long. AII support beams cracked in
+the same place due tO the sine wave effect.
+图 2 ． 22 1995 年 1 月 16 日 日 本 畈 裤 地 震 (M ． 9 ， M08 ）
+地 震 浩 成 6432 人 死 亡 ， 经 济 损 失 估 为 IOOO 亿 20 開 亿 美
+， 为 造 成 高 冲 然 谘 桥 破 的 况
+The spectacular
+collapse 0f th e
+Hanshin
+expressway
+===== PAGE 40 =====
+道 路 交 通 的 破 坏
+liquefaction damage
+===== PAGE 41 =====
+次 生 灾 害
+》 1999 年 台 湾 集 集 大 地 震
+历 史 上 首 次 最 为 完 备 的 近 场 强 震 观
+测 数 据 、 研 宄 最 为 透 彻 的 大 地 震 。
+On September 21 ， 1999 ， at 1 ： 47 am local tim e (September 20 at
+17 ： 47 GMT) ， a magnitude Mw 7 ． 6 earthquake was felt
+throughout the island 0f Taiwan. A five county area ， including
+the city Of Taichung ， experienced the greatest number Of
+2 ， 405 deaths
+casualties and most severe dam age.
+and 10 ， 718
+i11J were reported. AS many
+82 ， 000 housing
+units 、
+dam aged or destroyed, resulting in nearly 600 ， 000 people being
+temporarily or permanently displaced from their homes.
+===== PAGE 42 =====
+TAIWAN I-CHI EARTHQUA E
+空 中 然 瞰 車 蘢 埔 斷 層
+YievofCher-Lung-Pu
+震 愎 的 3 張 珍 片
+卜 狲 总 斷 層 ，
+由 空
+ngpu F 泓 满
+B /
+m 况 鱈 记
+OCiety
+The / 999 C 历 一 C 加 ， il “
+方 醋 7 方 屮 刀 e ca 八 、 “
+0 obe 扩 2 佣 丿
+Volume 9 杰 Number 5
+From: Shin & Teng ， BSSA ， 91 ， 5 ，
+pp. 895 一 913 ， Oct ” 2001
+虔 文 化 事 服
+C
+TSWP 以 00
+Figure 上 Map of Tüwan 到 、 讼 ng activc [ “ 'th thc Chelungpu fault high-
+lighted n 对 a background thc island top•g y. Thc n 《 ra 《 mountam
+forms thc backt»nc ofTa1wan 、 A 卜 0 shown arc lc ℃ 訕 n 、 of 653 -ISMIP station 、 ． A
+star 、 cplccntcr thc C 还 lnamshock （ rtesyofProfcssorC. Lcc of
+Natimal Central University. Ta1wan.)
+===== PAGE 43 =====
+石 冈 大 坝 北 侧 三 跨 泄 洪 道 结 构 体 全 毁 ， 上 游 水 库 底 床 露 出 地 表
+断 层 切 过 碑 丰 大 桥
+===== PAGE 44 =====
+===== PAGE 45 =====
+， 适 、 个 N CHI-CHI EARTHQUARKE 9 ， 2L199 ，
+飛 ， 以 ， 化 事 窜 股 1 分 有
+台 中 王 朝 大 楼 不 堪 地 震 而 倾 倒 造 成 30 人 死 亡
+921 實 録
+===== PAGE 46 =====
+台 中 縣 大 里 币 的 巴 黎 集 台 住 宅 大 嘍 傾 剧 ， 遣 成 58 人 死 亡 。
+炎 後 辐 時 性 的 支 唇 ， 暫 時 防 止 波 及 房 。
+巪 ， 、 产
+Golden PaIis Building in -Li 0 lower n00 collapsed and
+resuitlng in severe tiltlng, wa.S temporarily struted tO prevent
+further collapsing and gethe nearby bullding; 58 residents
+《 OSt tlrir lives.
+断 层 两 侧 不 同 命 运 的 电 线 杆
+===== PAGE 47 =====
+》 1975 年 海 城 地 震 ： 地 震 预 报
+历 史 上 首 次 、 且 是 迄 今 唯 一 一 次 成 功
+的 预 报 ！
+1975 年 2 月 4 日 19 时 36 分 ， 在
+海 城 发 生 的 7 · 3 级 强 烈 地 震 ，
+波 及 九 千 平 方 公 里 ， 受 灾 人
+口 八 百 万 ， 由 于 我 国 科 学 家
+对 海 城 地 震 做 出 了 成 功 预 报 ，
+有 № 人 遇 难 。 这 一 成 就 对
+全 世 界 地 震 预 报 科 学 探 索 和
+防 震 减 灾 工 作 还 正 在 产 生 着
+重 大 而 深 远 的 影 响 。
+===== PAGE 48 =====
+1975 年 海 城 地 震
+$. 海 城 县 八 里 公 社 。 从 机 井 孔
+向 外 喷 水 冒 砂 ， 到 成 直 径 约 3 束 的 劂
+海 具 山 公 比 。 海 河
+变 流 的 地 上 出 樘 對 ， 深 2
+米 的 陷 《 璧
+地 点 同
+河 漫 上 到 的
+L 径 的 5 床 ，
+砂 粘 土 与 印 石 ki
+。 在 海 沔 支
+坑 。 甓 为 石 岳 ，
+===== PAGE 49 =====
+1975 年 海 城 地 震
+21. 海 城 具 祈 木 公 社 家 生 附 近 。 近 南 北 向 和 近 东 西 向 的 锘 齿 状 地 裂 ， 具 左 扭 动 性
+质 、 位 移 厘 米 。 地 裂 缝 伴 有 水 冒 砂 。
+1975 年 海 城 地 震
+33 ． 海 县 内 方 墙 结 构 烟 由 岍 点
+四 节 ， 邙 - 节 有 ‰ 是 的 右 旋 枷 动 ·
+===== PAGE 50 =====
+1975 年 海 城 地 震
+》 1976 年 唐 山 大 地 震
+现 代 地 震 史 上 伤 亡 、 破 坏 最 为 惨 烈 的 地 震 ！
+色 记 忆
+救 活 率 / ％
+救 出 率 / ％
+能 后 2
+3 大
+藝 04
+图 2 一 64 争 分 夺 秒 对 于 震 后 抢 救 伤 员 十 分 重 要 。 唐 山 大
+地 震 后 ， 交 通 堵 极 大 地 妨 碍 了 伤 员 救 氵 台
+1 9 7 6
+28
+丙 辰 年 初 七 月 小
+铙 秋 ！ 公 历 8 月 7 日 我 历 七 月 十 二
+图 2 一 65 历 史 永 远 记 住 这 一 天 ，
+唐 山 地 震 中 24 万 余 人 遇 难
+100
+===== PAGE 51 =====
+The e 歙
+盹 an
+rt 腼
+1 6
+VoIume 4
+E 呷 e g 禳 補 明 R ～ 亠 0 、 “ y
+P 卦 显 以 0 ， Califomia 9 》 12 ，
+oof 1h0 W.d
+soseism•l
+ine the
+uKm
+===== PAGE 52 =====
+103
+上 Aenal view ofdamaæ, full 访 “ ofmeizoseismal area.
+13 ． Atthe intersection 0fJix1ang Road and Fuxing Road in the city 0fTangshan, rows （ ，
+trees byroadsides were dislocated in a nght lateral slip with 1 ， 1 m ofhorizontal
+åsplacement. (Photo ： Earthquake Research lnstltute, State Seism010gicaI Bureau)
+===== PAGE 53 =====
+19 · AgroundfissurenearJmgtangH1ghwayonek1101
+(Photo- lnstitute ogv ． State Se1S1
+1976 年 唐 山 大 地 震
+49 ， A sink hole mindiameteral amaJorax1sand3mindepthatXiaozhuangtuoof
+FangefhuangmthecityofTangshan (Photo lnstitute 0fGeology,
+State Seismolog1cal Bureau)
+Collapse & Settlement
+4 & Ground settlement suddenly occurred on theaflernoon OfJuly 31 ， 1976 at Xiaotun Of
+Zhengzhuangzi in the northernsuburb ofthe city 0fTangshan. An elhptlcal suh#dpit
+roughly 10 m in depth and 30 m 证 dlameter was formed alorg a maJ0r
+(Photo: Chen Dasheng)
+===== PAGE 54 =====
+Multisto
+Brick Buildin s
+107
+57 ． Bmldings collapsed ne the seismogemc
+angshan. (Photo: 巧 Y
+The comer btllldmg west ofthe Yuejmlou residential quaflers in the CI 0fTangshan.
+The upper porfion collapsed and the store on the bottom floor remained.
+(Ph0to: Zhou Bingzhang)
+108
+===== PAGE 55 =====
+e corner btlllding west 0f 、 the Yejinlou residential quarters in the city 0fTangshan
+p01t1011 of a wall 0fa resfroom remained. (Photo: Chen Dasheng)
+63 ． The remains ofa bllllding ofthe Genera1 Hosp1ta1 of Ka11uan Burea110fMines
+(Photo: lnstitute 0fGe010gy ， State Seism010gical Bureau)
+109
+110
+===== PAGE 56 =====
+including the basement in the central P01tion ， seven stones on
+ealthquake six stories in the central ， 而 on cDllapsed and three
+collapsed- (Photo Han J1agu)
+6 ， A back view ofthe thlrd Guest House ofthe Km1uan Bureau ofMines
+（ 冒 1 耐 o ． Coal M1ne Bureau 0fKa11uan)
+5 《 飞 一 ． 产 赴
+ll 0 ． Extemal longitudmal walls collapse d at the domutory ofthe Guye Mmntenance
+Sect10T1. (Ph0to: Seismological Bureau 0f Hebei Prov1nce)
+112
+===== PAGE 57 =====
+丿
+7
+240 ． The First Meta1
+Working Workshop ofthe
+Tangshan MetaIIurg1cal
+MITung Mach1neIY Plant
+consisted ofnull bulldmgs
+ofdifferentheights. The
+joints ofthe rooffiusses
+with higher spans and
+column caps were damaged
+and roofs collapsed.
+(Photo: Yang Songhne)
+135 ． There were "X" shaped
+cracks on transverse walls of
+a 6-st01Y br1Ck and concrete
+bL111ding bulltin 1975 on
+WLIJiayao Main Street 亩 the
+city ofTianJ1n. (Photo:
+Jiang Yongqi)
+0
+===== PAGE 58 =====
+4 ， The 甲 ofabnck chimney ， 37 m high ， andtiltedat 朊 〔 h 釧
+Fertilizer Plant cfSameCounty (PhotO, 巧 血 田 e 0 「 G 巛 'logy ， Se1s1110 （ 画 Bureau)
+唐 山 新 貌
+===== PAGE 59 =====
+》 1966 年 3 月 8 日 邢 台 地 震
+中 国 强 震 观 测 的 起 点 ！
+1966 年 3 月 8 日 5 时 29 分 ， 在 河 北 省 邢 台 地 区 隆 尧
+县 东 ， 发 生 了 6 ． 8 级 强 烈 地 震 ， 震 源 深 度 10 千 米 ，
+震 中 烈 度 为 IX 度 强 。 继 这 次 地 震 后 ， 3 月 22 日
+在 宁 晋 县 东 南 分 别 发 生 了 6 ． 7 级 和 7 ． 2 级 地 震 各 一
+次 ， 3 月 26 日 在 老 震 区 以 北 的 束 鹿 南 发 生 了 6 ． 2
+级 地 震 ， 3 月 29 日 在 老 震 区 以 东 的 巨 鹿 北 又 发
+生 了 6 级 地 震 。 从 3 月 8 日 至 29 日 这 21 天 的 时 间 里 ，
+邢 台 地 区 连 续 发 生 了 5 次 6 级 以 上 地 震 ， 其 中 最
+大 的 一 次 是 3 月 22 日 16 时 19 分 在 宁 晋 县 东 南 发 生
+的 7 ． 2 级 地 震 。 这 次 地 震 震 源 深 度 9 千 米 ， 震 中
+烈 度 为 x 度 。 这 一 地 震 群 统 称 为 邢 台 地 震 。
+． S 《 03 ．
+2008 年 5 月 12 日 14 时 28 ， ， ，
+2008 ． 5 ． 12 就 、 川 & 0 级 地 4 ． 0 是 上 余 震 分 布 图
+· 盂 水
+柰 床 成
+． 武 都
+江 北
+0
+图 例
+6 tO 6
+510 5
+4 ， 0 4
+118
+===== PAGE 60 =====
+汶 川 8 0 级 地 震 度 分 布 图
+州 旷
+图 例
+震 中
+0 100 200
+新 中 国 建 立 以 来 受 灾 最 大 的 地 震 之 一
+1. 人 员 伤 亡 惨 重 ：
+四 川 汶 川 地 震 己 确 认 69227 人 遇 难 17923 人 失 踪
+2 ． 房 屋 大 面 积 倒 塌 ：
+倒 塌 房 屋 778 · 91 万 间 ， 损 坏 房 屋 2459 芳 间 。 北 川 县 城 汶 川 映
+秀 等 一 些 城 镇 几 乎 夷 为 平 地 。
+3 ， 基 础 设 施 严 重 损 毁 ·
+震 中 地 区 周 围 的 16 条 国 道 省 道 干 线 公 路 和 宝 成 线 等 6 条 铁 路 受
+损 中 ， 电 力 、 通 信 、 供 水 等 系 统 大 面 积 瘫 痪 。
+4 ． 次 生 灾 害 多 发 ：
+山 体 崩 塌 、 滑 坡 、 泥 石 流 频 发 ， 阻 塞 江 河 形 成 较 大 堰 塞 35 处 ，
+2473 座 水 库 一 度 出 现 不 同 程 度 险 情 。
+5 ． 正 常 生 产 生 活 秩 序 受 到 严 重 影 响 ：
+6443 个 规 模 以 上 工 业 企 业 一 度 ， 其 中 四 川 5610 个 」 机 关 、
+学 校 、 医 院 等 严 重 受 损 。 部 分 农 田 和 农 业 设 施 被 毁 ， 因 灾 损 奚
+畜 禽 达 4462 万 头 （ 只 ） 。
+120
+===== PAGE 61 =====
+Qaidam ． 0
+、 0 、 0002A
+圳 、 猿 了 苈
+===== PAGE 62 =====
+泰 安 鎮
+47 名 游 客 、 4 名 当 地 人 遇 难
+===== PAGE 63 =====
+家 d 」 曦 囑
+山 体 凿 帔 嗜
+' 0 年 5 月 凵 日 后
+北 川
+SICHUAN 囗
+囗 成 都
+鳴 冢 山 堰
+卜 见 详 冬
+公 路
+0 ． 4 C.8 Kn)
+0 新 々 旦 事 9 级 强 的
+北 京 时 间 3 月 11 日 i3 ： 46 日 本 本 州 岛 附 近 海 域 发 生 强 烈 地 震 ， 强 震 引 发 海 啸
+福 島 第 一 原 凳
+1Ckrn
+福 島 第 二 原 凳
+历 史 上 首 次 由 于
+自 然 灾 害 造 成 的
+核 电 站 的 毁 坏 ！
+126
+===== PAGE 64 =====
+===== PAGE 65 =====
+===== PAGE 66 =====
+日 本 宫 城 县 仙 台 市
+房 屋 被 海 啸 完 全 摧 毁
+132
+===== PAGE 67 =====

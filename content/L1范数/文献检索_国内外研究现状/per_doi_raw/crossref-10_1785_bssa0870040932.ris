@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Chiu, Hung-Chie
+TI  - Stable baseline correction of digital strong-motion data
+JO  - Bulletin of the Seismological Society of America
+T2  - Bulletin of the Seismological Society of America
+PY  - 1997
+VL  - 87
+IS  - 4
+SP  - 932
+EP  - 944
+DO  - 10.1785/bssa0870040932
+UR  - https://doi.org/10.1785/bssa0870040932
+N2  - AbstractMost baseline errors of analog strong-motion data still exist in highresolution data. In this study, we identify the major baseline errors of digital strong-motion data and propose a three-step algorithm to correct these errors. The major baseline errors found in these digital data consist of constant drift in the acceleration, low-frequency instrument noise, low-frequency background noise, the small initial values for acceleration and velocity, and manipulation errors. This threestep al
+DB  - CrossRef
+ER  - 

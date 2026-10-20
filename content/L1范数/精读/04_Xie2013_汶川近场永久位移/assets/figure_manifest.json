@@ -1,0 +1,114 @@
+[
+  {
+    "figure": "fig01",
+    "page": 4,
+    "caption": "图１发震断层附近强震观测台站和ＧＰＳ观测站分布",
+    "bbox": [
+      30.0,
+      50.5,
+      291.6,
+      383.1
+    ],
+    "crop_path": "assets/figures/fig01_p04.png",
+    "page_render": "assets/pages/p04.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig02",
+    "page": 5,
+    "caption": "图２基线校正方法图解",
+    "bbox": [
+      303.6,
+      105.6,
+      565.2,
+      261.3
+    ],
+    "crop_path": "assets/figures/fig02_p05.png",
+    "page_render": "assets/pages/p05.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig03",
+    "page": 5,
+    "caption": "图３和图４分别给出了由５１ＰＸＺ台和５１ＭＸＤ台三分量记录校正后得到的加速度、速",
+    "bbox": [
+      30.0,
+      337.9,
+      291.6,
+      377.9
+    ],
+    "crop_path": "assets/figures/fig03_p05.png",
+    "page_render": "assets/pages/p05.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig04",
+    "page": 6,
+    "caption": "图４台站５１ＭＸＤ记录校正后三分向的加速度、速度和位移时程",
+    "bbox": [
+      30.0,
+      165.5,
+      291.6,
+      313.2
+    ],
+    "crop_path": "assets/figures/fig04_p06.png",
+    "page_render": "assets/pages/p06.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig05",
+    "page": 6,
+    "caption": "台校正后的三分向速度时程．图中ＰＧＶ为地面运动峰值速度",
+    "bbox": [
+      30.0,
+      459.8,
+      291.6,
+      676.3
+    ],
+    "crop_path": "assets/figures/fig05_p06.png",
+    "page_render": "assets/pages/p06.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig06",
+    "page": 7,
+    "caption": "江油含增（５１ＪＹＨ）台校正后的三分向的位移时程",
+    "bbox": [
+      30.0,
+      244.1,
+      291.6,
+      450.9
+    ],
+    "crop_path": "assets/figures/fig06_p07.png",
+    "page_render": "assets/pages/p07.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig07",
+    "page": 9,
+    "caption": "图７由强震记录获取到的汶川地震水平向永久位移（ａ）与ＧＰＳ观测到的同震位移（ｂ）的比较",
+    "bbox": [
+      30.0,
+      275.5,
+      291.6,
+      445.3
+    ],
+    "crop_path": "assets/figures/fig07_p09.png",
+    "page_render": "assets/pages/p09.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig08",
+    "page": 10,
+    "caption": "外，紧靠发震断层的５１ＳＦＢ，Ｍ８．０地震的东西向同震位移值",
+    "bbox": [
+      30.0,
+      50.5,
+      291.6,
+      303.5
+    ],
+    "crop_path": "assets/figures/fig08_p10.png",
+    "page_render": "assets/pages/p10.png",
+    "confidence": "approximate"
+  }
+]

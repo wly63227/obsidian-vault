@@ -1,0 +1,156 @@
+[
+  {
+    "figure": "fig01",
+    "page": 3,
+    "caption": "characteristicsofvelocityinformationtosegmentandfittoobtaintheFig.1.Flow-diagramoftheL1-optimizationbaselinealgorithm.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      346.4
+    ],
+    "crop_path": "assets/figures/fig01_p03.png",
+    "page_render": "assets/pages/p03.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig02",
+    "page": 4,
+    "caption": "Fig.2.Flowchartsofcomparativetestschemesforevaluatingthecorrectioneffectsofdifferentbaselinecorrectionmethods.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      412.8
+    ],
+    "crop_path": "assets/figures/fig02_p04.png",
+    "page_render": "assets/pages/p04.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig03",
+    "page": 4,
+    "caption": "Fig.3.Selectionofseismicrecordsandbaselinedriftnoise.",
+    "bbox": [
+      30.0,
+      428.0,
+      291.6,
+      575.4
+    ],
+    "crop_path": "assets/figures/fig03_p04.png",
+    "page_render": "assets/pages/p04.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig04",
+    "page": 5,
+    "caption": "Fig.4.Baselinedriftcontrastmapofacceleration.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      219.5
+    ],
+    "crop_path": "assets/figures/fig04_p05.png",
+    "page_render": "assets/pages/p05.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig05",
+    "page": 5,
+    "caption": "Fig.5.(a).Comparisonofdisplacementcurvescorrectedbydifferentmethods;(b).B-Adiagramofdisplacementcurvescorrectedbythenewmethodand",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      559.2
+    ],
+    "crop_path": "assets/figures/fig05_p05.png",
+    "page_render": "assets/pages/p05.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig06",
+    "page": 6,
+    "caption": "Fig.6.Baselinedriftcontrastmapofvelocity.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      218.4
+    ],
+    "crop_path": "assets/figures/fig06_p06.png",
+    "page_render": "assets/pages/p06.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig07",
+    "page": 6,
+    "caption": "Fig.7.Verificationofthebaselinecorrectionmethodbasedonvision.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      423.9
+    ],
+    "crop_path": "assets/figures/fig07_p06.png",
+    "page_render": "assets/pages/p06.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig08",
+    "page": 7,
+    "caption": "Fig.8.Independentdevelopednon-contactdisplacementmeasurementsystem.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      240.0
+    ],
+    "crop_path": "assets/figures/fig08_p07.png",
+    "page_render": "assets/pages/p07.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig09",
+    "page": 7,
+    "caption": "Fig.9.Displacementcomparisonsbetweenobservationsandcorrectionsinthetimeandfrequencydomains.",
+    "bbox": [
+      30.0,
+      255.2,
+      291.6,
+      555.0
+    ],
+    "crop_path": "assets/figures/fig09_p07.png",
+    "page_render": "assets/pages/p07.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig10",
+    "page": 7,
+    "caption": "Fig.10.B-Adiagramofthecurveobtainedbythenewmethodandvision-observedresults.",
+    "bbox": [
+      30.0,
+      570.1,
+      291.6,
+      734.3
+    ],
+    "crop_path": "assets/figures/fig10_p07.png",
+    "page_render": "assets/pages/p07.png",
+    "confidence": "approximate"
+  },
+  {
+    "figure": "fig11",
+    "page": 8,
+    "caption": "Fig.11.Contrastchartsbeforeandafteraccelerationcorrection.",
+    "bbox": [
+      30.0,
+      47.6,
+      291.6,
+      344.6
+    ],
+    "crop_path": "assets/figures/fig11_p08.png",
+    "page_render": "assets/pages/p08.png",
+    "confidence": "approximate"
+  }
+]

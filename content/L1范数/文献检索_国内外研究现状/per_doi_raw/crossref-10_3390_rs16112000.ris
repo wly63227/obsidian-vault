@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Zhang, Yuanfan
+AU  - Nie, Zhixi
+AU  - Wang, Zhenjie
+AU  - Zhang, Guohong
+AU  - Shan, Xinjian
+TI  - Integration of High-Rate GNSS and Strong Motion Record Based on Sage–Husa Kalman Filter with Adaptive Estimation of Strong Motion Acceleration Noise Uncertainty
+JO  - Remote Sensing
+T2  - Remote Sensing
+JA  - Remote Sensing
+PY  - 2024
+VL  - 16
+IS  - 11
+SP  - 2000
+DO  - 10.3390/rs16112000
+UR  - https://doi.org/10.3390/rs16112000
+N2  - A strong motion seismometer is a kind of inertial sensor, and it can record middle- to high-frequency ground accelerations. The double-integration from acceleration to displacement amplifies errors caused by tilt, rotation, hysteresis, non-linear instrument response, and noise. This leads to long-period, non-physical baseline drifts in the integrated displacements. GNSS enables the direct observation of the ground displacements, with an accuracy of several millimeters to centimeters and a sample
+DB  - CrossRef
+ER  - 

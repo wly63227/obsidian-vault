@@ -1,0 +1,11 @@
+TY  - JOUR
+AU  - Zhang, Yuanfan
+AU  - Li, Yanchuan
+AU  - Shan, Xinjian
+TI  - Strong motion baseline correction based on acceleration smoothness priors and co-located GNSS static displacement constraints
+PY  - 2026
+DO  - 10.5194/egusphere-egu26-1482
+UR  - https://doi.org/10.5194/egusphere-egu26-1482
+N2  - Strong-motion acceleration records are crucial for seismic research and vibration analysis. Still, baseline offsets often introduce drift in displacement integration estimates, compromising the accuracy of the coseismic displacement retrieval. By providing precise ground deformation signals, the high-rate Global Navigation Satellite System (GNSS) offers ideal baseline correction constraints. In this paper, we propose a baseline correction method based on acceleration smoothness priors and co-loc
+DB  - CrossRef
+ER  - 

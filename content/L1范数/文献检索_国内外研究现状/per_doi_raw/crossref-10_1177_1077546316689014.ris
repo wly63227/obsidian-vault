@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Pan, Chao
+AU  - Zhang, Ruifu
+AU  - Luo, Hao
+AU  - Shen, Hua
+TI  - Target-based algorithm for baseline correction of inconsistent vibration signals
+JO  - Journal of Vibration and Control
+T2  - Journal of Vibration and Control
+JA  - Journal of Vibration and Control
+PY  - 2017
+VL  - 24
+IS  - 12
+SP  - 2562
+EP  - 2575
+DO  - 10.1177/1077546316689014
+UR  - https://doi.org/10.1177/1077546316689014
+N2  - A target-based baseline correction algorithm that can directly assign acceleration/velocity/displacement values equal or close to preset target values is proposed in this study for correcting vibration acceleration signals with inconsistent initial velocities and displacements. Baseline shift or drift phenomena can arise for velocity and displacement values obtained by numerical integration of recorded acceleration signals using assumed initial values that are inconsistent with reality. Two indi
+DB  - CrossRef
+ER  - 

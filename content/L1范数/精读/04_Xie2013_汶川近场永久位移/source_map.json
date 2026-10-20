@@ -1,0 +1,367 @@
+{
+  "paper": {
+    "title": "利用强震数据获取汶川地震近断层地面永久位移（谢俊举等，2013）— 逐节精读",
+    "venue": "",
+    "source_type": "pdf",
+    "language": "zh",
+    "source_path": "C:\\Users\\15512\\Desktop\\l1范数\\精读\\04_Xie2013_汶川近场永久位移\\paper.md"
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 1,
+      "type": "paragraph",
+      "order": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "S002",
+      "page": 2,
+      "type": "paragraph",
+      "order": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "S003",
+      "page": 2,
+      "type": "paragraph",
+      "order": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "S004",
+      "page": 3,
+      "type": "paragraph",
+      "order": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "S005",
+      "page": 3,
+      "type": "paragraph",
+      "order": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "F001",
+      "page": 4,
+      "type": "figure",
+      "order": 6,
+      "confidence": "high",
+      "image_path": "assets/figures/fig01_p04.png",
+      "caption_id": null
+    },
+    {
+      "id": "S006",
+      "page": 3,
+      "type": "paragraph",
+      "order": 7,
+      "confidence": "high"
+    },
+    {
+      "id": "S007",
+      "page": 4,
+      "type": "paragraph",
+      "order": 8,
+      "confidence": "high"
+    },
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 9,
+      "confidence": "high",
+      "latex": "v_f = v_0 + a_f t",
+      "image_path": null
+    },
+    {
+      "id": "S008",
+      "page": 5,
+      "type": "paragraph",
+      "order": 10,
+      "confidence": "high"
+    },
+    {
+      "id": "F002",
+      "page": 5,
+      "type": "figure",
+      "order": 11,
+      "confidence": "high",
+      "image_path": "assets/figures/fig02_p05.png",
+      "caption_id": null
+    },
+    {
+      "id": "F003",
+      "page": 5,
+      "type": "figure",
+      "order": 12,
+      "confidence": "high",
+      "image_path": "assets/figures/fig03_p05.png",
+      "caption_id": null
+    },
+    {
+      "id": "S009",
+      "page": 5,
+      "type": "paragraph",
+      "order": 13,
+      "confidence": "high"
+    },
+    {
+      "id": "F004",
+      "page": 6,
+      "type": "figure",
+      "order": 14,
+      "confidence": "high",
+      "image_path": "assets/figures/fig04_p06.png",
+      "caption_id": null
+    },
+    {
+      "id": "F005",
+      "page": 6,
+      "type": "figure",
+      "order": 15,
+      "confidence": "high",
+      "image_path": "assets/figures/fig05_p06.png",
+      "caption_id": null
+    },
+    {
+      "id": "F006",
+      "page": 7,
+      "type": "figure",
+      "order": 16,
+      "confidence": "high",
+      "image_path": "assets/figures/fig06_p07.png",
+      "caption_id": null
+    },
+    {
+      "id": "S010",
+      "page": 7,
+      "type": "paragraph",
+      "order": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "S011",
+      "page": 7,
+      "type": "paragraph",
+      "order": 18,
+      "confidence": "high"
+    },
+    {
+      "id": "T001",
+      "page": 8,
+      "type": "table",
+      "order": 19,
+      "confidence": "high"
+    },
+    {
+      "id": "S012",
+      "page": 7,
+      "type": "paragraph",
+      "order": 20,
+      "confidence": "high"
+    },
+    {
+      "id": "F007",
+      "page": 9,
+      "type": "figure",
+      "order": 21,
+      "confidence": "high",
+      "image_path": "assets/figures/fig07_p09.png",
+      "caption_id": null
+    },
+    {
+      "id": "F008",
+      "page": 10,
+      "type": "figure",
+      "order": 22,
+      "confidence": "high",
+      "image_path": "assets/figures/fig08_p10.png",
+      "caption_id": null
+    },
+    {
+      "id": "S013",
+      "page": 9,
+      "type": "paragraph",
+      "order": 23,
+      "confidence": "high"
+    },
+    {
+      "id": "S014",
+      "page": 10,
+      "type": "paragraph",
+      "order": 24,
+      "confidence": "high"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "block_ids": [
+        "S001"
+      ]
+    },
+    {
+      "page": 2,
+      "block_ids": [
+        "S002",
+        "S003"
+      ]
+    },
+    {
+      "page": 3,
+      "block_ids": [
+        "S004",
+        "S005",
+        "S006"
+      ]
+    },
+    {
+      "page": 4,
+      "block_ids": [
+        "F001",
+        "S007",
+        "E001"
+      ]
+    },
+    {
+      "page": 5,
+      "block_ids": [
+        "S008",
+        "F002",
+        "F003",
+        "S009"
+      ]
+    },
+    {
+      "page": 6,
+      "block_ids": [
+        "F004",
+        "F005"
+      ]
+    },
+    {
+      "page": 7,
+      "block_ids": [
+        "F006",
+        "S010",
+        "S011",
+        "S012"
+      ]
+    },
+    {
+      "page": 8,
+      "block_ids": [
+        "T001"
+      ]
+    },
+    {
+      "page": 9,
+      "block_ids": [
+        "F007",
+        "S013"
+      ]
+    },
+    {
+      "page": 10,
+      "block_ids": [
+        "F008",
+        "S014"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 4,
+      "caption_id": null,
+      "image_path": "assets/figures/fig01_p04.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F001"
+    },
+    {
+      "id": "F002",
+      "page": 5,
+      "caption_id": null,
+      "image_path": "assets/figures/fig02_p05.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F002"
+    },
+    {
+      "id": "F003",
+      "page": 5,
+      "caption_id": null,
+      "image_path": "assets/figures/fig03_p05.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F003"
+    },
+    {
+      "id": "F004",
+      "page": 6,
+      "caption_id": null,
+      "image_path": "assets/figures/fig04_p06.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F004"
+    },
+    {
+      "id": "F005",
+      "page": 6,
+      "caption_id": null,
+      "image_path": "assets/figures/fig05_p06.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F005"
+    },
+    {
+      "id": "F006",
+      "page": 7,
+      "caption_id": null,
+      "image_path": "assets/figures/fig06_p07.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F006"
+    },
+    {
+      "id": "F007",
+      "page": 9,
+      "caption_id": null,
+      "image_path": "assets/figures/fig07_p09.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F007"
+    },
+    {
+      "id": "F008",
+      "page": 10,
+      "caption_id": null,
+      "image_path": "assets/figures/fig08_p10.png",
+      "bbox": null,
+      "placement_hint": "near_first_mention",
+      "placed_after": null,
+      "alt_text": "F008"
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 4,
+      "type": "equation",
+      "order": 9,
+      "confidence": "high",
+      "latex": "v_f = v_0 + a_f t",
+      "image_path": null
+    }
+  ],
+  "glossary": []
+}
